@@ -428,7 +428,7 @@ namespace entrhopi.Guild_Missions
             // Dispose of current search result
             listPanel.ClearChildren();
 
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\races." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\races.xml"));
 
             int i = 0;
             foreach (var race in doc.Root.Elements("race"))
@@ -483,7 +483,7 @@ namespace entrhopi.Guild_Missions
             // Dispose of current search result
             listPanel.ClearChildren();
 
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\bounties." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\bounties.xml"));
 
             int i = 0;
             foreach (var bounty in doc.Root.Elements("bounty"))
@@ -540,7 +540,7 @@ namespace entrhopi.Guild_Missions
             // Dispose of current search result
             listPanel.ClearChildren();
 
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\challenges." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\challenges.xml"));
 
             int i = 0;
             foreach (var challenge in doc.Root.Elements("challenge"))
@@ -595,7 +595,7 @@ namespace entrhopi.Guild_Missions
             // Dispose of current search result
             listPanel.ClearChildren();
 
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\puzzles." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\puzzles.xml"));
 
             int i = 0;
             foreach (var puzzle in doc.Root.Elements("puzzle"))
@@ -615,11 +615,11 @@ namespace entrhopi.Guild_Missions
             // Dispose of current search result
             trekListPanel.ClearChildren();
 
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
 
             foreach(var trek in doc.Root.Elements("trek"))
             {
-                if (trek.Element("name").Value.ToLower().StartsWith(searchText.ToLower()))
+                if (trek.Element("name_" + ShortUserLocale).Value.ToLower().StartsWith(searchText.ToLower()))
                 //if (trek.Element("name").Value.ToLower().Contains(searchText.ToLower()))
                 {
                     AddTrekPanel(trek, trekListPanel, i, true, false);
@@ -677,7 +677,7 @@ namespace entrhopi.Guild_Missions
 
         private void ImportWPList()
         {
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
             ClipboardUtil.WindowsClipboardService.GetTextAsync()
                 .ContinueWith((import) => {
                     if (!import.IsFaulted)
@@ -721,7 +721,7 @@ namespace entrhopi.Guild_Missions
         {
             savedTrekListPanel.ClearChildren();
 
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks." + ShortUserLocale + ".xml"));
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
 
             // Sort saved treks by map id
             int i = 0;
@@ -759,7 +759,7 @@ namespace entrhopi.Guild_Missions
             };
             trekPanelWPImage.Click += delegate
             {
-                ClipboardUtil.WindowsClipboardService.SetTextAsync(trek.Element("name").Value + " " + trek.Element("chat_link").Value).ContinueWith((clipboardResult) =>
+                ClipboardUtil.WindowsClipboardService.SetTextAsync(trek.Element("name_" + ShortUserLocale).Value + " " + trek.Element("chat_link").Value).ContinueWith((clipboardResult) =>
                 {
                     if (clipboardResult.IsFaulted)
                     {
@@ -773,7 +773,7 @@ namespace entrhopi.Guild_Missions
             };
             new Label()
             {
-                Text = trek.Element("name").Value + " (" + trek.Element("map_name").Value + ")",
+                Text = trek.Element("name_" + ShortUserLocale).Value + " (" + trek.Element("map_name_" + ShortUserLocale).Value + ")",
                 Font = Content.DefaultFont16,
                 Location = new Point(LEFT_MARGIN + 50, 3),
                 TextColor = Color.White,
@@ -785,7 +785,7 @@ namespace entrhopi.Guild_Missions
             };
             new Label()
             {
-                Text = trek.Element("waypoint_name").Value,
+                Text = trek.Element("waypoint_name_" + ShortUserLocale).Value,
                 Font = Content.DefaultFont14,
                 Location = new Point(LEFT_MARGIN + 50, 32),
                 TextColor = Color.Silver,
@@ -837,7 +837,7 @@ namespace entrhopi.Guild_Missions
             };
             trekPanelWPImage.Click += delegate
             {
-                ClipboardUtil.WindowsClipboardService.SetTextAsync(element.Element("name").Value + " " + element.Element("chat_link").Value).ContinueWith((clipboardResult) =>
+                ClipboardUtil.WindowsClipboardService.SetTextAsync(element.Element("name_" + ShortUserLocale).Value + " " + element.Element("chat_link").Value).ContinueWith((clipboardResult) =>
                 {
                     if (clipboardResult.IsFaulted)
                     {
@@ -851,7 +851,7 @@ namespace entrhopi.Guild_Missions
             };
             new Label()
             {
-                Text = element.Element("name").Value + " (" + element.Element("map_name").Value + ")",
+                Text = element.Element("name_" + ShortUserLocale).Value + " (" + element.Element("map_name_" + ShortUserLocale).Value + ")",
                 Font = Content.DefaultFont16,
                 Location = new Point(LEFT_MARGIN + 50, 3),
                 TextColor = Color.White,
@@ -863,7 +863,7 @@ namespace entrhopi.Guild_Missions
             };
             new Label()
             {
-                Text = element.Element("waypoint_name").Value,
+                Text = element.Element("waypoint_name_" + ShortUserLocale).Value,
                 Font = Content.DefaultFont14,
                 Location = new Point(LEFT_MARGIN + 50, 32),
                 TextColor = Color.Silver,
@@ -887,9 +887,9 @@ namespace entrhopi.Guild_Missions
             int offset = 0;
 
             infoPanel.ClearChildren();
-            infoPanel.Title = Strings.Common.gmPanelInfo + ": " + element.Element("name").Value;
+            infoPanel.Title = Strings.Common.gmPanelInfo + ": " + element.Element("name_" + ShortUserLocale).Value;
 
-            if (element.Element("wiki_link") != null)
+            if (element.Element("wiki_link_" + ShortUserLocale) != null)
             {
                 var openWikiBttn = new StandardButton()
                 {
@@ -898,7 +898,7 @@ namespace entrhopi.Guild_Missions
                     Location = new Point(4, 4),
                     Parent = infoPanel,
                 };
-                openWikiBttn.Click += delegate { Process.Start(element.Element("wiki_link").Value); };
+                openWikiBttn.Click += delegate { Process.Start(element.Element("wiki_link_" + ShortUserLocale).Value); };
                 offset += 40;
             }
 

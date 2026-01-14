@@ -1,0 +1,3351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <trek>
+    <id>2</id>
+    <name_en>Altar Brook Lair</name_en>
+    <name_de>Altarbach-Höhle</name_de>
+    <name_fr>Repaire de l’Autel du Ruisseau</name_fr>
+    <name_es>Guarida Valle del Altar</name_es>
+    <waypoint_id>242</waypoint_id>
+    <waypoint_name_en>Crossing Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kreuzung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Carrefour</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cruce</waypoint_name_es>
+    <chat_link>[&amp;BPIAAAA=]</chat_link>
+    <map_id>15</map_id>
+    <map_name_en>Queensdale</map_name_en>
+    <map_name_de>Königintal</map_name_de>
+    <map_name_fr>La Vallée de la reine</map_name_fr>
+    <map_name_es>Valle de la Reina</map_name_es>
+  </trek>
+  <trek>
+    <id>72</id>
+    <name_en>Anthem's Hold</name_en>
+    <name_de>Hymnenfeste</name_de>
+    <name_fr>Repli stratégique</name_fr>
+    <name_es>Himno Sostenido</name_es>
+    <waypoint_id>1764</waypoint_id>
+    <waypoint_name_en>Shipwreck Rock Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schiffswrackfelsen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Rocher de l'épave</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Roca del Naufragio</waypoint_name_es>
+    <chat_link>[&amp;BOQGAAA=]</chat_link>
+    <map_id>62</map_id>
+    <map_name_en>Cursed Shore</map_name_en>
+    <map_name_de>Fluchküste</map_name_de>
+    <map_name_fr>Rivage maudit</map_name_fr>
+    <map_name_es>Ribera Maldita</map_name_es>
+  </trek>
+  <trek>
+    <id>3</id>
+    <name_en>Anya's Patch</name_en>
+    <name_de>Anyas Beet</name_de>
+    <name_fr>Coin d’Anya</name_fr>
+    <name_es>Parcela de Anya</name_es>
+    <waypoint_id>222</waypoint_id>
+    <waypoint_name_en>Nolan Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Nolan</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Nolan</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Nolan</waypoint_name_es>
+    <chat_link>[&amp;BN4AAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </trek>
+  <trek>
+    <id>4</id>
+    <name_en>Arctodus Haunt</name_en>
+    <name_de>Arctodus-Schlupfwinkel</name_de>
+    <name_fr>Repaire de l’Arctodus</name_fr>
+    <name_es>Encanto de Arctodus</name_es>
+    <waypoint_id>382</waypoint_id>
+    <waypoint_name_en>Vendrake's Homestead Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Vendrakes Gehöft</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Colonie de Vendrake</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Heredad de Vendraco</waypoint_name_es>
+    <chat_link>[&amp;BH4BAAA=]</chat_link>
+    <map_id>28</map_id>
+    <map_name_en>Wayfarer Foothills</map_name_en>
+    <map_name_de>Wanderer-Hügel</map_name_de>
+    <map_name_fr>Contreforts du voyageur</map_name_fr>
+    <map_name_es>Colinas del Caminante</map_name_es>
+  </trek>
+  <trek>
+    <id>69</id>
+    <name_en>Backroot Fountain</name_en>
+    <name_de>Hinterwurzel-Brunnen</name_de>
+    <name_fr>Fontaine des racines cachées</name_fr>
+    <name_es>Fuente Anteraiz</name_es>
+    <waypoint_id>1211</waypoint_id>
+    <waypoint_name_en>Reckoner's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rechenmeister</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Spéculateur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Calculista</waypoint_name_es>
+    <chat_link>[&amp;BLsEAAA=]</chat_link>
+    <map_id>91</map_id>
+    <map_name_en>The Grove</map_name_en>
+    <map_name_de>Der Hain</map_name_de>
+    <map_name_fr>Le Bosquet</map_name_fr>
+    <map_name_es>La Arboleda</map_name_es>
+  </trek>
+  <trek>
+    <id>41</id>
+    <name_en>Badjelly Kelpbed</name_en>
+    <name_de>Fiesquallen-Tangbeet</name_de>
+    <name_fr>Banc de Varech de Malméduse</name_fr>
+    <name_es>Lecho de las Medusas Funestas</name_es>
+    <waypoint_id>188</waypoint_id>
+    <waypoint_name_en>Exile Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Exil</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Exil</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Exilio</waypoint_name_es>
+    <chat_link>[&amp;BLwAAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </trek>
+  <trek>
+    <id>7</id>
+    <name_en>Bandit's Cabbage Patch</name_en>
+    <name_de>Banditen-Kohlfeld</name_de>
+    <name_fr>Carré de chou du bandit</name_fr>
+    <name_es>Parcela de Repollos del Bandido</name_es>
+    <waypoint_id>168</waypoint_id>
+    <waypoint_name_en>Wynchona Rally Point Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wynchona-Sammelpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Point de ralliement de Wynchona</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Punto de Reunión de Wynchona</waypoint_name_es>
+    <chat_link>[&amp;BKgAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </trek>
+  <trek>
+    <id>9</id>
+    <name_en>Beetlestone Mirador</name_en>
+    <name_de>Beetlestone-Belvedere</name_de>
+    <name_fr>Mirador Beetlestone</name_fr>
+    <name_es>Miradero Piedramazo</name_es>
+    <waypoint_id>250</waypoint_id>
+    <waypoint_name_en>Beetletun Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Beetletun</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Beetletun</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Beetletun</waypoint_name_es>
+    <chat_link>[&amp;BPoAAAA=]</chat_link>
+    <map_id>15</map_id>
+    <map_name_en>Queensdale</map_name_en>
+    <map_name_de>Königintal</map_name_de>
+    <map_name_fr>La Vallée de la reine</map_name_fr>
+    <map_name_es>Valle de la Reina</map_name_es>
+  </trek>
+  <trek>
+    <id>130</id>
+    <name_en>Black Lion Root Cellar</name_en>
+    <name_de>Schwarzlöwen-Wurzelkeller</name_de>
+    <name_fr>Cellier du Lion Noir</name_fr>
+    <name_es>Bodega del León Negro</name_es>
+    <waypoint_id>1211</waypoint_id>
+    <waypoint_name_en>Reckoner's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rechenmeister</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Spéculateur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Calculista</waypoint_name_es>
+    <chat_link>[&amp;BLsEAAA=]</chat_link>
+    <map_id>91</map_id>
+    <map_name_en>The Grove</map_name_en>
+    <map_name_de>Der Hain</map_name_de>
+    <map_name_fr>Le Bosquet</map_name_fr>
+    <map_name_es>La Arboleda</map_name_es>
+  </trek>
+  <trek>
+    <id>129</id>
+    <name_en>Blackblade Butte</name_en>
+    <name_de>Schwarzklingen-Kuppe</name_de>
+    <name_fr>Motte de Lamenoire</name_fr>
+    <name_es>Cerrillo de Filonegro</name_es>
+    <waypoint_id>220</waypoint_id>
+    <waypoint_name_en>Font of Rhand Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rhands Brunnen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Fontaine de Rhand</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Fuente de Rhand</waypoint_name_es>
+    <chat_link>[&amp;BNwAAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </trek>
+  <trek>
+    <id>168</id>
+    <name_en>Blasted Sepulchre</name_en>
+    <name_de>Verdammnis-Grabkammer</name_de>
+    <name_fr>Sépulcre ravagé</name_fr>
+    <name_es>Sepulcro Maldito</name_es>
+    <waypoint_id>218</waypoint_id>
+    <waypoint_name_en>Blasted Moors Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ödmoore</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des landes ravagées</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Páramos Malditos</waypoint_name_es>
+    <chat_link>[&amp;BNoAAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </trek>
+  <trek>
+    <id>10</id>
+    <name_en>Blood Ooze Gallery</name_en>
+    <name_de>Blutschleim-Galerie</name_de>
+    <name_fr>Galerie du limon sanglant</name_fr>
+    <name_es>Galería de Légamo de sangre</name_es>
+    <waypoint_id>429</waypoint_id>
+    <waypoint_name_en>Mournful Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schwermut</waypoint_name_de>
+    <waypoint_name_fr>Point de passage lugubre</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Pesar</waypoint_name_es>
+    <chat_link>[&amp;BK0BAAA=]</chat_link>
+    <map_id>73</map_id>
+    <map_name_en>Bloodtide Coast</map_name_en>
+    <map_name_de>Blutstrom-Küste</map_name_de>
+    <map_name_fr>Côte de la marée sanglante</map_name_fr>
+    <map_name_es>Costa Mareasangrienta</map_name_es>
+  </trek>
+  <trek>
+    <id>11</id>
+    <name_en>Bluup's Comeuppance</name_en>
+    <name_de>Bluups Strafe</name_de>
+    <name_fr>Châtiment de Bluup</name_fr>
+    <name_es>Merecido de Blupp</name_es>
+    <waypoint_id>1208</waypoint_id>
+    <waypoint_name_en>Research Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Forschung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la recherche</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Investigación</waypoint_name_es>
+    <chat_link>[&amp;BLgEAAA=]</chat_link>
+    <map_id>139</map_id>
+    <map_name_en>Rata Sum</map_name_en>
+    <map_name_de>Rata Sum</map_name_de>
+    <map_name_fr>Rata Sum</map_name_fr>
+    <map_name_es>Rata Sum</map_name_es>
+  </trek>
+  <trek>
+    <id>12</id>
+    <name_en>Brandstrike Dig</name_en>
+    <name_de>Brandschlag-Grube</name_de>
+    <name_fr>Fouilles de Stigmafrappe</name_fr>
+    <name_es>Excavación de Golpe Marcado</name_es>
+    <waypoint_id>331</waypoint_id>
+    <waypoint_name_en>Helliot Mine Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Helliot-Mine</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Mine d'Hellion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Mina de Helliot</waypoint_name_es>
+    <chat_link>[&amp;BEsBAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </trek>
+  <trek>
+    <id>180</id>
+    <name_en>Briarthorn Barrier</name_en>
+    <name_de>Wilddorn-Barriere</name_de>
+    <name_fr>Barrière de Bercebruyère</name_fr>
+    <name_es>Barrera de Espinazarza</name_es>
+    <waypoint_id>309</waypoint_id>
+    <waypoint_name_en>Spiral Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Morgan-Spirale</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Spirale</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Espiral</waypoint_name_es>
+    <chat_link>[&amp;BDUBAAA=]</chat_link>
+    <map_id>34</map_id>
+    <map_name_en>Caledon Forest</map_name_en>
+    <map_name_de>Caledon-Wald</map_name_de>
+    <map_name_fr>Forêt de Caledon</map_name_fr>
+    <map_name_es>Bosque de Caledon</map_name_es>
+  </trek>
+  <trek>
+    <id>131</id>
+    <name_en>Broken Falls Courtyard</name_en>
+    <name_de>Schwundfallhof</name_de>
+    <name_fr>Cour des Chutes brisées</name_fr>
+    <name_es>Patio de las Cataratas Rotas</name_es>
+    <waypoint_id>940</waypoint_id>
+    <waypoint_name_en>Ruins of Rin Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ruinen von Rin</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Ruines de Rin</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ruinas de Rin</waypoint_name_es>
+    <chat_link>[&amp;BKwDAAA=]</chat_link>
+    <map_id>218</map_id>
+    <map_name_en>Black Citadel</map_name_en>
+    <map_name_de>Schwarze Zitadelle</map_name_de>
+    <map_name_fr>La Citadelle noire</map_name_fr>
+    <map_name_es>Ciudadela Negra</map_name_es>
+  </trek>
+  <trek>
+    <id>15</id>
+    <name_en>Broodmother Falls</name_en>
+    <name_de>Brutmutter-Fälle</name_de>
+    <name_fr>Chutes de la Génitrice</name_fr>
+    <name_es>Cataratas de la Progenitora</name_es>
+    <waypoint_id>644</waypoint_id>
+    <waypoint_name_en>Yak's Bend Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Yakbiegung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Courbe du Yak</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Declive del Yak</waypoint_name_es>
+    <chat_link>[&amp;BIQCAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </trek>
+  <trek>
+    <id>14</id>
+    <name_en>Brother's Notch</name_en>
+    <name_de>Brüder-Engpass</name_de>
+    <name_fr>Col des Frères</name_fr>
+    <name_es>Muesca de los Hermanos</name_es>
+    <waypoint_id>912</waypoint_id>
+    <waypoint_name_en>Hero's Compass Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Heldenzirkel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Boussole du Héros</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Brújula de Héroe</waypoint_name_es>
+    <chat_link>[&amp;BJADAAA=]</chat_link>
+    <map_id>326</map_id>
+    <map_name_en>Hoelbrak</map_name_en>
+    <map_name_de>Hoelbrak</map_name_de>
+    <map_name_fr>Hoelbrak</map_name_fr>
+    <map_name_es>Hoelbrak</map_name_es>
+  </trek>
+  <trek>
+    <id>119</id>
+    <name_en>Burstbubble Blind</name_en>
+    <name_de>Sackgasse der geplatzten Träume</name_de>
+    <name_fr>Refuge percebul</name_fr>
+    <name_es>Persiana explotaburbujas</name_es>
+    <waypoint_id>850</waypoint_id>
+    <waypoint_name_en>Soot Road Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rußstraße</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Route de Suie</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Camino de Hollín</waypoint_name_es>
+    <chat_link>[&amp;BFIDAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </trek>
+  <trek>
+    <id>172</id>
+    <name_en>Cache of the Pursued</name_en>
+    <name_de>Vorratslager der Verfolgten</name_de>
+    <name_fr>Cache du fugitif</name_fr>
+    <name_es>Escondite de los Perseguidos</name_es>
+    <waypoint_id>801</waypoint_id>
+    <waypoint_name_en>Caer Shadowfain Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kastell Schattenlieb</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Caer Mande-Ombre</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Sombrabuena de Caer</waypoint_name_es>
+    <chat_link>[&amp;BCEDAAA=]</chat_link>
+    <map_id>62</map_id>
+    <map_name_en>Cursed Shore</map_name_en>
+    <map_name_de>Fluchküste</map_name_de>
+    <map_name_fr>Rivage maudit</map_name_fr>
+    <map_name_es>Ribera Maldita</map_name_es>
+  </trek>
+  <trek>
+    <id>16</id>
+    <name_en>Cademkrall Overlook</name_en>
+    <name_de>Cademkrall-Aussichtspunkt</name_de>
+    <name_fr>Plateau de Krallcamden</name_fr>
+    <name_es>Mirador del Corral Cadem</name_es>
+    <waypoint_id>392</waypoint_id>
+    <waypoint_name_en>Watchcrag Tower Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wächterfels-Turm</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Tour de guet de l'Escarpement</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Torre Vigilapeñasco</waypoint_name_es>
+    <chat_link>[&amp;BIgBAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </trek>
+  <trek>
+    <id>98</id>
+    <name_en>Canyonweb Cave</name_en>
+    <name_de>Netzschluchthöhle</name_de>
+    <name_fr>Grotte de Gorgetoile</name_fr>
+    <name_es>Cueva Telaraña del Cañón</name_es>
+    <waypoint_id>516</waypoint_id>
+    <waypoint_name_en>Brandview Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Brandblick</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Glaive</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Vistamarca</waypoint_name_es>
+    <chat_link>[&amp;BAQCAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </trek>
+  <trek>
+    <id>81</id>
+    <name_en>Captain's Berth</name_en>
+    <name_de>Koje des Kapitäns</name_de>
+    <name_fr>Mouillage du Capitaine</name_fr>
+    <name_es>Embarcadero del capitán</name_es>
+    <waypoint_id>690</waypoint_id>
+    <waypoint_name_en>Lights Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Lichter</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des lumières</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Luces</waypoint_name_es>
+    <chat_link>[&amp;BLICAAA=]</chat_link>
+    <map_id>65</map_id>
+    <map_name_en>Malchor's Leap</map_name_en>
+    <map_name_de>Malchors Sprung</map_name_de>
+    <map_name_fr>Saut de Malchor</map_name_fr>
+    <map_name_es>Salto de Malchor</map_name_es>
+  </trek>
+  <trek>
+    <id>17</id>
+    <name_en>Castavall Corner</name_en>
+    <name_de>Castavall-Ecke</name_de>
+    <name_fr>Coin de Castavall</name_fr>
+    <name_es>Esquina Castavall</name_es>
+    <waypoint_id>429</waypoint_id>
+    <waypoint_name_en>Mournful Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schwermut</waypoint_name_de>
+    <waypoint_name_fr>Point de passage lugubre</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Pesar</waypoint_name_es>
+    <chat_link>[&amp;BK0BAAA=]</chat_link>
+    <map_id>73</map_id>
+    <map_name_en>Bloodtide Coast</map_name_en>
+    <map_name_de>Blutstrom-Küste</map_name_de>
+    <map_name_fr>Côte de la marée sanglante</map_name_fr>
+    <map_name_es>Costa Mareasangrienta</map_name_es>
+  </trek>
+  <trek>
+    <id>78</id>
+    <name_en>Cathedral's Cavity</name_en>
+    <name_de>Kathedralenraum</name_de>
+    <name_fr>Cavité de la cathédrale</name_fr>
+    <name_es>Cavidad de la Catedral</name_es>
+    <waypoint_id>684</waypoint_id>
+    <waypoint_name_en>Wren Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wren</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Wren</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Wren</waypoint_name_es>
+    <chat_link>[&amp;BKwCAAA=]</chat_link>
+    <map_id>65</map_id>
+    <map_name_en>Malchor's Leap</map_name_en>
+    <map_name_de>Malchors Sprung</map_name_de>
+    <map_name_fr>Saut de Malchor</map_name_fr>
+    <map_name_es>Salto de Malchor</map_name_es>
+  </trek>
+  <trek>
+    <id>70</id>
+    <name_en>Cave Bear Cache</name_en>
+    <name_de>Höhlenbärenversteck</name_de>
+    <name_fr>Cache de l’Ours des cavernes</name_fr>
+    <name_es>Escondite de la Osa</name_es>
+    <waypoint_id>191</waypoint_id>
+    <waypoint_name_en>Snowhawk Landing Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schneefalken-Posten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Terrasse du Faucon des neiges</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Desembarcadero de Halcón de Nieve</waypoint_name_es>
+    <chat_link>[&amp;BL8AAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </trek>
+  <trek>
+    <id>71</id>
+    <name_en>Cave Spider Nidus</name_en>
+    <name_de>Höhlenspinnen-Nest</name_de>
+    <name_fr>Nid d’araignée cavernicole</name_fr>
+    <name_es>Nidus de la Araña de Cueva</name_es>
+    <waypoint_id>408</waypoint_id>
+    <waypoint_name_en>Pinnacle Enclave Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Gipfelenklave</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Enclave du Pinacle</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Enclave del Pináculo</waypoint_name_es>
+    <chat_link>[&amp;BJgBAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </trek>
+  <trek>
+    <id>158</id>
+    <name_en>Claypool Bailey</name_en>
+    <name_de>Tonteich-Außenhof</name_de>
+    <name_fr>Mur d’enceinte de Claypool</name_fr>
+    <name_es>Patio del Arcillar</name_es>
+    <waypoint_id>246</waypoint_id>
+    <waypoint_name_en>Claypool Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Tonteich</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Claypool</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Arcillar</waypoint_name_es>
+    <chat_link>[&amp;BPYAAAA=]</chat_link>
+    <map_id>15</map_id>
+    <map_name_en>Queensdale</map_name_en>
+    <map_name_de>Königintal</map_name_de>
+    <map_name_fr>La Vallée de la reine</map_name_fr>
+    <map_name_es>Valle de la Reina</map_name_es>
+  </trek>
+  <trek>
+    <id>148</id>
+    <name_en>Constellation Parapet</name_en>
+    <name_de>Sternbildbrüstung</name_de>
+    <name_fr>Parapet des constellations</name_fr>
+    <name_es>Parapeto Constelación</name_es>
+    <waypoint_id>1211</waypoint_id>
+    <waypoint_name_en>Reckoner's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rechenmeister</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Spéculateur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Calculista</waypoint_name_es>
+    <chat_link>[&amp;BLsEAAA=]</chat_link>
+    <map_id>91</map_id>
+    <map_name_en>The Grove</map_name_en>
+    <map_name_de>Der Hain</map_name_de>
+    <map_name_fr>Le Bosquet</map_name_fr>
+    <map_name_es>La Arboleda</map_name_es>
+  </trek>
+  <trek>
+    <id>185</id>
+    <name_en>Corruption's Teeth</name_en>
+    <name_de>Zähne der Verderbnis</name_de>
+    <name_fr>Dents de la corruption</name_fr>
+    <name_es> Dientes de la Corrupción </name_es>
+    <waypoint_id>646</waypoint_id>
+    <waypoint_name_en>Drakkar Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Drakkar</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Drakkar</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Drakkar</waypoint_name_es>
+    <chat_link>[&amp;BIYCAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </trek>
+  <trek>
+    <id>18</id>
+    <name_en>Covington's Stowage</name_en>
+    <name_de>Covingtons Stauraum</name_de>
+    <name_fr>Mouillage de Covington</name_fr>
+    <name_es>Estiba de Covington</name_es>
+    <waypoint_id>424</waypoint_id>
+    <waypoint_name_en>Laughing Gull Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Lachmöwe</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Mouette rieuse</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Gaviota Sonriente</waypoint_name_es>
+    <chat_link>[&amp;BKgBAAA=]</chat_link>
+    <map_id>73</map_id>
+    <map_name_en>Bloodtide Coast</map_name_en>
+    <map_name_de>Blutstrom-Küste</map_name_de>
+    <map_name_fr>Côte de la marée sanglante</map_name_fr>
+    <map_name_es>Costa Mareasangrienta</map_name_es>
+  </trek>
+  <trek>
+    <id>62</id>
+    <name_en>Cutthroat's Rest</name_en>
+    <name_de>Halsabschneiders Ruhestatt</name_de>
+    <name_fr>Halte de Coupegorge</name_fr>
+    <name_es>Descanso del Sanguinario</name_es>
+    <waypoint_id>973</waypoint_id>
+    <waypoint_name_en>Brigantine Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Brigantine</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Brigantine</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Bergantín</waypoint_name_es>
+    <chat_link>[&amp;BM0DAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </trek>
+  <trek>
+    <id>19</id>
+    <name_en>Cymbel's Glen</name_en>
+    <name_de>Cymbels Schlucht</name_de>
+    <name_fr>Vallon de Cymbel</name_fr>
+    <name_es>Cañada de Cymbel</name_es>
+    <waypoint_id>212</waypoint_id>
+    <waypoint_name_en>Deathblade's Watch Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Todesklingenwacht</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Guet de Mortelame</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Vigilancia de Filomortal</waypoint_name_es>
+    <chat_link>[&amp;BNQAAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </trek>
+  <trek>
+    <id>94</id>
+    <name_en>Dawngleam Pergola</name_en>
+    <name_de>Morgenrot-Pergola</name_de>
+    <name_fr>Pergola d’Aubeluit</name_fr>
+    <name_es>Pérgola del Amanecer Refulgente</name_es>
+    <waypoint_id>1212</waypoint_id>
+    <waypoint_name_en>Ronan's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ronan</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Ronan</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ronan</waypoint_name_es>
+    <chat_link>[&amp;BLwEAAA=]</chat_link>
+    <map_id>91</map_id>
+    <map_name_en>The Grove</map_name_en>
+    <map_name_de>Der Hain</map_name_de>
+    <map_name_fr>Le Bosquet</map_name_fr>
+    <map_name_es>La Arboleda</map_name_es>
+  </trek>
+  <trek>
+    <id>157</id>
+    <name_en>Deepmire Diver</name_en>
+    <name_de>Tiefschlamm-Taucher</name_de>
+    <name_fr>Plongeur focebourbié</name_fr>
+    <name_es>Submarinista del lodazal</name_es>
+    <waypoint_id>721</waypoint_id>
+    <waypoint_name_en>Oxbow Isle Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ochsenjoch-Insel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Ile du Méandre</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Isla Reverencia del Buey</waypoint_name_es>
+    <chat_link>[&amp;BNECAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </trek>
+  <trek>
+    <id>29</id>
+    <name_en>Defiled Delve</name_en>
+    <name_de>Entweihte Senke</name_de>
+    <name_fr>Excavation profanée</name_fr>
+    <name_es>Socavón Profanado</name_es>
+    <waypoint_id>17</waypoint_id>
+    <waypoint_name_en>Darkwound Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dunkelwund-Klause</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Sombreplaie</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Llaganegra</waypoint_name_es>
+    <chat_link>[&amp;BBEAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </trek>
+  <trek>
+    <id>6</id>
+    <name_en>Delight's Balcony</name_en>
+    <name_de>Balkon des Wohlgefallens</name_de>
+    <name_fr>Balcon des délices</name_fr>
+    <name_es>Balcón del Deleite</name_es>
+    <waypoint_id>678</waypoint_id>
+    <waypoint_name_en>Pagga's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Pagga</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Pagga</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Pagga</waypoint_name_es>
+    <chat_link>[&amp;BKYCAAA=]</chat_link>
+    <map_id>65</map_id>
+    <map_name_en>Malchor's Leap</map_name_en>
+    <map_name_de>Malchors Sprung</map_name_de>
+    <map_name_fr>Saut de Malchor</map_name_fr>
+    <map_name_es>Salto de Malchor</map_name_es>
+  </trek>
+  <trek>
+    <id>143</id>
+    <name_en>Destiny's Guildhall</name_en>
+    <name_de>Stadthalle des Schicksals</name_de>
+    <name_fr>Hall de Guilde du Destin</name_fr>
+    <name_es>Sala del Clan del Destino</name_es>
+    <waypoint_id>239</waypoint_id>
+    <waypoint_name_en>Shaemoor Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Shaemoor</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Shaemoor</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Shaemoor</waypoint_name_es>
+    <chat_link>[&amp;BO8AAAA=]</chat_link>
+    <map_id>15</map_id>
+    <map_name_en>Queensdale</map_name_en>
+    <map_name_de>Königintal</map_name_de>
+    <map_name_fr>La Vallée de la reine</map_name_fr>
+    <map_name_es>Valle de la Reina</map_name_es>
+  </trek>
+  <trek>
+    <id>128</id>
+    <name_en>Dirtclaw Cleft</name_en>
+    <name_de>Schmutzklauenkluft</name_de>
+    <name_fr>Faille de Pouacregriffe</name_fr>
+    <name_es>Grieta Garrasucia</name_es>
+    <waypoint_id>483</waypoint_id>
+    <waypoint_name_en>Bloodfin Lake Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Blutflossen-See</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Lac Pourprenage</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Lago Aletasangre</waypoint_name_es>
+    <chat_link>[&amp;BOMBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </trek>
+  <trek>
+    <id>20</id>
+    <name_en>Doefalls Court</name_en>
+    <name_de>Damfall-Hof</name_de>
+    <name_fr>Cour des Chutes de la Biche</name_fr>
+    <name_es>Corte de las Cataratas de la Cierva</name_es>
+    <waypoint_id>391</waypoint_id>
+    <waypoint_name_en>Ascalon City Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Stadt Ascalon</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Cité d'Ascalon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ciudad Ascalon</waypoint_name_es>
+    <chat_link>[&amp;BIcBAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </trek>
+  <trek>
+    <id>88</id>
+    <name_en>Drakecleft Shelf</name_en>
+    <name_de>Lindwurmschlund-Riff</name_de>
+    <name_fr>Saut de Drakefaille</name_fr>
+    <name_es>Balda Grietadraco</name_es>
+    <waypoint_id>332</waypoint_id>
+    <waypoint_name_en>Fangfury Watch Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Fangzornwacht</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Guet de Mordrage</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Vigilancia Colmillofurioso</waypoint_name_es>
+    <chat_link>[&amp;BEwBAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </trek>
+  <trek>
+    <id>87</id>
+    <name_en>Drakehatch Shore</name_en>
+    <name_de>Lindwurmnest-Küste</name_de>
+    <name_fr>Côte de Couvedrake</name_fr>
+    <name_es>Ribera de los Saurios</name_es>
+    <waypoint_id>356</waypoint_id>
+    <waypoint_name_en>Breachwater Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Bruchwasser-See</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Brèchezeaux</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Brechagua</waypoint_name_es>
+    <chat_link>[&amp;BGQBAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </trek>
+  <trek>
+    <id>25</id>
+    <name_en>Droknah's Gate</name_en>
+    <name_de>Droknar-Tor</name_de>
+    <name_fr>Porte de Droknah</name_fr>
+    <name_es>Puerta de Droknar</name_es>
+    <waypoint_id>724</waypoint_id>
+    <waypoint_name_en>Old Sledge Site Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Alter Hammergrund</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Site du Vieux traîneau</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Antigua Zona de Trineos</waypoint_name_es>
+    <chat_link>[&amp;BNQCAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </trek>
+  <trek>
+    <id>105</id>
+    <name_en>Drowned Plaza</name_en>
+    <name_de>Platz des Ertrinkens</name_de>
+    <name_fr>Place engloutie</name_fr>
+    <name_es>Plaza Aguada</name_es>
+    <waypoint_id>755</waypoint_id>
+    <waypoint_name_en>Royal Forum Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Der royale Markt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Forum Royal</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Foro Real</waypoint_name_es>
+    <chat_link>[&amp;BPMCAAA=]</chat_link>
+    <map_id>51</map_id>
+    <map_name_en>Straits of Devastation</map_name_en>
+    <map_name_de>Meerenge der Verwüstung</map_name_de>
+    <map_name_fr>Détroit de la dévastation</map_name_fr>
+    <map_name_es>Estrechos de la Devastación</map_name_es>
+  </trek>
+  <trek>
+    <id>102</id>
+    <name_en>East End Falls</name_en>
+    <name_de>Ostend-Fälle</name_de>
+    <name_fr>Chute d’East End</name_fr>
+    <name_es>Cataratas Orientales</name_es>
+    <waypoint_id>96</waypoint_id>
+    <waypoint_name_en>East End Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ostend</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Extrêmité Est</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Barrio Este</waypoint_name_es>
+    <chat_link>[&amp;BGAAAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </trek>
+  <trek>
+    <id>103</id>
+    <name_en>Eastlurk Alley</name_en>
+    <name_de>Ostlauergasse</name_de>
+    <name_fr>Ruelle du vadrouilleur de l’est</name_fr>
+    <name_es>Tiro al Blanco de Mina</name_es>
+    <waypoint_id>803</waypoint_id>
+    <waypoint_name_en>Dwayna Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dwayna</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Dwayna</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Dwayna</waypoint_name_es>
+    <chat_link>[&amp;BCMDAAA=]</chat_link>
+    <map_id>18</map_id>
+    <map_name_en>Divinity's Reach</map_name_en>
+    <map_name_de>Götterfels</map_name_de>
+    <map_name_fr>Le Promontoire divin</map_name_fr>
+    <map_name_es>Linde de la Divinidad</map_name_es>
+  </trek>
+  <trek>
+    <id>28</id>
+    <name_en>Elise's Surprise</name_en>
+    <name_de>Elises Überraschung</name_de>
+    <name_fr>Surprise d’Elise</name_fr>
+    <name_es>La Sorpresa de Elise</name_es>
+    <waypoint_id>171</waypoint_id>
+    <waypoint_name_en>Demetra Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Demetra</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Demetra</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Demetra</waypoint_name_es>
+    <chat_link>[&amp;BKsAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </trek>
+  <trek>
+    <id>33</id>
+    <name_en>Ettinbreath Lair</name_en>
+    <name_de>Ettinodem-Versteck</name_de>
+    <name_fr>Repaire de Soufflettin</name_fr>
+    <name_es>Guarida del Suspiro del Ettin</name_es>
+    <waypoint_id>230</waypoint_id>
+    <waypoint_name_en>Demon's Maw Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dämonenschlund</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Gueule du démon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Fauces de Demonio</waypoint_name_es>
+    <chat_link>[&amp;BOYAAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </trek>
+  <trek>
+    <id>47</id>
+    <name_en>Fathom Five Forcefield</name_en>
+    <name_de>Fünf-Klafter-Kraftfeld</name_de>
+    <name_fr>Champ de force de la cinquième brasse</name_fr>
+    <name_es>Campo de Fuerza Cinco Brazas</name_es>
+    <waypoint_id>754</waypoint_id>
+    <waypoint_name_en>Vesper Bell Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Die Abendsternglocke</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Cloche vespérale</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campana de Vísperas</waypoint_name_es>
+    <chat_link>[&amp;BPICAAA=]</chat_link>
+    <map_id>51</map_id>
+    <map_name_en>Straits of Devastation</map_name_en>
+    <map_name_de>Meerenge der Verwüstung</map_name_de>
+    <map_name_fr>Détroit de la dévastation</map_name_fr>
+    <map_name_es>Estrechos de la Devastación</map_name_es>
+  </trek>
+  <trek>
+    <id>36</id>
+    <name_en>Fawcett's Porch</name_en>
+    <name_de>Fawcetts Vordach</name_de>
+    <name_fr>Porche de Fawcett</name_fr>
+    <name_es>Porche de Fawcett</name_es>
+    <waypoint_id>195</waypoint_id>
+    <waypoint_name_en>Arcallion Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Arcallion</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Arcallion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Arcallion</waypoint_name_es>
+    <chat_link>[&amp;BMMAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </trek>
+  <trek>
+    <id>38</id>
+    <name_en>Fire Imp Pocket</name_en>
+    <name_de>Feuer-Kobolds Schlupfloch</name_de>
+    <name_fr>Poche de diablotin de feu</name_fr>
+    <name_es>Cauce Diablillo de Fuego</name_es>
+    <waypoint_id>717</waypoint_id>
+    <waypoint_name_en>Maelstrom's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Mahlstrom</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Maelström</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Vorágine</waypoint_name_es>
+    <chat_link>[&amp;BM0CAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </trek>
+  <trek>
+    <id>37</id>
+    <name_en>Firefrog Springs</name_en>
+    <name_de>Feuerfrosch-Quellen</name_de>
+    <name_fr>Source de Brûlereinette</name_fr>
+    <name_es>Manantiales Rana Ígnea</name_es>
+    <waypoint_id>460</waypoint_id>
+    <waypoint_name_en>Flamefrog Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Flammenfrosch</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Brûlereinette</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ranaflamígera</waypoint_name_es>
+    <chat_link>[&amp;BMwBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </trek>
+  <trek>
+    <id>39</id>
+    <name_en>Firewatch Flybridge</name_en>
+    <name_de>Feuerwacht-Brücke</name_de>
+    <name_fr>Pont du Guet-du-feu</name_fr>
+    <name_es>Pasarela de Vigilafuegos</name_es>
+    <waypoint_id>493</waypoint_id>
+    <waypoint_name_en>Firewatch Encampment Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Feuerwacht-Lager</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Campement de Guet-du-feu</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campamento de Vigilafuegos</waypoint_name_es>
+    <chat_link>[&amp;BO0BAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </trek>
+  <trek>
+    <id>40</id>
+    <name_en>Fisher's Crag</name_en>
+    <name_de>Fischers Klippe</name_de>
+    <name_fr>Escarpement du pêcheur</name_fr>
+    <name_es>Peñasco del Pescador</name_es>
+    <waypoint_id>1198</waypoint_id>
+    <waypoint_name_en>Old Golem Factory Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Alte Golem-Fabrik</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Vieille fonderie de golems</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Antigua Fábrica de Gólems</waypoint_name_es>
+    <chat_link>[&amp;BK4EAAA=]</chat_link>
+    <map_id>35</map_id>
+    <map_name_en>Metrica Province</map_name_en>
+    <map_name_de>Provinz Metrica</map_name_de>
+    <map_name_fr>Province de Metrica</map_name_fr>
+    <map_name_es>Provincia de Métrica</map_name_es>
+  </trek>
+  <trek>
+    <id>42</id>
+    <name_en>Flakk's Lapidary Nook</name_en>
+    <name_de>Flakks Steinschneider-Eck</name_de>
+    <name_fr>Recoin lapidaire de Flakk</name_fr>
+    <name_es>Rincón Lapidario de Flakk</name_es>
+    <waypoint_id>1206</waypoint_id>
+    <waypoint_name_en>Accountancy Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Buchhaltung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Comptabilité</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cuenta</waypoint_name_es>
+    <chat_link>[&amp;BLYEAAA=]</chat_link>
+    <map_id>139</map_id>
+    <map_name_en>Rata Sum</map_name_en>
+    <map_name_de>Rata Sum</map_name_de>
+    <map_name_fr>Rata Sum</map_name_fr>
+    <map_name_es>Rata Sum</map_name_es>
+  </trek>
+  <trek>
+    <id>1</id>
+    <name_en>Forager's Midden</name_en>
+    <name_de>Abfallhaufen des Sammlers</name_de>
+    <name_fr>Fouilleur de fumier</name_fr>
+    <name_es>Escombrera del Forrajeador</name_es>
+    <waypoint_id>603</waypoint_id>
+    <waypoint_name_en>Steelbrachen Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Stahlbrachen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Steelbrachen</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campoacero</waypoint_name_es>
+    <chat_link>[&amp;BFsCAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </trek>
+  <trek>
+    <id>167</id>
+    <name_en>Forbidden Shear</name_en>
+    <name_de>Verbotene Schneide</name_de>
+    <name_fr>Cisaillement interdit</name_fr>
+    <name_es>Grieta Prohibida</name_es>
+    <waypoint_id>687</waypoint_id>
+    <waypoint_name_en>Murmur Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wisper</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Murmures</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Murmullo</waypoint_name_es>
+    <chat_link>[&amp;BK8CAAA=]</chat_link>
+    <map_id>65</map_id>
+    <map_name_en>Malchor's Leap</map_name_en>
+    <map_name_de>Malchors Sprung</map_name_de>
+    <map_name_fr>Saut de Malchor</map_name_fr>
+    <map_name_es>Salto de Malchor</map_name_es>
+  </trek>
+  <trek>
+    <id>171</id>
+    <name_en>Foreman's Recess</name_en>
+    <name_de>Vorarbeiters Rast</name_de>
+    <name_fr>Cavité du Contremaître</name_fr>
+    <name_es>Nicho del Capataz</name_es>
+    <waypoint_id>600</waypoint_id>
+    <waypoint_name_en>Dociu Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dociu-Ausgrabung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Dociu</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Dociu</waypoint_name_es>
+    <chat_link>[&amp;BFgCAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </trek>
+  <trek>
+    <id>169</id>
+    <name_en>Forgotten Grotto</name_en>
+    <name_de>Vergessene Grotte</name_de>
+    <name_fr>Grotte Oubliée</name_fr>
+    <name_es>Gruta Olvidada</name_es>
+    <waypoint_id>513</waypoint_id>
+    <waypoint_name_en>Terra Carorunda Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Terra Carorunda</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Terra Carorunda</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Terra Carorunda</waypoint_name_es>
+    <chat_link>[&amp;BAECAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </trek>
+  <trek>
+    <id>43</id>
+    <name_en>Founder's Flagon Hearth</name_en>
+    <name_de>Flaschenhals-Feuerstelle des Gründers</name_de>
+    <name_fr>Coeur du flacon du fondateur</name_fr>
+    <name_es> Hogar la Jarra del Fundador</name_es>
+    <waypoint_id>1085</waypoint_id>
+    <waypoint_name_en>Kestrel Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kestrel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Kestrel</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Kestrel</waypoint_name_es>
+    <chat_link>[&amp;BD0EAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </trek>
+  <trek>
+    <id>45</id>
+    <name_en>Freestand Scaffold</name_en>
+    <name_de>Freistehendes Gerüst</name_de>
+    <name_fr>Échafaudage autoporteur</name_fr>
+    <name_es>Cadalso Suspendido</name_es>
+    <waypoint_id>940</waypoint_id>
+    <waypoint_name_en>Ruins of Rin Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ruinen von Rin</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Ruines de Rin</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ruinas de Rin</waypoint_name_es>
+    <chat_link>[&amp;BKwDAAA=]</chat_link>
+    <map_id>218</map_id>
+    <map_name_en>Black Citadel</map_name_en>
+    <map_name_de>Schwarze Zitadelle</map_name_de>
+    <map_name_fr>La Citadelle noire</map_name_fr>
+    <map_name_es>Ciudadela Negra</map_name_es>
+  </trek>
+  <trek>
+    <id>51</id>
+    <name_en>Frozen Antrum</name_en>
+    <name_de>Gefrorene Höhle</name_de>
+    <name_fr>Retraite Gelée</name_fr>
+    <name_es>Antrum Congelado</name_es>
+    <waypoint_id>591</waypoint_id>
+    <waypoint_name_en>White Paper Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Weißpapierhügel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Feuilleblanche</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Papel Blanco</waypoint_name_es>
+    <chat_link>[&amp;BE8CAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </trek>
+  <trek>
+    <id>48</id>
+    <name_en>Gallow Canyons</name_en>
+    <name_de>Galgenschluchten</name_de>
+    <name_fr>Canyons de Gallow</name_fr>
+    <name_es>Cañones Macabros</name_es>
+    <waypoint_id>99</waypoint_id>
+    <waypoint_name_en>Gallowfields Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Spukfelder</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Champs de la potence</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campos del Patíbulo</waypoint_name_es>
+    <chat_link>[&amp;BGMAAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </trek>
+  <trek>
+    <id>49</id>
+    <name_en>Gardenroot Alcove</name_en>
+    <name_de>Gartenwurzel-Alkoven</name_de>
+    <name_fr>Alcôve de Courtilleracine</name_fr>
+    <name_es>Alcoba Huertoraíz</name_es>
+    <waypoint_id>1210</waypoint_id>
+    <waypoint_name_en>Upper Commons Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Obere Distrikte</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Terrasse commune supérieure</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Feria Superior</waypoint_name_es>
+    <chat_link>[&amp;BLoEAAA=]</chat_link>
+    <map_id>91</map_id>
+    <map_name_en>The Grove</map_name_en>
+    <map_name_de>Der Hain</map_name_de>
+    <map_name_fr>Le Bosquet</map_name_fr>
+    <map_name_es>La Arboleda</map_name_es>
+  </trek>
+  <trek>
+    <id>55</id>
+    <name_en>Gnashar's Viewpoint</name_en>
+    <name_de>Gnashar-Aussichtspunkt</name_de>
+    <name_fr>Point de vue de Gnashar</name_fr>
+    <name_es>Puesto de observación de Gnashar</name_es>
+    <waypoint_id>93</waypoint_id>
+    <waypoint_name_en>Wendon Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wendon</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Wendon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Wendon</waypoint_name_es>
+    <chat_link>[&amp;BF0AAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </trek>
+  <trek>
+    <id>59</id>
+    <name_en>Green Moa Paddock</name_en>
+    <name_de>Grünmoa-Koppel</name_de>
+    <name_fr>Paddock du moa vert</name_fr>
+    <name_es>Prado de Moa Verde</name_es>
+    <waypoint_id>316</waypoint_id>
+    <waypoint_name_en>Caledon Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Caledon-Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge de Caledon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Refugio de Caledon</waypoint_name_es>
+    <chat_link>[&amp;BDwBAAA=]</chat_link>
+    <map_id>34</map_id>
+    <map_name_en>Caledon Forest</map_name_en>
+    <map_name_de>Caledon-Wald</map_name_de>
+    <map_name_fr>Forêt de Caledon</map_name_fr>
+    <map_name_es>Bosque de Caledon</map_name_es>
+  </trek>
+  <trek>
+    <id>58</id>
+    <name_en>Grenth's Pavillion</name_en>
+    <name_de>Grenths Pavillon</name_de>
+    <name_fr>Pavillon de Grenth</name_fr>
+    <name_es>Pabellón de Grenth </name_es>
+    <waypoint_id>804</waypoint_id>
+    <waypoint_name_en>Grenth Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Grenth</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Grenth</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Grenth</waypoint_name_es>
+    <chat_link>[&amp;BCQDAAA=]</chat_link>
+    <map_id>18</map_id>
+    <map_name_en>Divinity's Reach</map_name_en>
+    <map_name_de>Götterfels</map_name_de>
+    <map_name_fr>Le Promontoire divin</map_name_fr>
+    <map_name_es>Linde de la Divinidad</map_name_es>
+  </trek>
+  <trek>
+    <id>56</id>
+    <name_en>Grimdottir's Duty</name_en>
+    <name_de>Grimsdottirs Pflicht</name_de>
+    <name_fr>Le devoir de Morndottir</name_fr>
+    <name_es>Labor de Grimdottir</name_es>
+    <waypoint_id>907</waypoint_id>
+    <waypoint_name_en>Shelter Rock Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Zufluchtsfelsen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Rocher de l'abri</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Roca del Refugio</waypoint_name_es>
+    <chat_link>[&amp;BIsDAAA=]</chat_link>
+    <map_id>326</map_id>
+    <map_name_en>Hoelbrak</map_name_en>
+    <map_name_de>Hoelbrak</map_name_de>
+    <map_name_fr>Hoelbrak</map_name_fr>
+    <map_name_es>Hoelbrak</map_name_es>
+  </trek>
+  <trek>
+    <id>162</id>
+    <name_en>Guardian Overwatch</name_en>
+    <name_de>Überwachender Wächter</name_de>
+    <name_fr>Camp principal du gardien</name_fr>
+    <name_es>Sobrevigilancia del Guardián</name_es>
+    <waypoint_id>173</waypoint_id>
+    <waypoint_name_en>Barricade Camp Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Barrikadenlager</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Camp de la barricade</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campamento Barricada</waypoint_name_es>
+    <chat_link>[&amp;BK0AAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </trek>
+  <trek>
+    <id>34</id>
+    <name_en>Hawkeye Perch</name_en>
+    <name_de>Falkenaugen-Warte</name_de>
+    <name_fr>Perchoir d’œil-de-faucon</name_fr>
+    <name_es>Nido de grifos ojodehalcón</name_es>
+    <waypoint_id>581</waypoint_id>
+    <waypoint_name_en>Serpent Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schlangensteine</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Serpent</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Serpiente</waypoint_name_es>
+    <chat_link>[&amp;BEUCAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </trek>
+  <trek>
+    <id>150</id>
+    <name_en>Heart Speaks Notch</name_en>
+    <name_de>Stummherz-Engpass</name_de>
+    <name_fr>Col du Coeur criant</name_fr>
+    <name_es>Muesca Algarabía del Corazón</name_es>
+    <waypoint_id>541</waypoint_id>
+    <waypoint_name_en>Apostate Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Häretiker-Einöde</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Apostat</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Apóstata</waypoint_name_es>
+    <chat_link>[&amp;BB0CAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </trek>
+  <trek>
+    <id>67</id>
+    <name_en>Heartwood Honey Cache</name_en>
+    <name_de>Herzwald-Honigspeicher</name_de>
+    <name_fr>Cache à miel de Boisecoeur</name_fr>
+    <name_es>Escondite Ápido de los Bosques Duramen</name_es>
+    <waypoint_id>243</waypoint_id>
+    <waypoint_name_en>Phinney Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Phinney</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Phinney</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Phinney</waypoint_name_es>
+    <chat_link>[&amp;BPMAAAA=]</chat_link>
+    <map_id>15</map_id>
+    <map_name_en>Queensdale</map_name_en>
+    <map_name_de>Königintal</map_name_de>
+    <map_name_fr>La Vallée de la reine</map_name_fr>
+    <map_name_es>Valle de la Reina</map_name_es>
+  </trek>
+  <trek>
+    <id>65</id>
+    <name_en>Heidi's Showpiece</name_en>
+    <name_de>Heidis Meisterwerk</name_de>
+    <name_fr>Œuvre d’Heidi</name_fr>
+    <name_es> Pieza estrella de Heidi</name_es>
+    <waypoint_id>167</waypoint_id>
+    <waypoint_name_en>Seraph's Landing Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Seraphenlände</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Plateau du Séraphin</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Desembarcadero del Serafín</waypoint_name_es>
+    <chat_link>[&amp;BKcAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </trek>
+  <trek>
+    <id>31</id>
+    <name_en>Hermit's Roost</name_en>
+    <name_de>Eremiten-Schlafplatz</name_de>
+    <name_fr>Perchoir de l’Ermite</name_fr>
+    <name_es>Nido de Ermitaños</name_es>
+    <waypoint_id>216</waypoint_id>
+    <waypoint_name_en>Rosko's Campsite Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Roskos Lager</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Campement de Rosko</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campamento de Rosko</waypoint_name_es>
+    <chat_link>[&amp;BNgAAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </trek>
+  <trek>
+    <id>170</id>
+    <name_en>Hidden Owl Distillery</name_en>
+    <name_de>Versteckte Eulenbrennerei</name_de>
+    <name_fr>Distillerie de la Chouette cachée</name_fr>
+    <name_es>Destilería Oculta de la Lechuza</name_es>
+    <waypoint_id>193</waypoint_id>
+    <waypoint_name_en>Owl Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Eulenhütte</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Chouette</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Lechuza</waypoint_name_es>
+    <chat_link>[&amp;BMEAAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </trek>
+  <trek>
+    <id>66</id>
+    <name_en>Holystone Sanctum</name_en>
+    <name_de>Heiligstein-Refugium</name_de>
+    <name_fr>Sanctuaire piersacrée</name_fr>
+    <name_es>Sagrario de Piedrasanta</name_es>
+    <waypoint_id>965</waypoint_id>
+    <waypoint_name_en>Sanctum Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Refugium</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Sanctuaire</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Camino del Sagrario</waypoint_name_es>
+    <chat_link>[&amp;BMUDAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </trek>
+  <trek>
+    <id>27</id>
+    <name_en>Icewurm Trench</name_en>
+    <name_de>Eiswurmgraben</name_de>
+    <name_fr>Fosse de la guivre des glaces</name_fr>
+    <name_es>Trinchera de la Sierpe de Hielo</name_es>
+    <waypoint_id>639</waypoint_id>
+    <waypoint_name_en>Dimotiki Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dimotiki</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Dimotiki</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Dimotiki</waypoint_name_es>
+    <chat_link>[&amp;BH8CAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </trek>
+  <trek>
+    <id>50</id>
+    <name_en>Ideation Leap</name_en>
+    <name_de>Gedankensprung</name_de>
+    <name_fr>Saut de la conceptualisation</name_fr>
+    <name_es>Salto Ideación</name_es>
+    <waypoint_id>1205</waypoint_id>
+    <waypoint_name_en>Incubation Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ideengeburten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'incubateur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Incubación</waypoint_name_es>
+    <chat_link>[&amp;BLUEAAA=]</chat_link>
+    <map_id>139</map_id>
+    <map_name_en>Rata Sum</map_name_en>
+    <map_name_de>Rata Sum</map_name_de>
+    <map_name_fr>Rata Sum</map_name_fr>
+    <map_name_es>Rata Sum</map_name_es>
+  </trek>
+  <trek>
+    <id>80</id>
+    <name_en>Imphaunt Hallow</name_en>
+    <name_de>Koboldspuk-Mulde</name_de>
+    <name_fr>Sanctuaire hanté par un diablotin</name_fr>
+    <name_es>Ermita del Diablillo Encantado</name_es>
+    <waypoint_id>321</waypoint_id>
+    <waypoint_name_en>Wychmire Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Bergsuhlensumpf</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Marais de Wychmire</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Wychmire</waypoint_name_es>
+    <chat_link>[&amp;BEEBAAA=]</chat_link>
+    <map_id>34</map_id>
+    <map_name_en>Caledon Forest</map_name_en>
+    <map_name_de>Caledon-Wald</map_name_de>
+    <map_name_fr>Forêt de Caledon</map_name_fr>
+    <map_name_es>Bosque de Caledon</map_name_es>
+  </trek>
+  <trek>
+    <id>26</id>
+    <name_en>Irondock Viewpoint</name_en>
+    <name_de>Eisendock-Aussichtspunkt</name_de>
+    <name_fr>Point de vue de Dockfer</name_fr>
+    <name_es>Puesto de Observación de Hierromuelle</name_es>
+    <waypoint_id>393</waypoint_id>
+    <waypoint_name_en>Duskrend Overlook Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dämmerspalt-Aussichtspunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Belvédère de Scinde-nuit</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Mirador Desgarraocaso</waypoint_name_es>
+    <chat_link>[&amp;BIkBAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </trek>
+  <trek>
+    <id>73</id>
+    <name_en>Isenfell Wash</name_en>
+    <name_de>Isenfell-Gerinne</name_de>
+    <name_fr>Crique d’Isenfall</name_fr>
+    <name_es>Cauce de Isenfell</name_es>
+    <waypoint_id>184</waypoint_id>
+    <waypoint_name_en>Isenfall Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Isenfall</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Isenfall</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Isenfall</waypoint_name_es>
+    <chat_link>[&amp;BLgAAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </trek>
+  <trek>
+    <id>74</id>
+    <name_en>Isgarren Viewpoint</name_en>
+    <name_de>Isgarren-Aussichtspunkt</name_de>
+    <name_fr>Point de vue d’Isgarren</name_fr>
+    <name_es>Puesto de Observación de Isgarren</name_es>
+    <waypoint_id>17</waypoint_id>
+    <waypoint_name_en>Darkwound Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dunkelwund-Klause</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Sombreplaie</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Llaganegra</waypoint_name_es>
+    <chat_link>[&amp;BBEAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </trek>
+  <trek>
+    <id>75</id>
+    <name_en>Jaguar Pride Den</name_en>
+    <name_de>Jaguarstolz-Bau</name_de>
+    <name_fr>Fière tanière du jaguar</name_fr>
+    <name_es>Cubil del Orgullo del Jaguar</name_es>
+    <waypoint_id>71</waypoint_id>
+    <waypoint_name_en>Muridian Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Muridianisches Hochland</waypoint_name_de>
+    <waypoint_name_fr>Point de passage muridienne</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Muridiano</waypoint_name_es>
+    <chat_link>[&amp;BEcAAAA=]</chat_link>
+    <map_id>35</map_id>
+    <map_name_en>Metrica Province</map_name_en>
+    <map_name_de>Provinz Metrica</map_name_de>
+    <map_name_fr>Province de Metrica</map_name_fr>
+    <map_name_es>Provincia de Métrica</map_name_es>
+  </trek>
+  <trek>
+    <id>117</id>
+    <name_en>Junker's Apex</name_en>
+    <name_de>Rümplers Gipfel</name_de>
+    <name_fr>Sommet de l’Epave</name_fr>
+    <name_es>Cima de Basurero</name_es>
+    <waypoint_id>1079</waypoint_id>
+    <waypoint_name_en>Junker's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rümpler</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des épaves</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta del Vertedero</waypoint_name_es>
+    <chat_link>[&amp;BDcEAAA=]</chat_link>
+    <map_id>218</map_id>
+    <map_name_en>Black Citadel</map_name_en>
+    <map_name_de>Schwarze Zitadelle</map_name_de>
+    <map_name_fr>La Citadelle noire</map_name_fr>
+    <map_name_es>Ciudadela Negra</map_name_es>
+  </trek>
+  <trek>
+    <id>76</id>
+    <name_en>Kaldar's Hot Seat</name_en>
+    <name_de>Kaldars Schleudersitz</name_de>
+    <name_fr>La sellette de Kaldar</name_fr>
+    <name_es>Asiento caliente de Kaldar</name_es>
+    <waypoint_id>909</waypoint_id>
+    <waypoint_name_en>Eastern Watchpost Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Östlicher Wachposten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Poste d'observation est</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Puesto Vigía Oriental</waypoint_name_es>
+    <chat_link>[&amp;BI0DAAA=]</chat_link>
+    <map_id>326</map_id>
+    <map_name_en>Hoelbrak</map_name_en>
+    <map_name_de>Hoelbrak</map_name_de>
+    <map_name_fr>Hoelbrak</map_name_fr>
+    <map_name_es>Hoelbrak</map_name_es>
+  </trek>
+  <trek>
+    <id>77</id>
+    <name_en>Kari's Hot Spot</name_en>
+    <name_de>Karis Brennpunkt</name_de>
+    <name_fr>Foyer de Kari</name_fr>
+    <name_es>Punto clave de Kari</name_es>
+    <waypoint_id>18</waypoint_id>
+    <waypoint_name_en>Cereboth Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Cereboth</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Cereboth</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cereboth</waypoint_name_es>
+    <chat_link>[&amp;BBIAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </trek>
+  <trek>
+    <id>35</id>
+    <name_en>Kegbrawl Watch</name_en>
+    <name_de>Fasskeilerei-Wacht</name_de>
+    <name_fr>Guet de la bagarre de barils</name_fr>
+    <name_es>Atalaya de la Pelea de Barricas</name_es>
+    <waypoint_id>912</waypoint_id>
+    <waypoint_name_en>Hero's Compass Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Heldenzirkel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Boussole du Héros</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Brújula de Héroe</waypoint_name_es>
+    <chat_link>[&amp;BJADAAA=]</chat_link>
+    <map_id>326</map_id>
+    <map_name_en>Hoelbrak</map_name_en>
+    <map_name_de>Hoelbrak</map_name_de>
+    <map_name_fr>Hoelbrak</map_name_fr>
+    <map_name_es>Hoelbrak</map_name_es>
+  </trek>
+  <trek>
+    <id>79</id>
+    <name_en>Kevach's Strongroom</name_en>
+    <name_de>Kevachs Stahlkammer</name_de>
+    <name_fr>Coffre-fort de Kevach</name_fr>
+    <name_es>Cámara acorazada de Kevach</name_es>
+    <waypoint_id>961</waypoint_id>
+    <waypoint_name_en>Lostvyrm Cave Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Findwurm-Höhle</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Caverne de Pertevyrm</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cueva de Dragonperdido</waypoint_name_es>
+    <chat_link>[&amp;BMEDAAA=]</chat_link>
+    <map_id>28</map_id>
+    <map_name_en>Wayfarer Foothills</map_name_en>
+    <map_name_de>Wanderer-Hügel</map_name_de>
+    <map_name_fr>Contreforts du voyageur</map_name_fr>
+    <map_name_es>Colinas del Caminante</map_name_es>
+  </trek>
+  <trek>
+    <id>132</id>
+    <name_en>Lakebottom Underpass</name_en>
+    <name_de>Seegrundtunnel</name_de>
+    <name_fr>Tunnel sous le lac</name_fr>
+    <name_es>Paso Subterráneo del Lago</name_es>
+    <waypoint_id>249</waypoint_id>
+    <waypoint_name_en>Ojon's Lumbermill Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ojons Sägewerk</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Scierie d'Ojon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Aserradero de Ojon</waypoint_name_es>
+    <chat_link>[&amp;BPkAAAA=]</chat_link>
+    <map_id>15</map_id>
+    <map_name_en>Queensdale</map_name_en>
+    <map_name_de>Königintal</map_name_de>
+    <map_name_fr>La Vallée de la reine</map_name_fr>
+    <map_name_es>Valle de la Reina</map_name_es>
+  </trek>
+  <trek>
+    <id>82</id>
+    <name_en>Lawen Grotto</name_en>
+    <name_de>Lawen-Grotte</name_de>
+    <name_fr>Grotte de Lawen</name_fr>
+    <name_es>Gruta de Lawen</name_es>
+    <waypoint_id>395</waypoint_id>
+    <waypoint_name_en>First Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Erste Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Premier Refuge</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Primer Refugio</waypoint_name_es>
+    <chat_link>[&amp;BIsBAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </trek>
+  <trek>
+    <id>85</id>
+    <name_en>Lightfoot Dock</name_en>
+    <name_de>Leichtfuß-Dock</name_de>
+    <name_fr>Quai de Lestepied</name_fr>
+    <name_es>Muelle Pasoligero</name_es>
+    <waypoint_id>752</waypoint_id>
+    <waypoint_name_en>Thunderhead Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Donnerkopf</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Tonnecaboche</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Trueno</waypoint_name_es>
+    <chat_link>[&amp;BPACAAA=]</chat_link>
+    <map_id>51</map_id>
+    <map_name_en>Straits of Devastation</map_name_en>
+    <map_name_de>Meerenge der Verwüstung</map_name_de>
+    <map_name_fr>Détroit de la dévastation</map_name_fr>
+    <map_name_es>Estrechos de la Devastación</map_name_es>
+  </trek>
+  <trek>
+    <id>86</id>
+    <name_en>Lily's Bivvy</name_en>
+    <name_de>Lilys Biwack</name_de>
+    <name_fr>Bivouac du Lys</name_fr>
+    <name_es>Carpa de Lily</name_es>
+    <waypoint_id>544</waypoint_id>
+    <waypoint_name_en>Icespear's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Eisspeer</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Pointe de glace</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Lanzagélida</waypoint_name_es>
+    <chat_link>[&amp;BCACAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </trek>
+  <trek>
+    <id>89</id>
+    <name_en>Lionguard Larder</name_en>
+    <name_de>Löwengarden-Speisekammer</name_de>
+    <name_fr>Cellier de la Garde du Lion</name_fr>
+    <name_es>Despensa de la Guardia del León</name_es>
+    <waypoint_id>381</waypoint_id>
+    <waypoint_name_en>Twinspur Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Doppelsporn-Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge de Doubléperon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Refugio Dosespuelas</waypoint_name_es>
+    <chat_link>[&amp;BH0BAAA=]</chat_link>
+    <map_id>28</map_id>
+    <map_name_en>Wayfarer Foothills</map_name_en>
+    <map_name_de>Wanderer-Hügel</map_name_de>
+    <map_name_fr>Contreforts du voyageur</map_name_fr>
+    <map_name_es>Colinas del Caminante</map_name_es>
+  </trek>
+  <trek>
+    <id>84</id>
+    <name_en>Lychcroft Wardenship</name_en>
+    <name_de>Leichenhof-Wachposten</name_de>
+    <name_fr>Préfecture de Lychcroft</name_fr>
+    <name_es>Garita Fincadaver</name_es>
+    <waypoint_id>12</waypoint_id>
+    <waypoint_name_en>Shadowheart Site Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schattenherzgrund</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Site d'Ombrecœur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Zona del Corazonsombrío</waypoint_name_es>
+    <chat_link>[&amp;BAwAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </trek>
+  <trek>
+    <id>90</id>
+    <name_en>Magihedron Corner</name_en>
+    <name_de>Magihedron-Ecke</name_de>
+    <name_fr>Coin du Magièdre</name_fr>
+    <name_es>Esquina de Magihedro</name_es>
+    <waypoint_id>1043</waypoint_id>
+    <waypoint_name_en>Metrical Court Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Metrischer Hof</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Cour métrique</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Patio Métrico</waypoint_name_es>
+    <chat_link>[&amp;BBMEAAA=]</chat_link>
+    <map_id>139</map_id>
+    <map_name_en>Rata Sum</map_name_en>
+    <map_name_de>Rata Sum</map_name_de>
+    <map_name_fr>Rata Sum</map_name_fr>
+    <map_name_es>Rata Sum</map_name_es>
+  </trek>
+  <trek>
+    <id>63</id>
+    <name_en>Master Control LIN39</name_en>
+    <name_de>Hauptkontrollkonsole LIN39</name_de>
+    <name_fr>Console de commande principale LIN39</name_fr>
+    <name_es>Control maestro LIN39</name_es>
+    <waypoint_id>71</waypoint_id>
+    <waypoint_name_en>Muridian Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Muridianisches Hochland</waypoint_name_de>
+    <waypoint_name_fr>Point de passage muridienne</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Muridiano</waypoint_name_es>
+    <chat_link>[&amp;BEcAAAA=]</chat_link>
+    <map_id>35</map_id>
+    <map_name_en>Metrica Province</map_name_en>
+    <map_name_de>Provinz Metrica</map_name_de>
+    <map_name_fr>Province de Metrica</map_name_fr>
+    <map_name_es>Provincia de Métrica</map_name_es>
+  </trek>
+  <trek>
+    <id>92</id>
+    <name_en>Melandru's Fount</name_en>
+    <name_de>Melandrus Quelle</name_de>
+    <name_fr>Source de Melandru</name_fr>
+    <name_es>Fuente de Dwayna</name_es>
+    <waypoint_id>807</waypoint_id>
+    <waypoint_name_en>Melandru Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Melandru</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Melandru</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Melandru</waypoint_name_es>
+    <chat_link>[&amp;BCcDAAA=]</chat_link>
+    <map_id>18</map_id>
+    <map_name_en>Divinity's Reach</map_name_en>
+    <map_name_de>Götterfels</map_name_de>
+    <map_name_fr>Le Promontoire divin</map_name_fr>
+    <map_name_es>Linde de la Divinidad</map_name_es>
+  </trek>
+  <trek>
+    <id>127</id>
+    <name_en>Meltwater Cave</name_en>
+    <name_de>Schmelzwasser-Kaverne</name_de>
+    <name_fr>Grotte d’Eaudefonte</name_fr>
+    <name_es>Cueva Fusionanieve</name_es>
+    <waypoint_id>584</waypoint_id>
+    <waypoint_name_en>Scale Strand Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schuppenstrand</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Fil d'Écaille</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Playa de Escama</waypoint_name_es>
+    <chat_link>[&amp;BEgCAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </trek>
+  <trek>
+    <id>93</id>
+    <name_en>Minar's Target Shoot</name_en>
+    <name_de>Minas Schießstand</name_de>
+    <name_fr>Pas de Tir de Mina</name_fr>
+    <name_es>Callejón Acechoriental</name_es>
+    <waypoint_id>810</waypoint_id>
+    <waypoint_name_en>Commons Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Marktviertel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du quartier populaire</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Feria</waypoint_name_es>
+    <chat_link>[&amp;BCoDAAA=]</chat_link>
+    <map_id>18</map_id>
+    <map_name_en>Divinity's Reach</map_name_en>
+    <map_name_de>Götterfels</map_name_de>
+    <map_name_fr>Le Promontoire divin</map_name_fr>
+    <map_name_es>Linde de la Divinidad</map_name_es>
+  </trek>
+  <trek>
+    <id>96</id>
+    <name_en>Mistriven Shelf</name_en>
+    <name_de>Nebelschleier-Riff</name_de>
+    <name_fr>Saut de Mistriven</name_fr>
+    <name_es>Balda Nieblahendida</name_es>
+    <waypoint_id>409</waypoint_id>
+    <waypoint_name_en>Mistriven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Nebelriss-Klamm</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Mistriven</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Hiendeniebla</waypoint_name_es>
+    <chat_link>[&amp;BJkBAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </trek>
+  <trek>
+    <id>91</id>
+    <name_en>Moleberia Prison</name_en>
+    <name_de>Maulberia-Gefängnis</name_de>
+    <name_fr>Prison de Taupvlaquie</name_fr>
+    <name_es>Prisión Topoberia</name_es>
+    <waypoint_id>376</waypoint_id>
+    <waypoint_name_en>Halvaunt Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Halvaunt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Halvaunt</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Halvaunt</waypoint_name_es>
+    <chat_link>[&amp;BHgBAAA=]</chat_link>
+    <map_id>28</map_id>
+    <map_name_en>Wayfarer Foothills</map_name_en>
+    <map_name_de>Wanderer-Hügel</map_name_de>
+    <map_name_fr>Contreforts du voyageur</map_name_fr>
+    <map_name_es>Colinas del Caminante</map_name_es>
+  </trek>
+  <trek>
+    <id>95</id>
+    <name_en>Monument to the Ancient One</name_en>
+    <name_de>Monument des Alten</name_de>
+    <name_fr>Monument à l’Ancien</name_fr>
+    <name_es>Monumento al Ancestro</name_es>
+    <waypoint_id>1752</waypoint_id>
+    <waypoint_name_en>Owain's Refuge Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Owains Zuflucht</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge d'Owain</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta del Refugio de Owain</waypoint_name_es>
+    <chat_link>[&amp;BNgGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </trek>
+  <trek>
+    <id>30</id>
+    <name_en>Narrowkraal Crossing</name_en>
+    <name_de>Engkral-Kreuzung</name_de>
+    <name_fr>Gué kraalétroi</name_fr>
+    <name_es>Cruce de Corralestrech</name_es>
+    <waypoint_id>335</waypoint_id>
+    <waypoint_name_en>Ogre Road Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ogerstraße</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Route de l'Ogre</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Camino de los Ogros</waypoint_name_es>
+    <chat_link>[&amp;BE8BAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </trek>
+  <trek>
+    <id>97</id>
+    <name_en>Necrolith Landing</name_en>
+    <name_de>Nekrolithen-Anlegestelle</name_de>
+    <name_fr>Plage nécrolithe</name_fr>
+    <name_es>Desembarcadero Necrolith</name_es>
+    <waypoint_id>1042</waypoint_id>
+    <waypoint_name_en>Caledon Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Caledon</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Caledon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Caledon</waypoint_name_es>
+    <chat_link>[&amp;BBIEAAA=]</chat_link>
+    <map_id>91</map_id>
+    <map_name_en>The Grove</map_name_en>
+    <map_name_de>Der Hain</map_name_de>
+    <map_name_fr>Le Bosquet</map_name_fr>
+    <map_name_es>La Arboleda</map_name_es>
+  </trek>
+  <trek>
+    <id>32</id>
+    <name_en>Orecart Hoist</name_en>
+    <name_de>Erzwagen-Winde</name_de>
+    <name_fr>Palan charmine</name_fr>
+    <name_es>Montacargas para carros de minerales</name_es>
+    <waypoint_id>535</waypoint_id>
+    <waypoint_name_en>Pig Iron Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Roheisen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de fonte brute</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Arrabio</waypoint_name_es>
+    <chat_link>[&amp;BBcCAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </trek>
+  <trek>
+    <id>100</id>
+    <name_en>Orvanic Sourcewaters</name_en>
+    <name_de>Orvanische Gewässer</name_de>
+    <name_fr>Alimentation en eau d’Orvanic</name_fr>
+    <name_es>Fuente de Agua de Orvar</name_es>
+    <waypoint_id>457</waypoint_id>
+    <waypoint_name_en>Ocean's Gullet Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ozeanschlund</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Goulet de l'océan</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Garganta del Océano</waypoint_name_es>
+    <chat_link>[&amp;BMkBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </trek>
+  <trek>
+    <id>101</id>
+    <name_en>Osenfold Counterweights</name_en>
+    <name_de>Osenfold-Gegengewichte</name_de>
+    <name_fr>Contrepoids d’Osenfold</name_fr>
+    <name_es>Contrapeso de Osenfold</name_es>
+    <waypoint_id>1025</waypoint_id>
+    <waypoint_name_en>Osenfold Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Osenfold-Schneide</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Osenfold</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Osenfold</waypoint_name_es>
+    <chat_link>[&amp;BAEEAAA=]</chat_link>
+    <map_id>28</map_id>
+    <map_name_en>Wayfarer Foothills</map_name_en>
+    <map_name_de>Wanderer-Hügel</map_name_de>
+    <map_name_fr>Contreforts du voyageur</map_name_fr>
+    <map_name_es>Colinas del Caminante</map_name_es>
+  </trek>
+  <trek>
+    <id>99</id>
+    <name_en>Overlord Lodge</name_en>
+    <name_de>Oberherren-Halle</name_de>
+    <name_fr>Pavillon du seigneur</name_fr>
+    <name_es>Albergue del Jefe Supremo</name_es>
+    <waypoint_id>4</waypoint_id>
+    <waypoint_name_en>Overlord's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Oberherr</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du seigneur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Jefe Supremo</waypoint_name_es>
+    <chat_link>[&amp;BAQAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </trek>
+  <trek>
+    <id>104</id>
+    <name_en>Phasmatis Prospect</name_en>
+    <name_de>Phasmatis-Fernblick</name_de>
+    <name_fr>Panorama de Phasmatis</name_fr>
+    <name_es>Panorama de Phasmatis</name_es>
+    <waypoint_id>394</waypoint_id>
+    <waypoint_name_en>Irondock Shipyard Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Eisendock-Werft</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Chantier naval de Dockfer</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Astillero de Hierromuelle</waypoint_name_es>
+    <chat_link>[&amp;BIoBAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </trek>
+  <trek>
+    <id>106</id>
+    <name_en>Pochtecatl's Desire</name_en>
+    <name_de>Pochtecatls Begehr</name_de>
+    <name_fr>Désir de Pochtecatl</name_fr>
+    <name_es>Deseo de Pochtecatl</name_es>
+    <waypoint_id>431</waypoint_id>
+    <waypoint_name_en>Jelako Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Jelako</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Jelako</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Jelako</waypoint_name_es>
+    <chat_link>[&amp;BK8BAAA=]</chat_link>
+    <map_id>73</map_id>
+    <map_name_en>Bloodtide Coast</map_name_en>
+    <map_name_de>Blutstrom-Küste</map_name_de>
+    <map_name_fr>Côte de la marée sanglante</map_name_fr>
+    <map_name_es>Costa Mareasangrienta</map_name_es>
+  </trek>
+  <trek>
+    <id>46</id>
+    <name_en>Port Authority Lost and Found</name_en>
+    <name_de>Fundbüro der Hafenbehörde</name_de>
+    <name_fr>Objets trouvés de l’Autorité du Port</name_fr>
+    <name_es>Autoridad Portuaria de Objetos Perdidos</name_es>
+    <waypoint_id>1287</waypoint_id>
+    <waypoint_name_en>Port Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Hafen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du port</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Puerto</waypoint_name_es>
+    <chat_link>[&amp;BAcFAAA=]</chat_link>
+    <map_id>139</map_id>
+    <map_name_en>Rata Sum</map_name_en>
+    <map_name_de>Rata Sum</map_name_de>
+    <map_name_fr>Rata Sum</map_name_fr>
+    <map_name_es>Rata Sum</map_name_es>
+  </trek>
+  <trek>
+    <id>107</id>
+    <name_en>Portmatt's Promontory</name_en>
+    <name_de>Portmatts Kap</name_de>
+    <name_fr>Promontoire de Portmatt</name_fr>
+    <name_es>Promontorio de Portmatt</name_es>
+    <waypoint_id>420</waypoint_id>
+    <waypoint_name_en>Sorrowful Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Gramvoll</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Lamentations</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Pesadumbre</waypoint_name_es>
+    <chat_link>[&amp;BKQBAAA=]</chat_link>
+    <map_id>73</map_id>
+    <map_name_en>Bloodtide Coast</map_name_en>
+    <map_name_de>Blutstrom-Küste</map_name_de>
+    <map_name_fr>Côte de la marée sanglante</map_name_fr>
+    <map_name_es>Costa Mareasangrienta</map_name_es>
+  </trek>
+  <trek>
+    <id>108</id>
+    <name_en>Provatum Carcer</name_en>
+    <name_de>Provatum Carcer</name_de>
+    <name_fr>Geôle de Provatum</name_fr>
+    <name_es>Provatum Carcer</name_es>
+    <waypoint_id>550</waypoint_id>
+    <waypoint_name_en>Keeper's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Hüter</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Gardien</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Guardián</waypoint_name_es>
+    <chat_link>[&amp;BCYCAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </trek>
+  <trek>
+    <id>176</id>
+    <name_en>Ramview Peak</name_en>
+    <name_de>Widderblickgipfel</name_de>
+    <name_fr>Pic du Béliervédère</name_fr>
+    <name_es>Velocista de las cumbres</name_es>
+    <waypoint_id>612</waypoint_id>
+    <waypoint_name_en>Travelen's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Travelens Wegmarke</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Travelen</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Travelen</waypoint_name_es>
+    <chat_link>[&amp;BGQCAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </trek>
+  <trek>
+    <id>112</id>
+    <name_en>Raptor's Aerie</name_en>
+    <name_de>Raptorenhorst</name_de>
+    <name_fr>Nid de raptor</name_fr>
+    <name_es>Nido del Raptor</name_es>
+    <waypoint_id>491</waypoint_id>
+    <waypoint_name_en>Town of Cowlfang's Star Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kuttenzahns Stern</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Ville de l'Etoile de Caninecol</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ciudad de la Estrella de Garradesbocada</waypoint_name_es>
+    <chat_link>[&amp;BOsBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </trek>
+  <trek>
+    <id>113</id>
+    <name_en>Raptor's Perch</name_en>
+    <name_de>Raptorwarte</name_de>
+    <name_fr>Perchoir de Raptor</name_fr>
+    <name_es>Percha del Raptor</name_es>
+    <waypoint_id>238</waypoint_id>
+    <waypoint_name_en>Winter Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Winter-Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge hivernal</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Refugio de Invierno</waypoint_name_es>
+    <chat_link>[&amp;BO4AAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </trek>
+  <trek>
+    <id>114</id>
+    <name_en>Rata Pten Portico</name_en>
+    <name_de>Rata Pten-Kolonnade</name_de>
+    <name_fr>Portique de Rata Pten</name_fr>
+    <name_es>Pórtico de Rata Pten</name_es>
+    <waypoint_id>713</waypoint_id>
+    <waypoint_name_en>Criterion Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Richtwert</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Criterion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Criterio</waypoint_name_es>
+    <chat_link>[&amp;BMkCAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </trek>
+  <trek>
+    <id>110</id>
+    <name_en>Raven Nook</name_en>
+    <name_de>Rabenwinkel</name_de>
+    <name_fr>Recoin du Corbeau</name_fr>
+    <name_es>Rincón del Cuervo</name_es>
+    <waypoint_id>904</waypoint_id>
+    <waypoint_name_en>Raven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke des Raben</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Corbeau</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cuervo</waypoint_name_es>
+    <chat_link>[&amp;BIgDAAA=]</chat_link>
+    <map_id>326</map_id>
+    <map_name_en>Hoelbrak</map_name_en>
+    <map_name_de>Hoelbrak</map_name_de>
+    <map_name_fr>Hoelbrak</map_name_fr>
+    <map_name_es>Hoelbrak</map_name_es>
+  </trek>
+  <trek>
+    <id>115</id>
+    <name_en>Reef Drake Nestling Grounds</name_en>
+    <name_de>Rifflindwurm-Brutstätte</name_de>
+    <name_fr>Frayère des drakes des récifs</name_fr>
+    <name_es>Criadero de dracos de arrecife</name_es>
+    <waypoint_id>1749</waypoint_id>
+    <waypoint_name_en>Pearl Islet Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Perlen-Inselchen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Îlot de perles</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Islote Perlado</waypoint_name_es>
+    <chat_link>[&amp;BNUGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </trek>
+  <trek>
+    <id>116</id>
+    <name_en>Restless Footings</name_en>
+    <name_de>Ruhelose Pfade</name_de>
+    <name_fr>Emprise agitée</name_fr>
+    <name_es>Pasos Inquietos</name_es>
+    <waypoint_id>722</waypoint_id>
+    <waypoint_name_en>Irwin Isle Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Irwin-Insel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Ile d'Irwin</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Isla Irwin</waypoint_name_es>
+    <chat_link>[&amp;BNICAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </trek>
+  <trek>
+    <id>61</id>
+    <name_en>Reverberant's Watch</name_en>
+    <name_de>Hallerzeuger-Wacht</name_de>
+    <name_fr>Guet réverbérant</name_fr>
+    <name_es>Atalaya del Reverberante</name_es>
+    <waypoint_id>373</waypoint_id>
+    <waypoint_name_en>Darkriven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dunkelfluss-Klippen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Ecorchenuit</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Ensombrecidos</waypoint_name_es>
+    <chat_link>[&amp;BHUBAAA=]</chat_link>
+    <map_id>28</map_id>
+    <map_name_en>Wayfarer Foothills</map_name_en>
+    <map_name_de>Wanderer-Hügel</map_name_de>
+    <map_name_fr>Contreforts du voyageur</map_name_fr>
+    <map_name_es>Colinas del Caminante</map_name_es>
+  </trek>
+  <trek>
+    <id>149</id>
+    <name_en>Risewild Green</name_en>
+    <name_de>Stiegwild-Anger</name_de>
+    <name_fr>Champ de Montesauvage</name_fr>
+    <name_es>Prado Selvalzada</name_es>
+    <waypoint_id>423</waypoint_id>
+    <waypoint_name_en>Remanda Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Remanda</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Remanda</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Remanda</waypoint_name_es>
+    <chat_link>[&amp;BKcBAAA=]</chat_link>
+    <map_id>73</map_id>
+    <map_name_en>Bloodtide Coast</map_name_en>
+    <map_name_de>Blutstrom-Küste</map_name_de>
+    <map_name_fr>Côte de la marée sanglante</map_name_fr>
+    <map_name_es>Costa Mareasangrienta</map_name_es>
+  </trek>
+  <trek>
+    <id>118</id>
+    <name_en>Rurik's View</name_en>
+    <name_de>Ruriks Ausblick</name_de>
+    <name_fr>Point de vue de Rurik</name_fr>
+    <name_es>Vista de Rurik</name_es>
+    <waypoint_id>811</waypoint_id>
+    <waypoint_name_en>Rurikton Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rurikstadt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Rurikton</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Rurikton</waypoint_name_es>
+    <chat_link>[&amp;BCsDAAA=]</chat_link>
+    <map_id>18</map_id>
+    <map_name_en>Divinity's Reach</map_name_en>
+    <map_name_de>Götterfels</map_name_de>
+    <map_name_fr>Le Promontoire divin</map_name_fr>
+    <map_name_es>Linde de la Divinidad</map_name_es>
+  </trek>
+  <trek>
+    <id>121</id>
+    <name_en>Saltflood Altar</name_en>
+    <name_de>Salzflut-Altar</name_de>
+    <name_fr>Autel d’Inondesel</name_fr>
+    <name_es>Altar Inundasal</name_es>
+    <waypoint_id>455</waypoint_id>
+    <waypoint_name_en>Saltflood Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Salzflut</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Inondesel</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Inundasal</waypoint_name_es>
+    <chat_link>[&amp;BMcBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </trek>
+  <trek>
+    <id>122</id>
+    <name_en>Sandwurm Prowl</name_en>
+    <name_de>Sandwurm-Pirsch</name_de>
+    <name_fr>Guivre des sables maraudeuse</name_fr>
+    <name_es>Percha humareda</name_es>
+    <waypoint_id>1749</waypoint_id>
+    <waypoint_name_en>Pearl Islet Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Perlen-Inselchen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Îlot de perles</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Islote Perlado</waypoint_name_es>
+    <chat_link>[&amp;BNUGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </trek>
+  <trek>
+    <id>44</id>
+    <name_en>Scholar's Blind</name_en>
+    <name_de>Forscher-Ansitz</name_de>
+    <name_fr>Aveuglement de l’Erudit</name_fr>
+    <name_es>Ceguera del Erudito</name_es>
+    <waypoint_id>603</waypoint_id>
+    <waypoint_name_en>Steelbrachen Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Stahlbrachen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Steelbrachen</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campoacero</waypoint_name_es>
+    <chat_link>[&amp;BFsCAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </trek>
+  <trek>
+    <id>52</id>
+    <name_en>Scourgejaw Watchtower</name_en>
+    <name_de>Geißelkiefer-Wachturm</name_de>
+    <name_fr>Tour de guet de Mâchefléau</name_fr>
+    <name_es>Torre de Vigilancia de Rompemandíbulas</name_es>
+    <waypoint_id>488</waypoint_id>
+    <waypoint_name_en>Sleekfur Encampment Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Glanzfell-Lager</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du camp de Doucepelisse</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campamento de Pelajeliso</waypoint_name_es>
+    <chat_link>[&amp;BOgBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </trek>
+  <trek>
+    <id>139</id>
+    <name_en>Scriptorium Nook</name_en>
+    <name_de>Skriptorium-Winkel</name_de>
+    <name_fr>Recoin du Scriptorium</name_fr>
+    <name_es>Rincón Scriptorium</name_es>
+    <waypoint_id>935</waypoint_id>
+    <waypoint_name_en>Factorium Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Factorium</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Factorium</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Factorium</waypoint_name_es>
+    <chat_link>[&amp;BKcDAAA=]</chat_link>
+    <map_id>218</map_id>
+    <map_name_en>Black Citadel</map_name_en>
+    <map_name_de>Schwarze Zitadelle</map_name_de>
+    <map_name_fr>La Citadelle noire</map_name_fr>
+    <map_name_es>Ciudadela Negra</map_name_es>
+  </trek>
+  <trek>
+    <id>5</id>
+    <name_en>Sea Scorpion's Eye</name_en>
+    <name_de>Auge des Meeresskorpions</name_de>
+    <name_fr>Œil du Scorpion des mers</name_fr>
+    <name_es>Ojo del Escorpión de Mar</name_es>
+    <waypoint_id>798</waypoint_id>
+    <waypoint_name_en>Meddler's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wichtigtuergipfel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Crête indiscrète</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cumbre del Entrometido</waypoint_name_es>
+    <chat_link>[&amp;BB4DAAA=]</chat_link>
+    <map_id>62</map_id>
+    <map_name_en>Cursed Shore</map_name_en>
+    <map_name_de>Fluchküste</map_name_de>
+    <map_name_fr>Rivage maudit</map_name_fr>
+    <map_name_es>Ribera Maldita</map_name_es>
+  </trek>
+  <trek>
+    <id>123</id>
+    <name_en>Sentinel Sink</name_en>
+    <name_de>Schildwächtersenke</name_de>
+    <name_fr>Bassin de la Sentinelle</name_fr>
+    <name_es>Naufragio Centinela</name_es>
+    <waypoint_id>489</waypoint_id>
+    <waypoint_name_en>Brandwatch Encampment Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Brandwacht-Lager</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Campement du Guet du stigmate</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campamento de Vigilamarca</waypoint_name_es>
+    <chat_link>[&amp;BOkBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </trek>
+  <trek>
+    <id>57</id>
+    <name_en>Sepulchre Skylight</name_en>
+    <name_de>Grabkammernluke</name_de>
+    <name_fr>Sépulcre azumière</name_fr>
+    <name_es>Sepulcro de luz celestial </name_es>
+    <waypoint_id>1234</waypoint_id>
+    <waypoint_name_en>Rally Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Sammelpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Ralliement</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Reunión</waypoint_name_es>
+    <chat_link>[&amp;BNIEAAA=]</chat_link>
+    <map_id>51</map_id>
+    <map_name_en>Straits of Devastation</map_name_en>
+    <map_name_de>Meerenge der Verwüstung</map_name_de>
+    <map_name_fr>Détroit de la dévastation</map_name_fr>
+    <map_name_es>Estrechos de la Devastación</map_name_es>
+  </trek>
+  <trek>
+    <id>60</id>
+    <name_en>Sharkhollow's Edge</name_en>
+    <name_de>Haitiefen-Schneide</name_de>
+    <name_fr>Bord de Valaigu</name_fr>
+    <name_es>Borde del hueco tiburón</name_es>
+    <waypoint_id>849</waypoint_id>
+    <waypoint_name_en>Splintercrest Fort Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Splitterkamm-Fort</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Fort de Crête-Fendue</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Fuerte de Crestastilla</waypoint_name_es>
+    <chat_link>[&amp;BFEDAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </trek>
+  <trek>
+    <id>186</id>
+    <name_en>Shattered Loft</name_en>
+    <name_de>Zertrümmerter Speicher</name_de>
+    <name_fr>Grenier effondré</name_fr>
+    <name_es>Desván Destrozado</name_es>
+    <waypoint_id>453</waypoint_id>
+    <waypoint_name_en>Fort Cadence Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Fort Gleichschritt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Fort Cadence</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Fuerte Cadencia</waypoint_name_es>
+    <chat_link>[&amp;BMUBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </trek>
+  <trek>
+    <id>133</id>
+    <name_en>Siamoth Refuge</name_en>
+    <name_de>Siamoth-Zuflucht</name_de>
+    <name_fr>Refuge de siamout</name_fr>
+    <name_es>Refugio de Siamoth</name_es>
+    <waypoint_id>462</waypoint_id>
+    <waypoint_name_en>Brackwater Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Brackwasser</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Ondesaline</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Aguasal</waypoint_name_es>
+    <chat_link>[&amp;BM4BAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </trek>
+  <trek>
+    <id>134</id>
+    <name_en>Skalecatch Butcher Shop</name_en>
+    <name_de>Skal-Fang-Metzgerei</name_de>
+    <name_fr>Boucherie piègécayeux</name_fr>
+    <name_es>Carnicería de presas saurianas</name_es>
+    <waypoint_id>487</waypoint_id>
+    <waypoint_name_en>Village of Scalecatch Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dorf Schuppenfang</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Village d'Attrapécaille</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Aldea de Atrapaescamas</waypoint_name_es>
+    <chat_link>[&amp;BOcBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </trek>
+  <trek>
+    <id>135</id>
+    <name_en>Skalefound Cove</name_en>
+    <name_de>Skal-Fund-Bucht</name_de>
+    <name_fr>Crique de Trouvécaille</name_fr>
+    <name_es>Cala de los Saurios Encontrados</name_es>
+    <waypoint_id>536</waypoint_id>
+    <waypoint_name_en>Tuyere Command Post Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Tuyere-Kommandostelle</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Poste de commandement de Tuyère</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Puesto de Mando de Tuyere</waypoint_name_es>
+    <chat_link>[&amp;BBgCAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </trek>
+  <trek>
+    <id>138</id>
+    <name_en>Skalesplash Falls</name_en>
+    <name_de>Skal-Schwall-Fälle</name_de>
+    <name_fr>Chutes de Gerbécaille</name_fr>
+    <name_es>Cataratas Salpicasaurios</name_es>
+    <waypoint_id>582</waypoint_id>
+    <waypoint_name_en>Okarinoo Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Okarinuu</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Okarinoo</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Okarinoo</waypoint_name_es>
+    <chat_link>[&amp;BEYCAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </trek>
+  <trek>
+    <id>136</id>
+    <name_en>Skalestash Hideaway</name_en>
+    <name_de>Skal-Lager-Versteck</name_de>
+    <name_fr>Antre cachécailleux</name_fr>
+    <name_es>Reserva Oculta de los Saurios</name_es>
+    <waypoint_id>919</waypoint_id>
+    <waypoint_name_en>Feritas Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Feritas</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Feritas</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Feritas</waypoint_name_es>
+    <chat_link>[&amp;BJcDAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </trek>
+  <trek>
+    <id>137</id>
+    <name_en>Skelknest Borehole</name_en>
+    <name_de>Skelknest-Bohrloch</name_de>
+    <name_fr>Forage du nid de skelk</name_fr>
+    <name_es>Perforación de Nido de Skelk</name_es>
+    <waypoint_id>636</waypoint_id>
+    <waypoint_name_en>Slough of Despond Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Pfuhl der Verzweiflung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Bourbier de la Mélancolie</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Abismo del Desaliento</waypoint_name_es>
+    <chat_link>[&amp;BHwCAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </trek>
+  <trek>
+    <id>124</id>
+    <name_en>Skibo Hall Dormitory</name_en>
+    <name_de>Schlafsaal der Skibo-Halle</name_de>
+    <name_fr>Dortoir du hall de Skibo</name_fr>
+    <name_es>Dormitorio de la Sala de Skibo</name_es>
+    <waypoint_id>1209</waypoint_id>
+    <waypoint_name_en>Auxiliary Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Zusätzliche Studierräume</waypoint_name_de>
+    <waypoint_name_fr>Point de passage auxiliaire</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Auxiliar</waypoint_name_es>
+    <chat_link>[&amp;BLkEAAA=]</chat_link>
+    <map_id>139</map_id>
+    <map_name_en>Rata Sum</map_name_en>
+    <map_name_de>Rata Sum</map_name_de>
+    <map_name_fr>Rata Sum</map_name_fr>
+    <map_name_es>Rata Sum</map_name_es>
+  </trek>
+  <trek>
+    <id>68</id>
+    <name_en>Skyshine Scratch</name_en>
+    <name_de>Himmelsschimmer-Riss</name_de>
+    <name_fr>Griffure de l’éclat céleste</name_fr>
+    <name_es>Fisura Cielorefulgente</name_es>
+    <waypoint_id>169</waypoint_id>
+    <waypoint_name_en>Grey Gritta's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Grau-Grittas Posten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Grey Gritta</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Gritta Gris</waypoint_name_es>
+    <chat_link>[&amp;BKkAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </trek>
+  <trek>
+    <id>126</id>
+    <name_en>Snowden Safehouse</name_en>
+    <name_de>Schneekuhlen-Unterschlupf</name_de>
+    <name_fr>Refuge d’Antreneige</name_fr>
+    <name_es>Refugio de Guaridanieve</name_es>
+    <waypoint_id>185</waypoint_id>
+    <waypoint_name_en>Snowdrift Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schneeweh-Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge de la Congère</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Refugio de Cumulonieve</waypoint_name_es>
+    <chat_link>[&amp;BLkAAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </trek>
+  <trek>
+    <id>125</id>
+    <name_en>Snowhowl Den</name_en>
+    <name_de>Schneegeheul-Bau</name_de>
+    <name_fr>Antre de Hurleneige</name_fr>
+    <name_es>Guarida de Aullido de Nieve</name_es>
+    <waypoint_id>191</waypoint_id>
+    <waypoint_name_en>Snowhawk Landing Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schneefalken-Posten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Terrasse du Faucon des neiges</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Desembarcadero de Halcón de Nieve</waypoint_name_es>
+    <chat_link>[&amp;BL8AAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </trek>
+  <trek>
+    <id>141</id>
+    <name_en>Soggorsort Rotunda</name_en>
+    <name_de>Soggorsort-Rundbau</name_de>
+    <name_fr>Rotonde de Soggorsort</name_fr>
+    <name_es>Rotonda de Soggorsort</name_es>
+    <waypoint_id>319</waypoint_id>
+    <waypoint_name_en>Hamlet of Annwen Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Annwen-Weiler</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Hameau d'Annwen</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Poblado de Annwen</waypoint_name_es>
+    <chat_link>[&amp;BD8BAAA=]</chat_link>
+    <map_id>34</map_id>
+    <map_name_en>Caledon Forest</map_name_en>
+    <map_name_de>Caledon-Wald</map_name_de>
+    <map_name_fr>Forêt de Caledon</map_name_fr>
+    <map_name_es>Bosque de Caledon</map_name_es>
+  </trek>
+  <trek>
+    <id>142</id>
+    <name_en>Soran Draa Rest Stop</name_en>
+    <name_de>Soran Draa-Raststätte</name_de>
+    <name_fr>Halte de Soren Draa</name_fr>
+    <name_es>Descanso de Soren Draa</name_es>
+    <waypoint_id>64</waypoint_id>
+    <waypoint_name_en>Soren Draa Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Soran Draa</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Soren Draa</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Soren Draa</waypoint_name_es>
+    <chat_link>[&amp;BEAAAAA=]</chat_link>
+    <map_id>35</map_id>
+    <map_name_en>Metrica Province</map_name_en>
+    <map_name_de>Provinz Metrica</map_name_de>
+    <map_name_fr>Province de Metrica</map_name_fr>
+    <map_name_es>Provincia de Métrica</map_name_es>
+  </trek>
+  <trek>
+    <id>109</id>
+    <name_en>Source of Lament</name_en>
+    <name_de>Quelle der Klage</name_de>
+    <name_fr>Source des lamentations</name_fr>
+    <name_es> Fuente de los Lamentos</name_es>
+    <waypoint_id>641</waypoint_id>
+    <waypoint_name_en>Skyheight Steading Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Himmelshöh-Gehöft</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Maison de Hautecieux</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Finca de Cieloalto</waypoint_name_es>
+    <chat_link>[&amp;BIECAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </trek>
+  <trek>
+    <id>140</id>
+    <name_en>Sparwind's Lounge</name_en>
+    <name_de>Spatwinds Stube</name_de>
+    <name_fr>Salon d’Esparvent</name_fr>
+    <name_es>Salón de Vientopalo</name_es>
+    <waypoint_id>941</waypoint_id>
+    <waypoint_name_en>Imperator's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke des Imperators</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Imperator</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Imperator</waypoint_name_es>
+    <chat_link>[&amp;BK0DAAA=]</chat_link>
+    <map_id>218</map_id>
+    <map_name_en>Black Citadel</map_name_en>
+    <map_name_de>Schwarze Zitadelle</map_name_de>
+    <map_name_fr>La Citadelle noire</map_name_fr>
+    <map_name_es>Ciudadela Negra</map_name_es>
+  </trek>
+  <trek>
+    <id>54</id>
+    <name_en>Spectrehaunt Socket</name_en>
+    <name_de>Gespensterjagd-Sockel</name_de>
+    <name_fr>Emplacement hanté</name_fr>
+    <name_es>Cavidad Guaridaespectral</name_es>
+    <waypoint_id>690</waypoint_id>
+    <waypoint_name_en>Lights Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Lichter</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des lumières</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Luces</waypoint_name_es>
+    <chat_link>[&amp;BLICAAA=]</chat_link>
+    <map_id>65</map_id>
+    <map_name_en>Malchor's Leap</map_name_en>
+    <map_name_de>Malchors Sprung</map_name_de>
+    <map_name_fr>Saut de Malchor</map_name_fr>
+    <map_name_es>Salto de Malchor</map_name_es>
+  </trek>
+  <trek>
+    <id>21</id>
+    <name_en>Steampipe Perch</name_en>
+    <name_de>Dampfrohr-Warte</name_de>
+    <name_fr>Perchoir Tubavapeur</name_fr>
+    <name_es>Pasos humeantes</name_es>
+    <waypoint_id>1744</waypoint_id>
+    <waypoint_name_en>Lion Point Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Löwenpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Point du Lion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Punta León</waypoint_name_es>
+    <chat_link>[&amp;BNAGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </trek>
+  <trek>
+    <id>22</id>
+    <name_en>Steamscrap Overlook</name_en>
+    <name_de>Dampfschotter-Aussichtspunkt</name_de>
+    <name_fr>Belvédère goutedo</name_fr>
+    <name_es>Mirador Jironesvapor</name_es>
+    <waypoint_id>234</waypoint_id>
+    <waypoint_name_en>Lamentation Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke See der Wehklagen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Complainte</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Lamento</waypoint_name_es>
+    <chat_link>[&amp;BOoAAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </trek>
+  <trek>
+    <id>23</id>
+    <name_en>Steamy Steps</name_en>
+    <name_de>Dampf-Stufen</name_de>
+    <name_fr>Marches vaporeuses</name_fr>
+    <name_es>Sierpe de arena merodeadora</name_es>
+    <waypoint_id>1744</waypoint_id>
+    <waypoint_name_en>Lion Point Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Löwenpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Point du Lion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Punta León</waypoint_name_es>
+    <chat_link>[&amp;BNAGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </trek>
+  <trek>
+    <id>144</id>
+    <name_en>Steelband's Tunnel</name_en>
+    <name_de>Stahlband-Tunnel</name_de>
+    <name_fr>Tunnel de Bandacier</name_fr>
+    <name_es>Gatillo fácil</name_es>
+    <waypoint_id>507</waypoint_id>
+    <waypoint_name_en>Tumok's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Tumok</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Tumok</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Tumok</waypoint_name_es>
+    <chat_link>[&amp;BPsBAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </trek>
+  <trek>
+    <id>147</id>
+    <name_en>Stentor Shelter</name_en>
+    <name_de>Stentor-Unterschlupf</name_de>
+    <name_fr>Refuge du Stentor</name_fr>
+    <name_es>Refugio de Stentor</name_es>
+    <waypoint_id>749</waypoint_id>
+    <waypoint_name_en>Signal Peak Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Signalgipfel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Pic de signal</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Pico Señal</waypoint_name_es>
+    <chat_link>[&amp;BO0CAAA=]</chat_link>
+    <map_id>51</map_id>
+    <map_name_en>Straits of Devastation</map_name_en>
+    <map_name_de>Meerenge der Verwüstung</map_name_de>
+    <map_name_fr>Détroit de la dévastation</map_name_fr>
+    <map_name_es>Estrechos de la Devastación</map_name_es>
+  </trek>
+  <trek>
+    <id>146</id>
+    <name_en>Stonebore Spiderhole</name_en>
+    <name_de>Steinbohrung-Spinnenloch</name_de>
+    <name_fr>Trou de tirailleur de Creusepierre</name_fr>
+    <name_es>Ratonera Perforapiedra</name_es>
+    <waypoint_id>396</waypoint_id>
+    <waypoint_name_en>Talajian Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Talajisches Bergvorland</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Talajian</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Talajiano</waypoint_name_es>
+    <chat_link>[&amp;BIwBAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </trek>
+  <trek>
+    <id>145</id>
+    <name_en>Strongpaw's Garden</name_en>
+    <name_de>Starkprankes Garten</name_de>
+    <name_fr>Jardin de Fortepatte</name_fr>
+    <name_es>Jardín de Zarpafuerte</name_es>
+    <waypoint_id>221</waypoint_id>
+    <waypoint_name_en>Nageling Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Nageling</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Nageling</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Nageling</waypoint_name_es>
+    <chat_link>[&amp;BN0AAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </trek>
+  <trek>
+    <id>154</id>
+    <name_en>Tactical Retreat</name_en>
+    <name_de>Taktischer Rückzug</name_de>
+    <name_fr>Repli stratégique</name_fr>
+    <name_es>Retirada Táctica</name_es>
+    <waypoint_id>1764</waypoint_id>
+    <waypoint_name_en>Shipwreck Rock Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schiffswrackfelsen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Rocher de l'épave</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Roca del Naufragio</waypoint_name_es>
+    <chat_link>[&amp;BOQGAAA=]</chat_link>
+    <map_id>62</map_id>
+    <map_name_en>Cursed Shore</map_name_en>
+    <map_name_de>Fluchküste</map_name_de>
+    <map_name_fr>Rivage maudit</map_name_fr>
+    <map_name_es>Ribera Maldita</map_name_es>
+  </trek>
+  <trek>
+    <id>151</id>
+    <name_en>Talus Steps</name_en>
+    <name_de>Talus-Aufgang</name_de>
+    <name_fr>Les Marches du Talus</name_fr>
+    <name_es>Bancales de Astrágalo</name_es>
+    <waypoint_id>580</waypoint_id>
+    <waypoint_name_en>Talus Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Talus-Wassersturz</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Talus</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Astrágalo</waypoint_name_es>
+    <chat_link>[&amp;BEQCAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </trek>
+  <trek>
+    <id>152</id>
+    <name_en>Tarstar Copse</name_en>
+    <name_de>Tarstarwäldchen</name_de>
+    <name_fr>Bosquet de Tarstar</name_fr>
+    <name_es>Soto Tarstar</name_es>
+    <waypoint_id>541</waypoint_id>
+    <waypoint_name_en>Apostate Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Häretiker-Einöde</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Apostat</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Apóstata</waypoint_name_es>
+    <chat_link>[&amp;BB0CAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </trek>
+  <trek>
+    <id>155</id>
+    <name_en>Tekki's Drawing Board</name_en>
+    <name_de>Tekkis Reißbrett</name_de>
+    <name_fr>Planche à dessin de Tekki</name_fr>
+    <name_es>Pizarra de Tekki</name_es>
+    <waypoint_id>101</waypoint_id>
+    <waypoint_name_en>Ulta Metamagicals Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ulta Metamagikale</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Métamagique d'Ulta</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Metamágicos de Ulta</waypoint_name_es>
+    <chat_link>[&amp;BGUAAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </trek>
+  <trek>
+    <id>156</id>
+    <name_en>Thaumanova Spillway</name_en>
+    <name_de>Thaumanova-Überlauf</name_de>
+    <name_fr>Déversoir de thaumanova</name_fr>
+    <name_es>Grada Taumanova</name_es>
+    <waypoint_id>71</waypoint_id>
+    <waypoint_name_en>Muridian Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Muridianisches Hochland</waypoint_name_de>
+    <waypoint_name_fr>Point de passage muridienne</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Muridiano</waypoint_name_es>
+    <chat_link>[&amp;BEcAAAA=]</chat_link>
+    <map_id>35</map_id>
+    <map_name_en>Metrica Province</map_name_en>
+    <map_name_de>Provinz Metrica</map_name_de>
+    <map_name_fr>Province de Metrica</map_name_fr>
+    <map_name_es>Provincia de Métrica</map_name_es>
+  </trek>
+  <trek>
+    <id>24</id>
+    <name_en>The Karka Club</name_en>
+    <name_de>Der Karka-Klub</name_de>
+    <name_fr>Klub des Karkas</name_fr>
+    <name_es>El klub karka</name_es>
+    <waypoint_id>1749</waypoint_id>
+    <waypoint_name_en>Pearl Islet Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Perlen-Inselchen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Îlot de perles</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Islote Perlado</waypoint_name_es>
+    <chat_link>[&amp;BNUGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </trek>
+  <trek>
+    <id>120</id>
+    <name_en>The People's Deadlock</name_en>
+    <name_de>Sackgasse der Massen</name_de>
+    <name_fr>L’impasse du peuple</name_fr>
+    <name_es>Punto Muerto del Pueblo</name_es>
+    <waypoint_id>633</waypoint_id>
+    <waypoint_name_en>Groznev Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Groznev</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Groznev</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Groznev</waypoint_name_es>
+    <chat_link>[&amp;BHkCAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </trek>
+  <trek>
+    <id>53</id>
+    <name_en>The Workers' Stores</name_en>
+    <name_de>Geschäfte der Arbeiter</name_de>
+    <name_fr>Le magasin des ouvriers</name_fr>
+    <name_es>Las Tiendas de los Obreros</name_es>
+    <waypoint_id>602</waypoint_id>
+    <waypoint_name_en>Grey Road Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Graue Straße</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Route grise</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Camino Gris</waypoint_name_es>
+    <chat_link>[&amp;BFoCAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </trek>
+  <trek>
+    <id>153</id>
+    <name_en>Togatl Shore</name_en>
+    <name_de>Togatl-Küste</name_de>
+    <name_fr>Côte de Tagotl</name_fr>
+    <name_es>Côte de Togatl</name_es>
+    <waypoint_id>16</waypoint_id>
+    <waypoint_name_en>Viathan Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Viathan</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Viathan</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Viathano</waypoint_name_es>
+    <chat_link>[&amp;BBAAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </trek>
+  <trek>
+    <id>161</id>
+    <name_en>Tower of Tribulation</name_en>
+    <name_de>Turm der Trübsal</name_de>
+    <name_fr>Tour de la tribulation</name_fr>
+    <name_es>Torre de la Tribulación</name_es>
+    <waypoint_id>1343</waypoint_id>
+    <waypoint_name_en>Sorrow's Embrace Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Umarmung der Betrübnis</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Étreinte des lamentations</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Abrazo del Pesar</waypoint_name_es>
+    <chat_link>[&amp;BD8FAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </trek>
+  <trek>
+    <id>159</id>
+    <name_en>Toxal Spill</name_en>
+    <name_de>Toxal-Überlauf</name_de>
+    <name_fr>Fuite de Toxal</name_fr>
+    <name_es>Derrame de Toxal</name_es>
+    <waypoint_id>101</waypoint_id>
+    <waypoint_name_en>Ulta Metamagicals Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ulta Metamagikale</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Métamagique d'Ulta</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Metamágicos de Ulta</waypoint_name_es>
+    <chat_link>[&amp;BGUAAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </trek>
+  <trek>
+    <id>64</id>
+    <name_en>Trader's Stash</name_en>
+    <name_de>Händlervorrat</name_de>
+    <name_fr>Réserve du marchand</name_fr>
+    <name_es>Alijo del Comerciante</name_es>
+    <waypoint_id>902</waypoint_id>
+    <waypoint_name_en>Trade Commons Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Handelsdistrikt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Forum du commerce</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Feria de Comercio</waypoint_name_es>
+    <chat_link>[&amp;BIYDAAA=]</chat_link>
+    <map_id>326</map_id>
+    <map_name_en>Hoelbrak</map_name_en>
+    <map_name_de>Hoelbrak</map_name_de>
+    <map_name_fr>Hoelbrak</map_name_fr>
+    <map_name_es>Hoelbrak</map_name_es>
+  </trek>
+  <trek>
+    <id>160</id>
+    <name_en>Trolltrap Pit</name_en>
+    <name_de>Troll-Fallen-Grube</name_de>
+    <name_fr>Fosse de Piègetroll</name_fr>
+    <name_es>Foso de la Trampa del Trol </name_es>
+    <waypoint_id>233</waypoint_id>
+    <waypoint_name_en>Durmand Priory Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Abtei Durmand</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Prieuré de Durmand</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Priorato de Durmand</waypoint_name_es>
+    <chat_link>[&amp;BOkAAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </trek>
+  <trek>
+    <id>13</id>
+    <name_en>Turai Tavern Stillroom</name_en>
+    <name_de>Branntweinzimmer der Turai-Taverne</name_de>
+    <name_fr>Laboratoire de la taverne de Turai</name_fr>
+    <name_es>Bodega de la Taberna de Turai</name_es>
+    <waypoint_id>808</waypoint_id>
+    <waypoint_name_en>Balthazar Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Balthasar</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Balthazar</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Balthazar</waypoint_name_es>
+    <chat_link>[&amp;BCgDAAA=]</chat_link>
+    <map_id>18</map_id>
+    <map_name_en>Divinity's Reach</map_name_en>
+    <map_name_de>Götterfels</map_name_de>
+    <map_name_fr>Le Promontoire divin</map_name_fr>
+    <map_name_es>Linde de la Divinidad</map_name_es>
+  </trek>
+  <trek>
+    <id>163</id>
+    <name_en>Ulta Scraproom</name_en>
+    <name_de>Ulta-Schrottkammer</name_de>
+    <name_fr>Débarras d’Ulta</name_fr>
+    <name_es>Cuarto de Desechos de Ulta </name_es>
+    <waypoint_id>101</waypoint_id>
+    <waypoint_name_en>Ulta Metamagicals Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ulta Metamagikale</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Métamagique d'Ulta</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Metamágicos de Ulta</waypoint_name_es>
+    <chat_link>[&amp;BGUAAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </trek>
+  <trek>
+    <id>164</id>
+    <name_en>Unseen Scratch</name_en>
+    <name_de>Ungesehenen Riss</name_de>
+    <name_fr>Griffure invisible</name_fr>
+    <name_es>Fisura Oculta</name_es>
+    <waypoint_id>316</waypoint_id>
+    <waypoint_name_en>Caledon Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Caledon-Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge de Caledon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Refugio de Caledon</waypoint_name_es>
+    <chat_link>[&amp;BDwBAAA=]</chat_link>
+    <map_id>34</map_id>
+    <map_name_en>Caledon Forest</map_name_en>
+    <map_name_de>Caledon-Wald</map_name_de>
+    <map_name_fr>Forêt de Caledon</map_name_fr>
+    <map_name_es>Bosque de Caledon</map_name_es>
+  </trek>
+  <trek>
+    <id>165</id>
+    <name_en>Upsilon Hyperboloid</name_en>
+    <name_de>Upsilon-Hyperboloid</name_de>
+    <name_fr>Upsilon hyperboloïde</name_fr>
+    <name_es>Hiperboloide de Upsilon</name_es>
+    <waypoint_id>680</waypoint_id>
+    <waypoint_name_en>Waste Hollows Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Abfall-Senken</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Crevasses oubliées</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Hondonadas de Deshechos</waypoint_name_es>
+    <chat_link>[&amp;BKgCAAA=]</chat_link>
+    <map_id>65</map_id>
+    <map_name_en>Malchor's Leap</map_name_en>
+    <map_name_de>Malchors Sprung</map_name_de>
+    <map_name_fr>Saut de Malchor</map_name_fr>
+    <map_name_es>Salto de Malchor</map_name_es>
+  </trek>
+  <trek>
+    <id>166</id>
+    <name_en>Usharr's Threshold</name_en>
+    <name_de>Usharrs Schwelle</name_de>
+    <name_fr>Seuil d’Usharr</name_fr>
+    <name_es>Umbral de Usharr</name_es>
+    <waypoint_id>459</waypoint_id>
+    <waypoint_name_en>Toade's Head Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Toades Kopf</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Tête du crapaud</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Cabeza de Toade</waypoint_name_es>
+    <chat_link>[&amp;BMsBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </trek>
+  <trek>
+    <id>83</id>
+    <name_en>Vacant Hermitage</name_en>
+    <name_de>Leerstehende Einsiedelei</name_de>
+    <name_fr>Ermitage abandonné</name_fr>
+    <name_es>Retiro Vacante</name_es>
+    <waypoint_id>511</waypoint_id>
+    <waypoint_name_en>Guardian Stone Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Wächterstein</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Pierre gardienne</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Piedra Guardián</waypoint_name_es>
+    <chat_link>[&amp;BP8BAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </trek>
+  <trek>
+    <id>179</id>
+    <name_en>Venison Hollow</name_en>
+    <name_de>Wildbret-Senke</name_de>
+    <name_fr>Crevasse du Gibier</name_fr>
+    <name_es>Hondonada del Venado</name_es>
+    <waypoint_id>229</waypoint_id>
+    <waypoint_name_en>Vanjir's Stead Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Vanjirs Hof</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Maison de Vanjir</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Paraje de Vanjir</waypoint_name_es>
+    <chat_link>[&amp;BOUAAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </trek>
+  <trek>
+    <id>8</id>
+    <name_en>Verdance Font</name_en>
+    <name_de>Becken der Grünen Kathedrale</name_de>
+    <name_fr>Fontaine de Verdance</name_fr>
+    <name_es>Fuente Verdosa</name_es>
+    <waypoint_id>795</waypoint_id>
+    <waypoint_name_en>Verdance Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kathedrale des frischen Grüns</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Verdance</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Verde</waypoint_name_es>
+    <chat_link>[&amp;BBsDAAA=]</chat_link>
+    <map_id>62</map_id>
+    <map_name_en>Cursed Shore</map_name_en>
+    <map_name_de>Fluchküste</map_name_de>
+    <map_name_fr>Rivage maudit</map_name_fr>
+    <map_name_es>Ribera Maldita</map_name_es>
+  </trek>
+  <trek>
+    <id>175</id>
+    <name_en>Vizier's Anteport</name_en>
+    <name_de>Wesirs Vortor</name_de>
+    <name_fr>Port extérieur du Vizir</name_fr>
+    <name_es>Antepuerta de Visir</name_es>
+    <waypoint_id>759</waypoint_id>
+    <waypoint_name_en>Lone Post Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Verlassener Posten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Poste isolé</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Puesto Solitario</waypoint_name_es>
+    <chat_link>[&amp;BPcCAAA=]</chat_link>
+    <map_id>51</map_id>
+    <map_name_en>Straits of Devastation</map_name_en>
+    <map_name_de>Meerenge der Verwüstung</map_name_de>
+    <map_name_fr>Détroit de la dévastation</map_name_fr>
+    <map_name_es>Estrechos de la Devastación</map_name_es>
+  </trek>
+  <trek>
+    <id>174</id>
+    <name_en>Wassa's Terrace</name_en>
+    <name_de>Wassas Terrasse</name_de>
+    <name_fr>Terrasse de Wassa</name_fr>
+    <name_es>Terraza de Wassa</name_es>
+    <waypoint_id>395</waypoint_id>
+    <waypoint_name_en>First Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Erste Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Premier Refuge</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Primer Refugio</waypoint_name_es>
+    <chat_link>[&amp;BIsBAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </trek>
+  <trek>
+    <id>173</id>
+    <name_en>Watchpoint Decimus</name_en>
+    <name_de>Wachposten Decimus</name_de>
+    <name_fr>Poste de vigie de Décimus</name_fr>
+    <name_es>Punto de Observación Decimus</name_es>
+    <waypoint_id>920</waypoint_id>
+    <waypoint_name_en>Guardpoint Decimus Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Decimus Wachpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Point de garde de Décimus</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Décimo Puntoguardia</waypoint_name_es>
+    <chat_link>[&amp;BJgDAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </trek>
+  <trek>
+    <id>111</id>
+    <name_en>Wheelport Pub</name_en>
+    <name_de>Radhafen-Schänke</name_de>
+    <name_fr>Bistrot rouport</name_fr>
+    <name_es>Taberna Puerto Timón</name_es>
+    <waypoint_id>933</waypoint_id>
+    <waypoint_name_en>Mustering Ground Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Appellplatz</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Terres du rassemblement</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Campo de Formación</waypoint_name_es>
+    <chat_link>[&amp;BKUDAAA=]</chat_link>
+    <map_id>218</map_id>
+    <map_name_en>Black Citadel</map_name_en>
+    <map_name_de>Schwarze Zitadelle</map_name_de>
+    <map_name_fr>La Citadelle noire</map_name_fr>
+    <map_name_es>Ciudadela Negra</map_name_es>
+  </trek>
+  <trek>
+    <id>183</id>
+    <name_en>Whitland Sinkhole</name_en>
+    <name_de>Winzland-Krater</name_de>
+    <name_fr>Gouffre de Whitland</name_fr>
+    <name_es>Sumidero de Whitland</name_es>
+    <waypoint_id>724</waypoint_id>
+    <waypoint_name_en>Old Sledge Site Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Alter Hammergrund</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Site du Vieux traîneau</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Antigua Zona de Trineos</waypoint_name_es>
+    <chat_link>[&amp;BNQCAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </trek>
+  <trek>
+    <id>177</id>
+    <name_en>Widd's Folly</name_en>
+    <name_de>Widds Torheit</name_de>
+    <name_fr>Folie de Widd</name_fr>
+    <name_es>Capricho de Widd</name_es>
+    <waypoint_id>314</waypoint_id>
+    <waypoint_name_en>Mabon Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Mabon-Markt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Mabon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Mabon</waypoint_name_es>
+    <chat_link>[&amp;BDoBAAA=]</chat_link>
+    <map_id>34</map_id>
+    <map_name_en>Caledon Forest</map_name_en>
+    <map_name_de>Caledon-Wald</map_name_de>
+    <map_name_fr>Forêt de Caledon</map_name_fr>
+    <map_name_es>Bosque de Caledon</map_name_es>
+  </trek>
+  <trek>
+    <id>178</id>
+    <name_en>Wikk's Gate</name_en>
+    <name_de>Wikks Tor</name_de>
+    <name_fr>Porte de Wikk</name_fr>
+    <name_es>Puerta de Wikk</name_es>
+    <waypoint_id>588</waypoint_id>
+    <waypoint_name_en>Valance Tutory Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Vorsprunghut</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Tutorat de Valance</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Tutoría Valance</waypoint_name_es>
+    <chat_link>[&amp;BEwCAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </trek>
+  <trek>
+    <id>181</id>
+    <name_en>Wildflame Monitor</name_en>
+    <name_de>Wildflammenwächter</name_de>
+    <name_fr>Surveillant de Folleflamme</name_fr>
+    <name_es>Monitor Llamasalvaje</name_es>
+    <waypoint_id>64</waypoint_id>
+    <waypoint_name_en>Soren Draa Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Soran Draa</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Soren Draa</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Soren Draa</waypoint_name_es>
+    <chat_link>[&amp;BEAAAAA=]</chat_link>
+    <map_id>35</map_id>
+    <map_name_en>Metrica Province</map_name_en>
+    <map_name_de>Provinz Metrica</map_name_de>
+    <map_name_fr>Province de Metrica</map_name_fr>
+    <map_name_es>Provincia de Métrica</map_name_es>
+  </trek>
+  <trek>
+    <id>182</id>
+    <name_en>Winterknell Impasse</name_en>
+    <name_de>Wintertotengeläut-Sackgasse</name_de>
+    <name_fr>Impasse du Gladiver</name_fr>
+    <name_es>Atolladero del Repique Invernal</name_es>
+    <waypoint_id>792</waypoint_id>
+    <waypoint_name_en>R&amp;D Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke R&amp;D</waypoint_name_de>
+    <waypoint_name_fr>Point de passage R&amp;D</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de I+D</waypoint_name_es>
+    <chat_link>[&amp;BBgDAAA=]</chat_link>
+    <map_id>62</map_id>
+    <map_name_en>Cursed Shore</map_name_en>
+    <map_name_de>Fluchküste</map_name_de>
+    <map_name_fr>Rivage maudit</map_name_fr>
+    <map_name_es>Ribera Maldita</map_name_es>
+  </trek>
+  <trek>
+    <id>184</id>
+    <name_en>Wrelk's Salon</name_en>
+    <name_de>Wrelks Salon</name_de>
+    <name_fr>Salon de Wrelk</name_fr>
+    <name_es>Salón de Wrelk</name_es>
+    <waypoint_id>404</waypoint_id>
+    <waypoint_name_en>Almuten Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Almuten-Anwesen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Almuten</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Almuten</waypoint_name_es>
+    <chat_link>[&amp;BJQBAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </trek>
+</root>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <challenge>
+    <id>1</id>
+    <name_en>Blightwater Shatterstrike</name_en>
+    <name_de>Faulwasserbecken Kristalldemolierer</name_de>
+    <name_fr>Brise-attaque des eaux du Tourment</name_fr>
+    <name_es>Quebranta Plagagua</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Blightwater_Shatterstrike</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Faulwasserbecken_Kristalldemolierer</wiki_link_de>
+    <wiki_link_fr>https://wiki.guildwars2.com/wiki/Blightwater_Shatterstrike</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Blightwater_Shatterstrike</wiki_link_es>
+    <waypoint_id>507</waypoint_id>
+    <waypoint_name_en>Tumok's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Tumok</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Tumok</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Tumok</waypoint_name_es>
+    <chat_link>[&amp;BPsBAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </challenge>
+  <challenge>
+    <id>2</id>
+    <name_en>Branded for Termination</name_en>
+    <name_de>Gebrandmarkt und gejagt</name_de>
+    <name_fr>Stigmatisation et mise à mort</name_fr>
+    <name_es>Marcado para la eliminación</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Branded_for_Termination</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Gebrandmarkt_und_gejagt</wiki_link_de>
+    <wiki_link_fr>https://wiki.guildwars2.com/wiki/Branded_for_Termination</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Branded_for_Termination</wiki_link_es>
+    <waypoint_id>331</waypoint_id>
+    <waypoint_name_en>Helliot Mine Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Helliot-Mine</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Mine d'Hellion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Mina de Helliot</waypoint_name_es>
+    <chat_link>[&amp;BEsBAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </challenge>
+  <challenge>
+    <id>3</id>
+    <name_en>Deep Trouble</name_en>
+    <name_de>Unruhige See</name_de>
+    <name_fr>De gros problèmes</name_fr>
+    <name_es>Con el agua hasta el cuello</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Deep_Trouble</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Unruhige_See</wiki_link_de>
+    <wiki_link_fr>https://wiki.guildwars2.com/wiki/Deep_Trouble</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Deep_Trouble</wiki_link_es>
+    <waypoint_id>722</waypoint_id>
+    <waypoint_name_en>Irwin Isle Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Irwin-Insel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Ile d'Irwin</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Isla Irwin</waypoint_name_es>
+    <chat_link>[&amp;BNICAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </challenge>
+  <challenge>
+    <id>4</id>
+    <name_en>Save Our Supplies</name_en>
+    <name_de>Vorräte beschützen</name_de>
+    <name_fr>Sauvetage et ravitaillement</name_fr>
+    <name_es>Guarda nuestros suministros</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Save_Our_Supplies</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Vorr%C3%A4te_besch%C3%BCtzen</wiki_link_de>
+    <wiki_link_fr>https://wiki.guildwars2.com/wiki/Save_Our_Supplies</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Save_Our_Supplies</wiki_link_es>
+    <waypoint_id>490</waypoint_id>
+    <waypoint_name_en>Viper's Run Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schlangenlauf</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Piste de la Vipère</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Carrera de la Víbora</waypoint_name_es>
+    <chat_link>[&amp;BOoBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </challenge>
+  <challenge>
+    <id>5</id>
+    <name_en>Scratch Sentry Defense</name_en>
+    <name_de>Verteidigung der Skritt-Wachposten</name_de>
+    <name_fr>Défendez la sentinelle de la brèche</name_fr>
+    <name_es>Defensa vigía de la fisura</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Scratch_Sentry_Defense</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Verteidigung_der_Skritt-Wachposten</wiki_link_de>
+    <wiki_link_fr>https://wiki.guildwars2.com/wiki/Scratch_Sentry_Defense</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Scratch_Sentry_Defense</wiki_link_es>
+    <waypoint_id>1094</waypoint_id>
+    <waypoint_name_en>Stromkarl Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Stromkarl</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Stromkarl</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Stromkarl</waypoint_name_es>
+    <chat_link>[&amp;BEYEAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </challenge>
+  <challenge>
+    <id>6</id>
+    <name_en>Southsun Crab Toss</name_en>
+    <name_de>Krebs-Wurfspiel in der Südlicht-Bucht</name_de>
+    <name_fr>Lancer de crabe à Sud-Soleil</name_fr>
+    <name_es>Lanzamiento de cangrejos del Sol Austral</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Southsun_Crab_Toss</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Krebs-Wurfspiel_in_der_S%C3%BCdlicht-Bucht</wiki_link_de>
+    <wiki_link_fr>https://wiki.guildwars2.com/wiki/Southsun_Crab_Toss</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Southsun_Crab_Toss</wiki_link_es>
+    <waypoint_id>1744</waypoint_id>
+    <waypoint_name_en>Lion Point Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Löwenpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Point du Lion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Punta León</waypoint_name_es>
+    <chat_link>[&amp;BNAGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </challenge>
+</root>

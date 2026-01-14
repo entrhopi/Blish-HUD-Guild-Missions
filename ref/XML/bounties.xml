@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <bounty>
+    <id>1</id>
+    <name_en>2-MULT</name_en>
+    <name_de>2-MULT</name_de>
+    <name_fr>6-RUS</name_fr>
+    <name_es>D-SORDEN</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/2-MULT</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/2-MULT</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/6-RUS</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/2-MULT</wiki_link_es>
+    <waypoint_id>592</waypoint_id>
+    <waypoint_name_en>Gentle River Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Sanfter Fluss</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Rivière tranquille</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Río Amable</waypoint_name_es>
+    <chat_link>[&amp;BFACAAA=]</chat_link>
+    <map_id>29</map_id>
+    <map_name_en>Timberline Falls</map_name_en>
+    <map_name_de>Baumgrenzen-Fälle</map_name_de>
+    <map_name_fr>Chutes de la canopée</map_name_fr>
+    <map_name_es>Cataratas de Linarbórea</map_name_es>
+  </bounty>
+  <bounty>
+    <id>2</id>
+    <name_en>Ander "Wildman" Westward</name_en>
+    <name_de>Ander "Wildmann" Westward</name_de>
+    <name_fr>André "Sauvage" Douest</name_fr>
+    <name_es>Ander "Salvaje" Guardaoeste</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Ander_%22Wildman%22_Westward</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Ander_%22Wildmann%22_Westward</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Andr%C3%A9_%22Sauvage%22_Douest</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Ander_%22Wildman%22_Westward</wiki_link_es>
+    <waypoint_id>1744</waypoint_id>
+    <waypoint_name_en>Lion Point Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Löwenpunkt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Point du Lion</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Punta León</waypoint_name_es>
+    <chat_link>[&amp;BNAGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </bounty>
+  <bounty>
+    <id>3</id>
+    <name_en>Bookworm Bwikki</name_en>
+    <name_de>Bücherwurm Bwikki</name_de>
+    <name_fr>Bwikki le Rat de bibliothèque</name_fr>
+    <name_es>Bwikki la Devoralibros</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Bookworm_Bwikki</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/B%C3%BCcherwurm_Bwikki</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Bwikki_le_Rat_de_biblioth%C3%A8que</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Bookworm_Bwikki</wiki_link_es>
+    <waypoint_id>1618</waypoint_id>
+    <waypoint_name_en>Refuge Peak Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Zufluchtgipfel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Pic du refuge</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Pico del Refugio</waypoint_name_es>
+    <chat_link>[&amp;BFIGAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </bounty>
+  <bounty>
+    <id>4</id>
+    <name_en>Big Mayana</name_en>
+    <name_de>Großer Mayana</name_de>
+    <name_fr>Mayana imposant</name_fr>
+    <name_es>Gran Mayana</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Big_Mayana</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Gro%C3%9Fer_Mayana</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Mayana_imposant</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Big_Mayana</wiki_link_es>
+    <waypoint_id>459</waypoint_id>
+    <waypoint_name_en>Toade's Head Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Toades Kopf</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Tête du crapaud</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Cabeza de Toade</waypoint_name_es>
+    <chat_link>[&amp;BMsBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </bounty>
+  <bounty>
+    <id>5</id>
+    <name_en>Brekkabek</name_en>
+    <name_de>Brekkabek</name_de>
+    <name_fr>Brekkabek</name_fr>
+    <name_es>Brekkabek</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Brekkabek</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Brekkabek</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Brekkabek</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Brekkabek</wiki_link_es>
+    <waypoint_id>167</waypoint_id>
+    <waypoint_name_en>Seraph's Landing Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Seraphenlände</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Plateau du Séraphin</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Desembarcadero del Serafín</waypoint_name_es>
+    <chat_link>[&amp;BKcAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </bounty>
+  <bounty>
+    <id>6</id>
+    <name_en>Crusader Michiele</name_en>
+    <name_de>Reckin Michiele</name_de>
+    <name_fr>Croisée Michèle</name_fr>
+    <name_es>Cruzada Michiele</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Crusader_Michiele</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Reckin_Michiele</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Crois%C3%A9e_Mich%C3%A8le</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Crusader_Michiele</wiki_link_es>
+    <waypoint_id>460</waypoint_id>
+    <waypoint_name_en>Flamefrog Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Flammenfrosch</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Brûlereinette</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Ranaflamígera</waypoint_name_es>
+    <chat_link>[&amp;BMwBAAA=]</chat_link>
+    <map_id>53</map_id>
+    <map_name_en>Sparkfly Fen</map_name_en>
+    <map_name_de>Funkenschwärmersumpf</map_name_de>
+    <map_name_fr>Marais de Lumillule</map_name_fr>
+    <map_name_es>Pantano de las Centellas</map_name_es>
+  </bounty>
+  <bounty>
+    <id>7</id>
+    <name_en>"Deputy" Brooke</name_en>
+    <name_de>"Unterkonstabler" Brooke</name_de>
+    <name_fr>"Adjointe" Brooke</name_fr>
+    <name_es>"Diputado" Brooke</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/%22Deputy%22_Brooke</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/%22Unterkonstabler%22_Brooke</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/%22Adjointe%22_Brooke</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/%22Deputy%22_Brooke</wiki_link_es>
+    <waypoint_id>185</waypoint_id>
+    <waypoint_name_en>Snowdrift Haven Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Schneeweh-Freistatt</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Refuge de la Congère</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Refugio de Cumulonieve</waypoint_name_es>
+    <chat_link>[&amp;BLkAAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </bounty>
+  <bounty>
+    <id>8</id>
+    <name_en>Devious Teesa</name_en>
+    <name_de>Verschlagene Teesa</name_de>
+    <name_fr>Teesa la Louche</name_fr>
+    <name_es>Teesa la Astuta</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Devious_Teesa</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Verschlagene_Teesa</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Teesa_la_Louche</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Devious_Teesa</wiki_link_es>
+    <waypoint_id>641</waypoint_id>
+    <waypoint_name_en>Skyheight Steading Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Himmelshöh-Gehöft</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Maison de Hautecieux</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Finca de Cieloalto</waypoint_name_es>
+    <chat_link>[&amp;BIECAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </bounty>
+  <bounty>
+    <id>9</id>
+    <name_en>Diplomat Tarban</name_en>
+    <name_de>Diplomat Tarban</name_de>
+    <name_fr>Tarban le Diplomate</name_fr>
+    <name_es>Diplomático Tarban</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Diplomat_Tarban</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Diplomat_Tarban</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Tarban_le_Diplomate</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Diplomat_Tarban</wiki_link_es>
+    <waypoint_id>118</waypoint_id>
+    <waypoint_name_en>Mirkrise Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Düsterhöhe</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Mirkrise</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Levatinieblas</waypoint_name_es>
+    <chat_link>[&amp;BHYAAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </bounty>
+  <bounty>
+    <id>10</id>
+    <name_en>Half-Baked Komali</name_en>
+    <name_de>Halbgare Komali</name_de>
+    <name_fr>Komali Micui</name_fr>
+    <name_es>Komali la Imprudente</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Half-Baked_Komali</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Halbgare_Komali</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Komali_Micui</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Half-Baked_Komali</wiki_link_es>
+    <waypoint_id>714</waypoint_id>
+    <waypoint_name_en>Firebreak Fort Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Feuerbruchfort</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Fort Barfeu</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Fuerte Rompefuegos</waypoint_name_es>
+    <chat_link>[&amp;BMoCAAA=]</chat_link>
+    <map_id>39</map_id>
+    <map_name_en>Mount Maelstrom</map_name_en>
+    <map_name_de>Mahlstromgipfel</map_name_de>
+    <map_name_fr>Mont Maelström</map_name_fr>
+    <map_name_es>Monte Vorágine</map_name_es>
+  </bounty>
+  <bounty>
+    <id>11</id>
+    <name_en>Poobadoo</name_en>
+    <name_de>Puubaduu</name_de>
+    <name_fr>Poobadoo</name_fr>
+    <name_es>Poobadoo</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Poobadoo</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Puubaduu</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Poobadoo</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Poobadoo</wiki_link_es>
+    <waypoint_id>10</waypoint_id>
+    <waypoint_name_en>Ireko Tradecamp Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ireko-Händlerlager</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Comptoir d'Ireko</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Campo de Comercio Ireko</waypoint_name_es>
+    <chat_link>[&amp;BAoAAAA=]</chat_link>
+    <map_id>23</map_id>
+    <map_name_en>Kessex Hills</map_name_en>
+    <map_name_de>Kessex-Hügel</map_name_de>
+    <map_name_fr>Collines de Kessex</map_name_fr>
+    <map_name_es>Colinas Kessex</map_name_es>
+  </bounty>
+  <bounty>
+    <id>12</id>
+    <name_en>Prisoner 1141</name_en>
+    <name_de>Gefangene 1141</name_de>
+    <name_fr>Prisonnière 1141</name_fr>
+    <name_es>Prisionera 1141</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Prisoner_1141</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Gefangene_1141</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Prisonni%C3%A8re_1141</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Prisoner_1141</wiki_link_es>
+    <waypoint_id>491</waypoint_id>
+    <waypoint_name_en>Town of Cowlfang's Star Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kuttenzahns Stern</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Ville de l'Etoile de Caninecol</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Ciudad de la Estrella de Garradesbocada</waypoint_name_es>
+    <chat_link>[&amp;BOsBAAA=]</chat_link>
+    <map_id>25</map_id>
+    <map_name_en>Iron Marches</map_name_en>
+    <map_name_de>Eisenmark</map_name_de>
+    <map_name_fr>Marais de fer</map_name_fr>
+    <map_name_es>Fronteras de Hierro</map_name_es>
+  </bounty>
+  <bounty>
+    <id>13</id>
+    <name_en>Shaman Arderus</name_en>
+    <name_de>Schamane Arderus</name_de>
+    <name_fr>Chamane Arderus</name_fr>
+    <name_es>Chamán Arderus</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Shaman_Arderus</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schamane_Arderus</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Chamane_Arderus</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Shaman_Arderus</wiki_link_es>
+    <waypoint_id>550</waypoint_id>
+    <waypoint_name_en>Keeper's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Hüter</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Gardien</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Guardián</waypoint_name_es>
+    <chat_link>[&amp;BCYCAAA=]</chat_link>
+    <map_id>22</map_id>
+    <map_name_en>Fireheart Rise</map_name_en>
+    <map_name_de>Feuerherzhügel</map_name_de>
+    <map_name_fr>Montée de Flambecœur</map_name_fr>
+    <map_name_es>Colina del Corazón de Fuego</map_name_es>
+  </bounty>
+  <bounty>
+    <id>14</id>
+    <name_en>Short-Fuse Felix</name_en>
+    <name_de>Jähzorniger Felix</name_de>
+    <name_fr>Félix Colairik</name_fr>
+    <name_es>Félix el Malas pulgas</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Short-Fuse_Felix</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/J%C3%A4hzorniger_Felix</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/F%C3%A9lix_Colairik</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Short-Fuse_Felix</wiki_link_es>
+    <waypoint_id>969</waypoint_id>
+    <waypoint_name_en>Manbane's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Manbanes Felsaufschluss</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Mort-Homme</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Azotahombres</waypoint_name_es>
+    <chat_link>[&amp;BMkDAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </bounty>
+  <bounty>
+    <id>15</id>
+    <name_en>Sotzz the Scallywag</name_en>
+    <name_de>Sotzz das Schlitzohr</name_de>
+    <name_fr>Sotzz le voyou</name_fr>
+    <name_es>Sotzz el Canalla</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Sotzz_the_Scallywag</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Sotzz_das_Schlitzohr</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Sotzz_le_voyou</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Sotzz_the_Scallywag</wiki_link_es>
+    <waypoint_id>227</waypoint_id>
+    <waypoint_name_en>Cornucopian Fields Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Füllhorn-Felder</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Champs de Cornabonde</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Campos de la Abundancia</waypoint_name_es>
+    <chat_link>[&amp;BOMAAAA=]</chat_link>
+    <map_id>24</map_id>
+    <map_name_en>Gendarran Fields</map_name_en>
+    <map_name_de>Gendarran-Felder</map_name_de>
+    <map_name_fr>Champs de Gendarran</map_name_fr>
+    <map_name_es>Campos de Gendarran</map_name_es>
+  </bounty>
+  <bounty>
+    <id>16</id>
+    <name_en>Tricksy Trekksa</name_en>
+    <name_de>Tricksende Trekksa</name_de>
+    <name_fr>Trekksa la Rusée</name_fr>
+    <name_es>Trekksa la Diablesa</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Tricksy_Trekksa</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Tricksende_Trekksa</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Trekksa_la_Rus%C3%A9e</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Tricksy_Trekksa</wiki_link_es>
+    <waypoint_id>510</waypoint_id>
+    <waypoint_name_en>Expanse Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Weite</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la plaine</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Extensión</waypoint_name_es>
+    <chat_link>[&amp;BP4BAAA=]</chat_link>
+    <map_id>20</map_id>
+    <map_name_en>Blazeridge Steppes</map_name_en>
+    <map_name_de>Flammenkamm-Steppe</map_name_de>
+    <map_name_fr>Les Steppes de la strie flamboyante</map_name_fr>
+    <map_name_es>Estepas Crestafulgurante</map_name_es>
+  </bounty>
+  <bounty>
+    <id>17</id>
+    <name_en>Trillia Midwell</name_en>
+    <name_de>Trillia Midwell</name_de>
+    <name_fr>Trillia Mylieu</name_fr>
+    <name_es>Trillia Midwell</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Trillia_Midwell</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Trillia_Midwell</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Trillia_Mylieu</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Trillia_Midwell</wiki_link_es>
+    <waypoint_id>211</waypoint_id>
+    <waypoint_name_en>Hawkgates Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Die Falkentore</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Portails du faucon</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Puertas del Halcón</waypoint_name_es>
+    <chat_link>[&amp;BNMAAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </bounty>
+  <bounty>
+    <id>18</id>
+    <name_en>Yanonka the Rat-Wrangler</name_en>
+    <name_de>Yanonka, die Rattenhüterin</name_de>
+    <name_fr>Yanonka, la palefrenière de rats</name_fr>
+    <name_es>Yanonka la Mayoral de Ratas</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Yanonka_the_Rat-Wrangler</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Yanonka,_die_Rattenh%C3%BCterin</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Yanonka,_la_palefreni%C3%A8re_de_rats</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Yanonka_the_Rat-Wrangler</wiki_link_es>
+    <waypoint_id>336</waypoint_id>
+    <waypoint_name_en>Forlorn Gate Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Verlorenes Tor</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Portail de Folespoir</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Puerta Forlorn</waypoint_name_es>
+    <chat_link>[&amp;BFABAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </bounty>
+</root>

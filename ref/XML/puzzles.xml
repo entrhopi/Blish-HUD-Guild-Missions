@@ -1,0 +1,68 @@
+<root>
+  <puzzle>
+    <id>1</id>
+    <name_en>Angvar's Trove</name_en>
+    <name_de>Angvars Schatzkammer</name_de>
+    <name_fr>Cache d'Angvar</name_fr>
+    <name_es>Tesoro de Angvar</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Angvar%27s_Trove_(guild_puzzle)</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Habt_Ihr_das_Zeug_dazu,_die_R%C3%A4tsel_in_den_vergessenen_H%C3%B6hlen_von_Angvars_Schatzkammer_zu_l%C3%B6sen</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Cache_d%27Angvar</wiki_link_fr>
+    <wiki_link_es>https://wiki-es.guildwars2.com/wiki/Tesoro_de_Angvar</wiki_link_es>
+    <waypoint_id>1791</waypoint_id>
+    <waypoint_name_en>Angvar's Trove Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Angvars Schatzkammer</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Cache d'Angvar</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Tesoro de Angvar</waypoint_name_es>
+    <chat_link>[&amp;BP8GAAA=]</chat_link>
+    <map_id>31</map_id>
+    <map_name_en>Snowden Drifts</map_name_en>
+    <map_name_de>Schneekuhlenhöhen</map_name_de>
+    <map_name_fr>Congères d'Antreneige</map_name_fr>
+    <map_name_es>Cúmulos de Guaridanieve</map_name_es>
+  </puzzle>
+  <puzzle>
+    <id>2</id>
+    <name_en>Langmar Estate</name_en>
+    <name_de>Langmar-Anwesen</name_de>
+    <name_fr>Domaine de Langmar</name_fr>
+    <name_es>Hacienda de Langmar</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Langmar_Estate_(guild_puzzle)</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/K%C3%B6nnt_Ihr_Euch_einen_sicheren_Weg_durch_die_verwunschenen_Ruinen_des_Langmar-Anwesens_r%C3%A4tseln</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Domaine_de_Langmar</wiki_link_fr>
+    <wiki_link_es>https://wiki-es.guildwars2.com/wiki/Hacienda_de_Langmar</wiki_link_es>
+    <waypoint_id>1784</waypoint_id>
+    <waypoint_name_en>Langmar Estate Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Langmar-Anwesen</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Domaine de Langmar</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Hacienda de Langmar</waypoint_name_es>
+    <chat_link>[&amp;BPgGAAA=]</chat_link>
+    <map_id>19</map_id>
+    <map_name_en>Plains of Ashford</map_name_en>
+    <map_name_de>Ebenen von Aschfurt</map_name_de>
+    <map_name_fr>Plaines d'Ashford</map_name_fr>
+    <map_name_es>Llanuras de Ashford</map_name_es>
+  </puzzle>
+  <puzzle>
+    <id>3</id>
+    <name_en>Proxemics Lab</name_en>
+    <name_de>Proxemik-Labor</name_de>
+    <name_fr>Laboratoire de proxémie</name_fr>
+    <name_es>Laboratorio de Proxémica</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Proxemics_Lab_(guild_puzzle)</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/K%C3%B6nnt_Ihr_das_R%C3%A4tsel_des_Proxemik-Labors_l%C3%BCften</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Laboratoire_de_prox%C3%A9mie</wiki_link_fr>
+    <wiki_link_es>https://wiki-es.guildwars2.com/wiki/Laboratorio_de_Prox%C3%A9mica</wiki_link_es>
+    <waypoint_id>1785</waypoint_id>
+    <waypoint_name_en>Proxemics Lab Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Proxemik-Labor</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Laboratoire de proxémie</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Laboratorio de Proxémica</waypoint_name_es>
+    <chat_link>[&amp;BPkGAAA=]</chat_link>
+    <map_id>54</map_id>
+    <map_name_en>Brisban Wildlands</map_name_en>
+    <map_name_de>Brisban-Wildnis</map_name_de>
+    <map_name_fr>Terres sauvages de Brisban</map_name_fr>
+    <map_name_es>Selvas Brisbanas</map_name_es>
+  </puzzle>
+</root>

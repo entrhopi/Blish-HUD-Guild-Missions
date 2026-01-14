@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <race>
+    <id>1</id>
+    <name_en>Bear Lope</name_en>
+    <name_de>Bärengalopp</name_de>
+    <name_fr>Foulée de l'Ourse</name_fr>
+    <name_es>Galope de Oso</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Bear_Lope</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(B%C3%A4rengalopp)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(foul%C3%A9e_de_l%27Ourse)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Bear_Lope</wiki_link_es>
+    <waypoint_id>233</waypoint_id>
+    <waypoint_name_en>Durmand Priory Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Abtei Durmand</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Prieuré de Durmand</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Priorato de Durmand</waypoint_name_es>
+    <chat_link>[&amp;BOkAAAA=]</chat_link>
+    <map_id>27</map_id>
+    <map_name_en>Lornar's Pass</map_name_en>
+    <map_name_de>Lornars Pass</map_name_de>
+    <map_name_fr>Passage de Lornar</map_name_fr>
+    <map_name_es>Paso de Lornar</map_name_es>
+  </race>
+  <race>
+    <id>2</id>
+    <name_en>Chicken Run</name_en>
+    <name_de>Hühnerlauf</name_de>
+    <name_fr>Poulet en fuite</name_fr>
+    <name_es>Pollito en Fuga</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Chicken_Run</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(H%C3%BChnerlauf)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(poulet_en_fuite)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Chicken_Run</wiki_link_es>
+    <waypoint_id>332</waypoint_id>
+    <waypoint_name_en>Fangfury Watch Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Fangzornwacht</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Guet de Mordrage</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Vigilancia Colmillofurioso</waypoint_name_es>
+    <chat_link>[&amp;BEwBAAA=]</chat_link>
+    <map_id>21</map_id>
+    <map_name_en>Fields of Ruin</map_name_en>
+    <map_name_de>Felder der Verwüstung</map_name_de>
+    <map_name_fr>Champs de ruine</map_name_fr>
+    <map_name_es>Campos de la Ruina</map_name_es>
+  </race>
+  <race>
+    <id>3</id>
+    <name_en>Crab Scuttle</name_en>
+    <name_de>Krebskrabbeln</name_de>
+    <name_fr>Fugue du crabe</name_fr>
+    <name_es>Cangrejo al Escape</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Crab_Scuttle</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(Krebskrabbeln)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(fugue_du_crabe)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Crab_Scuttle</wiki_link_es>
+    <waypoint_id>1756</waypoint_id>
+    <waypoint_name_en>Kiel's Outpost Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Kiels Außenposten</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'avant-poste de Kiel</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Puesto Avanzado de Kiel</waypoint_name_es>
+    <chat_link>[&amp;BNwGAAA=]</chat_link>
+    <map_id>873</map_id>
+    <map_name_en>Southsun Cove</map_name_en>
+    <map_name_de>Südlicht-Bucht</map_name_de>
+    <map_name_fr>Crique de Sud-Soleil</map_name_fr>
+    <map_name_es>Cala del Sol Austral</map_name_es>
+  </race>
+  <race>
+    <id>4</id>
+    <name_en>Devourer Burrow</name_en>
+    <name_de>Verschlingerwühlen</name_de>
+    <name_fr>Terrier du Dévoreur</name_fr>
+    <name_es>Devorador Escarbador</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Devourer_Burrow</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(Verschlingerw%C3%BChlen)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(terrier_du_D%C3%A9voreur)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Devourer_Burrow</wiki_link_es>
+    <waypoint_id>969</waypoint_id>
+    <waypoint_name_en>Manbane's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Manbanes Felsaufschluss</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Mort-Homme</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Azotahombres</waypoint_name_es>
+    <chat_link>[&amp;BMkDAAA=]</chat_link>
+    <map_id>32</map_id>
+    <map_name_en>Diessa Plateau</map_name_en>
+    <map_name_de>Diessa-Plateau</map_name_de>
+    <map_name_fr>Plateau de Diessa</map_name_fr>
+    <map_name_es>Meseta de Diessa</map_name_es>
+  </race>
+  <race>
+    <id>5</id>
+    <name_en>Ghost Wolf Run</name_en>
+    <name_de>Geisterwolflauf</name_de>
+    <name_fr>Fuite du loup fantôme</name_fr>
+    <name_es>Lobo Fantasmal en Fuga</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Ghost_Wolf_Run</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(Geisterwolflauf)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(fuite_du_loup_fant%C3%B4me)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Ghost_Wolf_Run</wiki_link_es>
+    <waypoint_id>165</waypoint_id>
+    <waypoint_name_en>Faun's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Fauns</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du faune</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Faun</waypoint_name_es>
+    <chat_link>[&amp;BKUAAAA=]</chat_link>
+    <map_id>17</map_id>
+    <map_name_en>Harathi Hinterlands</map_name_en>
+    <map_name_de>Harathi-Hinterland</map_name_de>
+    <map_name_fr>Hinterlands harathis</map_name_fr>
+    <map_name_es>Interior Harathi</map_name_es>
+  </race>
+  <race>
+    <id>6</id>
+    <name_en>Quaggan Paddle</name_en>
+    <name_de>Quaggan-Paddel</name_de>
+    <name_fr>Pagaie Quaggan</name_fr>
+    <name_es>Canoa Quaggan</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Quaggan_Paddle</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(Quaggan-Paddel)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(pagaie_quaggan)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Quaggan_Paddle</wiki_link_es>
+    <waypoint_id>640</waypoint_id>
+    <waypoint_name_en>Twoloop Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Twoluup</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Doubleboucle</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta: Doscurvas</waypoint_name_es>
+    <chat_link>[&amp;BIACAAA=]</chat_link>
+    <map_id>30</map_id>
+    <map_name_en>Frostgorge Sound</map_name_en>
+    <map_name_de>Eisklamm-Sund</map_name_de>
+    <map_name_fr>Détroit des gorges glacées</map_name_fr>
+    <map_name_es>Estrecho de Gorjaescarcha</map_name_es>
+  </race>
+  <race>
+    <id>7</id>
+    <name_en>Spider Scurry</name_en>
+    <name_de>Spinnenspurt</name_de>
+    <name_fr>Course arachnide</name_fr>
+    <name_es>Araña huidiza</name_es>
+    <wiki_link_en>https://wiki.guildwars2.com/wiki/Spider_Scurry</wiki_link_en>
+    <wiki_link_de>https://wiki-de.guildwars2.com/wiki/Schlie%C3%9Ft_den_Gilden-Sprint-Parcours_ab_(Spinnenspurt)</wiki_link_de>
+    <wiki_link_fr>https://wiki-fr.guildwars2.com/wiki/Terminez_la_course_de_guilde_(course_arachnide)</wiki_link_fr>
+    <wiki_link_es>https://wiki.guildwars2.com/wiki/Spider_Scurry</wiki_link_es>
+    <waypoint_id>605</waypoint_id>
+    <waypoint_name_en>Hessdallen Kenning Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Hessdallen Kenning</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Rassemblement d'Hessdallen</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Símbolo Hessdallen</waypoint_name_es>
+    <chat_link>[&amp;BF0CAAA=]</chat_link>
+    <map_id>26</map_id>
+    <map_name_en>Dredgehaunt Cliffs</map_name_en>
+    <map_name_de>Schauflerschreck-Klippen</map_name_de>
+    <map_name_fr>Falaises de Hantedraguerre</map_name_fr>
+    <map_name_es>Acantilados de Guaridadraga</map_name_es>
+  </race>
+</root>

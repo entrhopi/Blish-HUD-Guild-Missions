@@ -33,7 +33,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>..\..\..\..\..\..\Projects\Blish-HUD-Guild-Missions\bin\x64\Debug\</OutputPath>
+    <OutputPath>bin\x64\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DebugType>full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
@@ -197,15 +197,12 @@
     <Content Include="ref\1228318.png" />
     <Content Include="ref\1228319.png" />
     <Content Include="ref\1228320.png" />
-    <Content Include="ref\157353.png" />
     <Content Include="ref\157354.png" />
     <Content Include="ref\1827421.png" />
     <Content Include="ref\2221493.png" />
     <Content Include="ref\528697.png" />
     <Content Include="ref\784266.png" />
-    <Content Include="ref\arrow_right_icon.png" />
     <Content Include="ref\close_icon.png" />
-    <Content Include="ref\guildtrek_icon.png" />
     <Content Include="ref\racemaps\bear_lope.jpg" />
     <Content Include="ref\racemaps\chicken_run.jpg" />
     <Content Include="ref\racemaps\crab_scuttle.jpg" />
@@ -213,26 +210,11 @@
     <Content Include="ref\racemaps\ghost_wolf_run.jpg" />
     <Content Include="ref\racemaps\quaggan_paddle.jpg" />
     <Content Include="ref\racemaps\spider_scurry.jpg" />
-    <Content Include="ref\XML\bounties.de.xml" />
-    <Content Include="ref\XML\bounties.en.xml" />
-    <Content Include="ref\XML\bounties.es.xml" />
-    <Content Include="ref\XML\bounties.fr.xml" />
-    <Content Include="ref\XML\challenges.de.xml" />
-    <Content Include="ref\XML\challenges.en.xml" />
-    <Content Include="ref\XML\challenges.es.xml" />
-    <Content Include="ref\XML\challenges.fr.xml" />
-    <Content Include="ref\XML\puzzles.de.xml" />
-    <Content Include="ref\XML\puzzles.en.xml" />
-    <Content Include="ref\XML\puzzles.es.xml" />
-    <Content Include="ref\XML\puzzles.fr.xml" />
-    <Content Include="ref\XML\races.de.xml" />
-    <Content Include="ref\XML\races.en.xml" />
-    <Content Include="ref\XML\races.es.xml" />
-    <Content Include="ref\XML\races.fr.xml" />
-    <Content Include="ref\XML\treks.de.xml" />
-    <Content Include="ref\XML\treks.en.xml" />
-    <Content Include="ref\XML\treks.es.xml" />
-    <Content Include="ref\XML\treks.fr.xml" />
+    <Content Include="ref\XML\bounties.xml" />
+    <Content Include="ref\XML\challenges.xml" />
+    <Content Include="ref\XML\puzzles.xml" />
+    <Content Include="ref\XML\races.xml" />
+    <Content Include="ref\XML\treks.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Strings\Common.de.resx" />
