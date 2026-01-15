@@ -3,45 +3,47 @@ using Blish_HUD.Content;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules;
 using Blish_HUD.Modules.Managers;
-using Blish_HUD.Pathing.Behaviors;
 using Blish_HUD.Settings;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.ComponentModel.Composition.Primitives;
 using System.Diagnostics;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using static Blish_HUD.GameService;
+using static System.Net.Mime.MediaTypeNames;
+using Image = Blish_HUD.Controls.Image;
 
 namespace entrhopi.Guild_Missions
 {
 
-    [Export(typeof(Blish_HUD.Modules.Module))]
-    public class Guild_Missions : Blish_HUD.Modules.Module
+    [Export(typeof(Module))]
+    public class Guild_Missions : Module
     {
+        private static class Layout
+        {
+            public const int TopMargin = 10;
+            public const int RightMargin = 5;
+            public const int BottomMargin = 10;
+            public const int LeftMargin = 9;
+            public const int ButtonHeight = 30;
+            public const int PanelSize = 56;
+            public const int MaxResultCount = 7;
+        }
 
         private static readonly Logger Logger = Logger.GetLogger<Module>();
 
         internal static Module ModuleInstance;
-        #region Constants
 
-        private const int TOP_MARGIN = 10;
-        private const int RIGHT_MARGIN = 5;
-        private const int BOTTOM_MARGIN = 10;
-        private const int LEFT_MARGIN = 9;
-
-        private const int BUTTON_HEIGHT = 30;
-
-        private const int MAX_RESULT_COUNT = 7;
-        
-        private Panel trekListPanel, savedTrekListPanel, contentPanel, listPanel, infoPanel;
+        #region Constants        
+        private Panel trekListPanel, savedTrekListPanel, contentPanel, listPanel;
         public List<Panel> resultPanels = new List<Panel>();
         Dictionary<int, int> savedGuildTreks = new Dictionary<int, int>();
-
-
         #endregion
 
         #region Service Managers
@@ -83,8 +85,6 @@ namespace entrhopi.Guild_Missions
 
         Dictionary<int, Texture2D> _guildRaceMap = new Dictionary<int, Texture2D>();
 
-        private int panelsize = 56;
-
         protected override void Initialize()
         {
             _guildMissionIcon = ContentsManager.GetTexture("528697.png");
@@ -119,11 +119,6 @@ namespace entrhopi.Guild_Missions
             }
         }
 
-        protected override async Task LoadAsync()
-        {
-
-        }
-
         protected override void OnModuleLoaded(EventArgs e)
         {
 
@@ -145,22 +140,22 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmTypeSelect,
-                Size = new Point(265, parentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(LEFT_MARGIN, TOP_MARGIN),
+                Size = new Point(265, parentPanel.Height - Layout.BottomMargin),
+                Location = new Point(Layout.LeftMargin, Layout.TopMargin),
                 Parent = parentPanel,
             };
 
             var guildTrekPanel = new Panel()
             {
                 ShowBorder = false,
-                Size = new Point(missionTypePanel.Width, panelsize),
+                Size = new Point(missionTypePanel.Width, Layout.PanelSize),
                 Location = new Point(0, 0),
                 Parent = missionTypePanel,
             };
             guildTrekPanel.Click += delegate { GuildTrekContent(); };
             new Image(_guildTrekIcon)
             {
-                Size = new Point(panelsize, panelsize),
+                Size = new Point(Layout.PanelSize, Layout.PanelSize),
                 Location = new Point(0, 0),
                 Parent = guildTrekPanel
             };
@@ -168,7 +163,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = Strings.Common.gmTypeTrek,
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + panelsize, panelsize / 2 - 10),
+                Location = new Point(Layout.LeftMargin + Layout.PanelSize, Layout.PanelSize / 2 - 10),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -180,14 +175,14 @@ namespace entrhopi.Guild_Missions
             var guildBountyPanel = new Panel()
             {
                 ShowBorder = false,
-                Size = new Point(missionTypePanel.Width, panelsize),
-                Location = new Point(0, panelsize),
+                Size = new Point(missionTypePanel.Width, Layout.PanelSize),
+                Location = new Point(0, Layout.PanelSize),
                 Parent = missionTypePanel,
             };
             guildBountyPanel.Click += delegate { GuildBountyContent(); };
             new Image(_guildBountyIcon)
             {
-                Size = new Point(panelsize, panelsize),
+                Size = new Point(Layout.PanelSize, Layout.PanelSize),
                 Location = new Point(0, 0),
                 Parent = guildBountyPanel
             };
@@ -195,7 +190,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = Strings.Common.gmTypeBounty,
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + panelsize, panelsize / 2 - 10),
+                Location = new Point(Layout.LeftMargin + Layout.PanelSize, Layout.PanelSize / 2 - 10),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -207,14 +202,14 @@ namespace entrhopi.Guild_Missions
             var guildRacePanel = new Panel()
             {
                 ShowBorder = false,
-                Size = new Point(missionTypePanel.Width, panelsize),
-                Location = new Point(0, panelsize * 2),
+                Size = new Point(missionTypePanel.Width, Layout.PanelSize),
+                Location = new Point(0, Layout.PanelSize * 2),
                 Parent = missionTypePanel,
             };
             guildRacePanel.Click += delegate { GuildRaceContent(); };
             new Image(_guildRaceIcon)
             {
-                Size = new Point(panelsize, panelsize),
+                Size = new Point(Layout.PanelSize, Layout.PanelSize),
                 Location = new Point(0, 0),
                 Parent = guildRacePanel
             };
@@ -222,7 +217,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = Strings.Common.gmTypeRace,
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + panelsize, panelsize / 2 - 10),
+                Location = new Point(Layout.LeftMargin + Layout.PanelSize, Layout.PanelSize / 2 - 10),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -234,14 +229,14 @@ namespace entrhopi.Guild_Missions
             var guildChallengePanel = new Panel()
             {
                 ShowBorder = false,
-                Size = new Point(missionTypePanel.Width, panelsize),
-                Location = new Point(0, panelsize * 3),
+                Size = new Point(missionTypePanel.Width, Layout.PanelSize),
+                Location = new Point(0, Layout.PanelSize * 3),
                 Parent = missionTypePanel,
             };
             guildChallengePanel.Click += delegate { GuildChallengeContent(); };
             new Image(_guildChallengeIcon)
             {
-                Size = new Point(panelsize, panelsize),
+                Size = new Point(Layout.PanelSize, Layout.PanelSize),
                 Location = new Point(0, 0),
                 Parent = guildChallengePanel
             };
@@ -249,7 +244,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = Strings.Common.gmTypeChallenge,
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + panelsize, panelsize / 2 - 10),
+                Location = new Point(Layout.LeftMargin + Layout.PanelSize, Layout.PanelSize / 2 - 10),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -261,14 +256,14 @@ namespace entrhopi.Guild_Missions
             var guildPuzzlePanel = new Panel()
             {
                 ShowBorder = false,
-                Size = new Point(missionTypePanel.Width, panelsize),
-                Location = new Point(0, panelsize * 4),
+                Size = new Point(missionTypePanel.Width, Layout.PanelSize),
+                Location = new Point(0, Layout.PanelSize * 4),
                 Parent = missionTypePanel,
             };
             guildPuzzlePanel.Click += delegate { GuildPuzzleContent(); };
             new Image(_guildPuzzleIcon)
             {
-                Size = new Point(panelsize, panelsize),
+                Size = new Point(Layout.PanelSize, Layout.PanelSize),
                 Location = new Point(0, 0),
                 Parent = guildPuzzlePanel
             };
@@ -276,7 +271,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = Strings.Common.gmTypePuzzle,
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + panelsize, panelsize / 2 - 10),
+                Location = new Point(Layout.LeftMargin + Layout.PanelSize, Layout.PanelSize / 2 - 10),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -289,8 +284,8 @@ namespace entrhopi.Guild_Missions
             contentPanel = new Panel()
             {
                 ShowBorder = false,
-                Size = new Point(parentPanel.Width - missionTypePanel.Right - RIGHT_MARGIN, parentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(missionTypePanel.Right + LEFT_MARGIN, TOP_MARGIN),
+                Size = new Point(parentPanel.Width - missionTypePanel.Right - Layout.RightMargin, parentPanel.Height - Layout.BottomMargin),
+                Location = new Point(missionTypePanel.Right + Layout.LeftMargin, Layout.TopMargin),
                 Parent = parentPanel,
             };
 
@@ -304,7 +299,7 @@ namespace entrhopi.Guild_Missions
             new Image(_guildTrekIcon)
             {
                 Size = new Point(72, 72),
-                Location = new Point(LEFT_MARGIN, 0),
+                Location = new Point(Layout.LeftMargin, 0),
                 Parent = contentPanel
             };
             new Label()
@@ -325,7 +320,7 @@ namespace entrhopi.Guild_Missions
                 PlaceholderText = Strings.Common.gmSearchPlaceholder,
                 Size = new Point(358, 43),
                 Font = GameService.Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN, 72 + TOP_MARGIN),
+                Location = new Point(Layout.LeftMargin, 72 + Layout.TopMargin),
                 Parent = contentPanel,
             };
             searchTextBox.Click += delegate { ClearSearch(); };
@@ -335,8 +330,8 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelSearchResults,
-                Size = new Point(364, contentPanel.Height - searchTextBox.Bottom - BOTTOM_MARGIN),
-                Location = new Point(LEFT_MARGIN - 3, searchTextBox.Bottom + TOP_MARGIN),
+                Size = new Point(364, contentPanel.Height - searchTextBox.Bottom - Layout.BottomMargin),
+                Location = new Point(Layout.LeftMargin - 3, searchTextBox.Bottom + Layout.TopMargin),
                 Parent = contentPanel,
             };
 
@@ -345,15 +340,15 @@ namespace entrhopi.Guild_Missions
                 CanScroll = true,
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelSavedTreks,
-                Size = new Point(364, contentPanel.Height - searchTextBox.Bottom - BUTTON_HEIGHT - BOTTOM_MARGIN),
-                Location = new Point(trekListPanel.Right + LEFT_MARGIN, searchTextBox.Bottom + TOP_MARGIN),
+                Size = new Point(364, contentPanel.Height - searchTextBox.Bottom - Layout.ButtonHeight - Layout.BottomMargin),
+                Location = new Point(trekListPanel.Right + Layout.LeftMargin, searchTextBox.Bottom + Layout.TopMargin),
                 Parent = contentPanel,
             };
 
             var clearAllButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonClearAll,
-                Size = new Point(110, BUTTON_HEIGHT),
+                Size = new Point(110, Layout.ButtonHeight),
                 Location = new Point(trekListPanel.Right + 20, searchTextBox.Top - 1),
                 Parent = contentPanel,
             };
@@ -362,17 +357,17 @@ namespace entrhopi.Guild_Missions
             var exportButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonExport,
-                Size = new Point(110, BUTTON_HEIGHT),
-                Location = new Point(trekListPanel.Right + 130 + LEFT_MARGIN, searchTextBox.Top - 1),
+                Size = new Point(110, Layout.ButtonHeight),
+                Location = new Point(trekListPanel.Right + 130 + Layout.LeftMargin, searchTextBox.Top - 1),
                 Parent = contentPanel,
             };
-            exportButton.Click += delegate { ExportWPList(); };
+            exportButton.Click += delegate { _ = ExportWPList(); };
 
             var importButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonImport,
-                Size = new Point(110, BUTTON_HEIGHT),
-                Location = new Point(trekListPanel.Right + 250 + LEFT_MARGIN, searchTextBox.Top - 1),
+                Size = new Point(110, Layout.ButtonHeight),
+                Location = new Point(trekListPanel.Right + 250 + Layout.LeftMargin, searchTextBox.Top - 1),
                 Parent = contentPanel,
             };
             importButton.Click += delegate { ImportWPList(); };
@@ -380,11 +375,11 @@ namespace entrhopi.Guild_Missions
             var sendToChatButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonSendToChat,
-                Size = new Point(364, BUTTON_HEIGHT),
+                Size = new Point(364, Layout.ButtonHeight),
                 Location = new Point(savedTrekListPanel.Left, savedTrekListPanel.Bottom),
                 Parent = contentPanel,
             };
-            sendToChatButton.Click += delegate { sendToChat(); };
+            sendToChatButton.Click += delegate { _ = SendAllSavedToClipboard(); };
 
             UpdateSavedWPList();
         }
@@ -435,7 +430,7 @@ namespace entrhopi.Guild_Missions
             new Image(icon)
             {
                 Size = new Point(72, 72),
-                Location = new Point(LEFT_MARGIN, 0),
+                Location = new Point(Layout.LeftMargin, 0),
                 Parent = contentPanel
             };
 
@@ -458,8 +453,8 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelList,
-                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
+                Size = new Point(contentPanel.Width - Layout.LeftMargin, contentPanel.Height - Layout.BottomMargin),
+                Location = new Point(Layout.LeftMargin - 3, 72 + Layout.TopMargin),
                 Parent = contentPanel,
                 CanScroll = enableScrolling
             };
@@ -469,48 +464,38 @@ namespace entrhopi.Guild_Missions
             int index = 0;
             foreach (var element in doc.Root.Elements(xmlElement))
             {
-                showInfoPanel(element, listPanel, index++);
+                AddInfoPanel(element, listPanel, index++);
             }
         }
 
-        private void SearchboxOnTextChanged(object sender, EventArgs e)
+        private void SearchboxOnTextChanged(object _, EventArgs __)
         {
-            int i = 0;
-
             // Load user input
-            string searchText = searchTextBox.Text;
+            string text = searchTextBox.Text;
 
             // Dispose of current search result
             trekListPanel.ClearChildren();
+            if (string.IsNullOrWhiteSpace(text)) return;
 
             XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
-
-            foreach(var trek in doc.Root.Elements("trek"))
+            int count = 0;
+            foreach (var trek in doc.Root.Elements("trek"))
             {
-                if (trek.Element("name_" + ShortUserLocale).Value.ToLower().StartsWith(searchText.ToLower()))
-                //if (trek.Element("name").Value.ToLower().Contains(searchText.ToLower()))
+                if (trek.Element("name_" + ShortUserLocale).Value.ToLower().StartsWith(text.ToLower()))
                 {
-                    AddTrekPanel(trek, trekListPanel, i, true, false);
+                    AddTrekPanel(trek, trekListPanel, count++, true, false);
 
-                    i++;
-                    if (i >= MAX_RESULT_COUNT) break;
+                    if (count >= Layout.MaxResultCount) break;
                 }
             }
         }
 
-        private void AddWPToList(int trekID, int mapID)
+        private void ToggleWaypoint(int trek, int map, bool add)
         {
-            if (savedGuildTreks.ContainsKey(trekID) == false)
-            {
-                savedGuildTreks.Add(trekID, mapID);
-                UpdateSavedWPList();
-            }
-
-        }
-
-        private void RemoveWPFromList(int trek)
-        {
-            savedGuildTreks.Remove(trek);
+            if (add)
+                savedGuildTreks.Add(trek, map);
+            else
+                savedGuildTreks.Remove(trek);
             UpdateSavedWPList();
         }
 
@@ -525,11 +510,23 @@ namespace entrhopi.Guild_Missions
             searchTextBox.Text = "";
         }
 
-        private void sendToChat()
+        private async Task CopyToClipboard(string text)
+        {
+            try
+            {
+                await ClipboardUtil.WindowsClipboardService.SetTextAsync(text);
+                ScreenNotification.ShowNotification(Strings.Common.gmNotificationClipboardSaved, duration: 2);
+            }
+            catch (Exception)
+            {
+                ScreenNotification.ShowNotification(Strings.Common.gmNotificationClipboardError, ScreenNotification.NotificationType.Red, duration: 2);
+            }
+        }
+
+        private async Task SendAllSavedToClipboard()
         {
             XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
 
-            int i = 0;
             var export = "";
             foreach (KeyValuePair<int, int> wp in savedGuildTreks.OrderBy(key => key.Value))
             {
@@ -541,44 +538,22 @@ namespace entrhopi.Guild_Missions
                 if (trek == null) continue;
 
                 export += trek.Element("name_" + ShortUserLocale).Value + " " + trek.Element("chat_link").Value + " ";
-
-                i++;
             }
 
-            ClipboardUtil.WindowsClipboardService.SetTextAsync(export).ContinueWith((clipboardResult) =>
-            {
-                if (clipboardResult.IsFaulted)
-                {
-                    ScreenNotification.ShowNotification("Failed to copy waypoint to clipboard. Try again.", ScreenNotification.NotificationType.Red, duration: 2);
-                }
-                else
-                {
-                    ScreenNotification.ShowNotification("Copied waypoint to clipboard!", duration: 2);
-                }
-            });
+            await CopyToClipboard(export);
         }
 
-        private void ExportWPList()
+        private async Task ExportWPList()
         {
-            int i = 0;
-            var export = "BlishGM";
+            var sb = new StringBuilder();
+            sb.Append("BlishGM");
+
             foreach (KeyValuePair<int, int> wp in savedGuildTreks.OrderBy(key => key.Value))
             {
-                i++;
-                export = export + ';' + wp.Key.ToString();
+                sb.Append($";{wp.Key}");
             }
 
-            ClipboardUtil.WindowsClipboardService.SetTextAsync(export).ContinueWith((clipboardResult) =>
-            {
-                if (clipboardResult.IsFaulted)
-                {
-                    ScreenNotification.ShowNotification(Strings.Common.gmNotificationClipboardError, ScreenNotification.NotificationType.Red, duration: 2);
-                }
-                else
-                {
-                    ScreenNotification.ShowNotification(String.Format(Strings.Common.gmNotificationClipboardSaved, (i)), duration: 2);
-                }
-            });
+            await CopyToClipboard(sb.ToString());
         }
 
         private void ImportWPList()
@@ -609,7 +584,7 @@ namespace entrhopi.Guild_Missions
 
                                 if (trek == null) continue;
 
-                                AddWPToList((int)trek.Element("id"), (int)trek.Element("map_id"));
+                                ToggleWaypoint((int)trek.Element("id"), (int)trek.Element("map_id"), true);
                                 i++;
                             }
 
@@ -654,34 +629,24 @@ namespace entrhopi.Guild_Missions
                 ShowBorder = false,
                 //Title = trek.Element("name").Value + " (" + trek.Element("map_name").Value + ")",
                 Size = new Point(parent.Width, 70),
-                Location = new Point(LEFT_MARGIN, 5 + position * 70),
+                Location = new Point(Layout.LeftMargin, 5 + position * 70),
                 Parent = parent
             };
-            Image trekPanelWPImage = new Image(_waypointIcon)
+            Image trekWPImage = new Image(_waypointIcon)
             {
                 Size = new Point(50, 50),
                 Location = new Point(0, 4),
                 Parent = trekPanel
             };
-            trekPanelWPImage.Click += delegate
+            trekWPImage.Click += delegate
             {
-                ClipboardUtil.WindowsClipboardService.SetTextAsync(trek.Element("name_" + ShortUserLocale).Value + " " + trek.Element("chat_link").Value).ContinueWith((clipboardResult) =>
-                {
-                    if (clipboardResult.IsFaulted)
-                    {
-                        ScreenNotification.ShowNotification("Failed to copy waypoint to clipboard. Try again.", ScreenNotification.NotificationType.Red, duration: 2);
-                    }
-                    else
-                    {
-                        ScreenNotification.ShowNotification("Copied waypoint to clipboard!", duration: 2);
-                    }
-                });
+                _ = CopyToClipboard(trek.Element("name_" + ShortUserLocale).Value + " " + trek.Element("chat_link").Value);
             };
             new Label()
             {
                 Text = trek.Element("name_" + ShortUserLocale).Value + " (" + trek.Element("map_name_" + ShortUserLocale).Value + ")",
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + 50, 3),
+                Location = new Point(Layout.LeftMargin + 50, 3),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -693,7 +658,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = trek.Element("waypoint_name_" + ShortUserLocale).Value,
                 Font = Content.DefaultFont14,
-                Location = new Point(LEFT_MARGIN + 50, 32),
+                Location = new Point(Layout.LeftMargin + 50, 32),
                 TextColor = Color.Silver,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -710,7 +675,7 @@ namespace entrhopi.Guild_Missions
                     Location = new Point(parent.Width - 70, -10),
                     Parent = trekPanel
                 };
-                addImage.Click += delegate { AddWPToList((int)trek.Element("id"), (int)trek.Element("map_id")); };
+                addImage.Click += delegate { ToggleWaypoint((int)trek.Element("id"), (int)trek.Element("map_id"), true); };
             }
 
             if (remove)
@@ -721,44 +686,34 @@ namespace entrhopi.Guild_Missions
                     Location = new Point(parent.Width - 40, 4),
                     Parent = trekPanel
                 };
-                removeImage.Click += delegate { RemoveWPFromList((int)trek.Element("id")); };
+                removeImage.Click += delegate { ToggleWaypoint((int)trek.Element("id"), 0, false); };
             }
         }
 
-        private void showInfoPanel(XElement element, Panel parent, int position)
+        private void AddInfoPanel(XElement element, Panel parent, int position)
         {
             Panel elementPanel = new Panel()
             {
                 ShowBorder = false,
                 Size = new Point(parent.Width, 70),
-                Location = new Point(LEFT_MARGIN, 5 + position * 70),
+                Location = new Point(Layout.LeftMargin, 5 + position * 70),
                 Parent = parent
             };
-            Image trekPanelWPImage = new Image(_waypointIcon)
+            Image elementWPImage = new Image(_waypointIcon)
             {
                 Size = new Point(50, 50),
                 Location = new Point(0, 4),
                 Parent = elementPanel
             };
-            trekPanelWPImage.Click += delegate
+            elementWPImage.Click += delegate
             {
-                ClipboardUtil.WindowsClipboardService.SetTextAsync(element.Element("name_" + ShortUserLocale).Value + " " + element.Element("chat_link").Value).ContinueWith((clipboardResult) =>
-                {
-                    if (clipboardResult.IsFaulted)
-                    {
-                        ScreenNotification.ShowNotification("Failed to copy waypoint to clipboard. Try again.", ScreenNotification.NotificationType.Red, duration: 2);
-                    }
-                    else
-                    {
-                        ScreenNotification.ShowNotification("Copied waypoint to clipboard!", duration: 2);
-                    }
-                });
+                _ = CopyToClipboard(element.Element("name_" + ShortUserLocale).Value + " " + element.Element("chat_link").Value);
             };
             new Label()
             {
                 Text = element.Element("name_" + ShortUserLocale).Value + " (" + element.Element("map_name_" + ShortUserLocale).Value + ")",
                 Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + 50, 3),
+                Location = new Point(Layout.LeftMargin + 50, 3),
                 TextColor = Color.White,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -770,7 +725,7 @@ namespace entrhopi.Guild_Missions
             {
                 Text = element.Element("waypoint_name_" + ShortUserLocale).Value,
                 Font = Content.DefaultFont14,
-                Location = new Point(LEFT_MARGIN + 50, 32),
+                Location = new Point(Layout.LeftMargin + 50, 32),
                 TextColor = Color.Silver,
                 ShadowColor = Color.Black,
                 ShowShadow = true,
@@ -781,16 +736,11 @@ namespace entrhopi.Guild_Missions
             var openWikiBttn = new StandardButton()
             {
                 Text = Strings.Common.gmButtonWiki,
-                Size = new Point(110, BUTTON_HEIGHT),
+                Size = new Point(110, Layout.ButtonHeight),
                 Location = new Point(parent.Width - 110 - 50, 10),
                 Parent = elementPanel
             };
             openWikiBttn.Click += delegate { Process.Start(element.Element("wiki_link_" + ShortUserLocale).Value); };
-        }
-
-        protected override void Update(GameTime gameTime)
-        {
-
         }
 
         /// <inheritdoc />
@@ -803,5 +753,6 @@ namespace entrhopi.Guild_Missions
         }
 
     }
+
 
 }

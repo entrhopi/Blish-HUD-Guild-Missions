@@ -136,10 +136,10 @@
     <value>Error al leer/escribir en el portapapeles. Inténtalo de nuevo.</value>
   </data>
   <data name="gmNotificationClipboardRead" xml:space="preserve">
-    <value>Importados {0} puntos de ruta desde el portapapeles!</value>
+    <value>Importado del portapapeles!</value>
   </data>
   <data name="gmNotificationClipboardSaved" xml:space="preserve">
-    <value>Guardados {0} puntos de ruta desde el portapapeles!</value>
+    <value>Copiado al portapapeles!</value>
   </data>
   <data name="gmPanelInfo" xml:space="preserve">
     <value>Información</value>

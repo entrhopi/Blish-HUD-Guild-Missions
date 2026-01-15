@@ -136,10 +136,10 @@
     <value>Impossible d'ouvrir le presse-papier. Merci de réessayer.</value>
   </data>
   <data name="gmNotificationClipboardRead" xml:space="preserve">
-    <value>{0} points de passage importés depuis le presse-papier!</value>
+    <value>Importé depuis le presse-papier!</value>
   </data>
   <data name="gmNotificationClipboardSaved" xml:space="preserve">
-    <value>{0} points de passages sauvegardés dans le presse-papier!</value>
+    <value>Copié dans le presse-papier!</value>
   </data>
   <data name="gmPanelInfo" xml:space="preserve">
     <value>Information</value>

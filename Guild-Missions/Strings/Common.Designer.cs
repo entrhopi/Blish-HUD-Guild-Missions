@@ -115,7 +115,7 @@ namespace entrhopi.Guild_Missions.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Imported {0} waypoints from clipboard!.
+        ///   Looks up a localized string similar to Imported from clipboard!.
         /// </summary>
         internal static string gmNotificationClipboardRead {
             get {
@@ -124,7 +124,7 @@ namespace entrhopi.Guild_Missions.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Saved {0} waypoints to clipboard!.
+        ///   Looks up a localized string similar to Copied to clipboard!.
         /// </summary>
         internal static string gmNotificationClipboardSaved {
             get {

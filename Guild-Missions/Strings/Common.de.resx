@@ -136,10 +136,10 @@
     <value>Fehler beim lesen oder schreiben von der Zwischenablage. Bitte versuche es noch einmal.</value>
   </data>
   <data name="gmNotificationClipboardRead" xml:space="preserve">
-    <value>{0} Wegmarken aus der Zwischenablage importiert.</value>
+    <value>Aus der Zwischenablage importiert.</value>
   </data>
   <data name="gmNotificationClipboardSaved" xml:space="preserve">
-    <value>{0} Wegmarken in die Zwischenablage kopiert.</value>
+    <value>In die Zwischenablage kopiert.</value>
   </data>
   <data name="gmPanelInfo" xml:space="preserve">
     <value>Informationen</value>
