@@ -19,7 +19,7 @@ namespace entrhopi.Guild_Missions.Strings {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Common {
@@ -84,6 +84,15 @@ namespace entrhopi.Guild_Missions.Strings {
         internal static string gmButtonImport {
             get {
                 return ResourceManager.GetString("gmButtonImport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clip All Saved.
+        /// </summary>
+        internal static string gmButtonSendToChat {
+            get {
+                return ResourceManager.GetString("gmButtonSendToChat", resourceCulture);
             }
         }
         

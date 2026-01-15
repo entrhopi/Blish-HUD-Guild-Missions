@@ -332,6 +332,7 @@ namespace entrhopi.Guild_Missions
                 Location = new Point(LEFT_MARGIN, 72 + TOP_MARGIN),
                 Parent = contentPanel,
             };
+            searchTextBox.Click += delegate { ClearSearch(); };
             searchTextBox.TextChanged += SearchboxOnTextChanged;
 
             trekListPanel = new Panel()
@@ -379,6 +380,15 @@ namespace entrhopi.Guild_Missions
                 Parent = contentPanel,
             };
             importButton.Click += delegate { ImportWPList(); };
+
+            var sendToChatButton = new StandardButton()
+            {
+                Text = Strings.Common.gmButtonSendToChat,
+                Size = new Point(110, 30),
+                Location = new Point(trekListPanel.Right + 20, searchTextBox.Top - 31),
+                Parent = contentPanel,
+            };
+            sendToChatButton.Click += delegate { sendToChat(); };
 
             UpdateSavedWPList();
         }
@@ -650,6 +660,44 @@ namespace entrhopi.Guild_Missions
         {
             savedGuildTreks.Clear();
             savedTrekListPanel.ClearChildren();
+        }
+
+        private void ClearSearch()
+        {
+            searchTextBox.Text = "";
+        }
+
+        private void sendToChat()
+        {
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
+
+            int i = 0;
+            var export = "";
+            foreach (KeyValuePair<int, int> wp in savedGuildTreks.OrderBy(key => key.Value))
+            {
+                // Grab trek data from xml
+                var trek = doc.Descendants("trek")
+                    .Where(x => x.Element("id").Value == wp.Key.ToString())
+                    .FirstOrDefault();
+
+                if (trek == null) continue;
+
+                export += trek.Element("name_" + ShortUserLocale).Value + " " + trek.Element("chat_link").Value + " ";
+
+                i++;
+            }
+
+            ClipboardUtil.WindowsClipboardService.SetTextAsync(export).ContinueWith((clipboardResult) =>
+            {
+                if (clipboardResult.IsFaulted)
+                {
+                    ScreenNotification.ShowNotification("Failed to copy waypoint to clipboard. Try again.", ScreenNotification.NotificationType.Red, duration: 2);
+                }
+                else
+                {
+                    ScreenNotification.ShowNotification("Copied waypoint to clipboard!", duration: 2);
+                }
+            });
         }
 
         private void ExportWPList()
