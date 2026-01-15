@@ -97,11 +97,11 @@
     <name_fr>Banc de Varech de Malméduse</name_fr>
     <name_es>Lecho de las Medusas Funestas</name_es>
     <waypoint_id>188</waypoint_id>
-    <waypoint_name_en>Exile Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Exil</waypoint_name_de>
-    <waypoint_name_fr>Point de passage de l'Exil</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Exilio</waypoint_name_es>
-    <chat_link>[&amp;BLwAAAA=]</chat_link>
+    <waypoint_name_en>Valslake Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Vals-See</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Valselac</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Saqueador</waypoint_name_es>
+    <chat_link>[&amp;BMADAAA=]</chat_link>
     <map_id>31</map_id>
     <map_name_en>Snowden Drifts</map_name_en>
     <map_name_de>Schneekuhlenhöhen</map_name_de>
@@ -330,12 +330,12 @@
     <name_de>Sackgasse der geplatzten Träume</name_de>
     <name_fr>Refuge percebul</name_fr>
     <name_es>Persiana explotaburbujas</name_es>
-    <waypoint_id>850</waypoint_id>
-    <waypoint_name_en>Soot Road Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Rußstraße</waypoint_name_de>
-    <waypoint_name_fr>Point de passage de la Route de Suie</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Camino de Hollín</waypoint_name_es>
-    <chat_link>[&amp;BFIDAAA=]</chat_link>
+    <waypoint_id>507</waypoint_id>
+    <waypoint_name_en>Tumok's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Tumok</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Tumok</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Tumok</waypoint_name_es>
+    <chat_link>[&amp;BPsBAAA=]</chat_link>
     <map_id>20</map_id>
     <map_name_en>Blazeridge Steppes</map_name_en>
     <map_name_de>Flammenkamm-Steppe</map_name_de>
@@ -421,11 +421,11 @@
     <name_fr>Coin de Castavall</name_fr>
     <name_es>Esquina Castavall</name_es>
     <waypoint_id>429</waypoint_id>
-    <waypoint_name_en>Mournful Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Schwermut</waypoint_name_de>
-    <waypoint_name_fr>Point de passage lugubre</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Pesar</waypoint_name_es>
-    <chat_link>[&amp;BK0BAAA=]</chat_link>
+    <waypoint_name_en>Castavall Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Castavall</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de Castavall</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Castavall</waypoint_name_es>
+    <chat_link>[&amp;BK4BAAA=]</chat_link>
     <map_id>73</map_id>
     <map_name_en>Bloodtide Coast</map_name_en>
     <map_name_de>Blutstrom-Küste</map_name_de>
@@ -439,11 +439,11 @@
     <name_fr>Cavité de la cathédrale</name_fr>
     <name_es>Cavidad de la Catedral</name_es>
     <waypoint_id>684</waypoint_id>
-    <waypoint_name_en>Wren Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Wren</waypoint_name_de>
-    <waypoint_name_fr>Point de passage de Wren</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Wren</waypoint_name_es>
-    <chat_link>[&amp;BKwCAAA=]</chat_link>
+    <waypoint_name_en>Union Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Vereinigung</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Union</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Unión</waypoint_name_es>
+    <chat_link>[&amp;BKsCAAA=]</chat_link>
     <map_id>65</map_id>
     <map_name_en>Malchor's Leap</map_name_en>
     <map_name_de>Malchors Sprung</map_name_de>
@@ -582,12 +582,12 @@
     <name_de>Cymbels Schlucht</name_de>
     <name_fr>Vallon de Cymbel</name_fr>
     <name_es>Cañada de Cymbel</name_es>
-    <waypoint_id>212</waypoint_id>
-    <waypoint_name_en>Deathblade's Watch Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Todesklingenwacht</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du Guet de Mortelame</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Vigilancia de Filomortal</waypoint_name_es>
-    <chat_link>[&amp;BNQAAAA=]</chat_link>
+    <waypoint_id>335</waypoint_id>
+    <waypoint_name_en>Ogre Road Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Ogerstraße</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Route de l'Ogre</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Camino de los Ogros</waypoint_name_es>
+    <chat_link>[&amp;BE8BAAA=]</chat_link>
     <map_id>21</map_id>
     <map_name_en>Fields of Ruin</map_name_en>
     <map_name_de>Felder der Verwüstung</map_name_de>
@@ -780,12 +780,12 @@
     <name_de>Platz des Ertrinkens</name_de>
     <name_fr>Place engloutie</name_fr>
     <name_es>Plaza Aguada</name_es>
-    <waypoint_id>755</waypoint_id>
-    <waypoint_name_en>Royal Forum Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Der royale Markt</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du Forum Royal</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Foro Real</waypoint_name_es>
-    <chat_link>[&amp;BPMCAAA=]</chat_link>
+    <waypoint_id>749</waypoint_id>
+    <waypoint_name_en>Signal Peak Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Signalgipfel</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Pic de signal</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Pico Señal</waypoint_name_es>
+    <chat_link>[&amp;BO0CAAA=]</chat_link>
     <map_id>51</map_id>
     <map_name_en>Straits of Devastation</map_name_en>
     <map_name_de>Meerenge der Verwüstung</map_name_de>
@@ -889,11 +889,11 @@
     <name_fr>Porche de Fawcett</name_fr>
     <name_es>Porche de Fawcett</name_es>
     <waypoint_id>195</waypoint_id>
-    <waypoint_name_en>Arcallion Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Arcallion</waypoint_name_de>
-    <waypoint_name_fr>Point de passage d'Arcallion</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Arcallion</waypoint_name_es>
-    <chat_link>[&amp;BMMAAAA=]</chat_link>
+    <waypoint_name_en>Arca Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Arca</waypoint_name_de>
+    <waypoint_name_fr>Point de passage d'Arca</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Arca</waypoint_name_es>
+    <chat_link>[&amp;BLIAAAA=]</chat_link>
     <map_id>17</map_id>
     <map_name_en>Harathi Hinterlands</map_name_en>
     <map_name_de>Harathi-Hinterland</map_name_de>
@@ -1140,12 +1140,12 @@
     <name_de>Gartenwurzel-Alkoven</name_de>
     <name_fr>Alcôve de Courtilleracine</name_fr>
     <name_es>Alcoba Huertoraíz</name_es>
-    <waypoint_id>1210</waypoint_id>
-    <waypoint_name_en>Upper Commons Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Obere Distrikte</waypoint_name_de>
-    <waypoint_name_fr>Point de passage de la Terrasse commune supérieure</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Feria Superior</waypoint_name_es>
-    <chat_link>[&amp;BLoEAAA=]</chat_link>
+    <waypoint_id>1211</waypoint_id>
+    <waypoint_name_en>Reckoner's Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Rechenmeister</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Spéculateur</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Calculista</waypoint_name_es>
+    <chat_link>[&amp;BLsEAAA=]</chat_link>
     <map_id>91</map_id>
     <map_name_en>The Grove</map_name_en>
     <map_name_de>Der Hain</map_name_de>
@@ -1230,12 +1230,12 @@
     <name_de>Überwachender Wächter</name_de>
     <name_fr>Camp principal du gardien</name_fr>
     <name_es>Sobrevigilancia del Guardián</name_es>
-    <waypoint_id>173</waypoint_id>
-    <waypoint_name_en>Barricade Camp Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Barrikadenlager</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du Camp de la barricade</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Campamento Barricada</waypoint_name_es>
-    <chat_link>[&amp;BK0AAAA=]</chat_link>
+    <waypoint_id>169</waypoint_id>
+  <waypoint_name_en>Grey Gritta's Waypoint</waypoint_name_en>
+  <waypoint_name_de>Wegmarke Grau-Grittas Posten</waypoint_name_de>
+  <waypoint_name_fr>Point de passage de Grey Gritta</waypoint_name_fr>
+  <waypoint_name_es>Punto de Ruta de Gritta Gris</waypoint_name_es>
+  <chat_link>[&amp;BKkAAAA=]</chat_link>
     <map_id>17</map_id>
     <map_name_en>Harathi Hinterlands</map_name_en>
     <map_name_de>Harathi-Hinterland</map_name_de>
@@ -2257,11 +2257,11 @@
     <name_fr>Aveuglement de l’Erudit</name_fr>
     <name_es>Ceguera del Erudito</name_es>
     <waypoint_id>603</waypoint_id>
-    <waypoint_name_en>Steelbrachen Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Stahlbrachen</waypoint_name_de>
-    <waypoint_name_fr>Point de passage de Steelbrachen</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Campoacero</waypoint_name_es>
-    <chat_link>[&amp;BFsCAAA=]</chat_link>
+    <waypoint_name_en>Toran Hollow Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Toran-Senke</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de la Crevasse de Toran</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Hondonada de Toran</waypoint_name_es>
+    <chat_link>[&amp;BFwCAAA=]</chat_link>
     <map_id>26</map_id>
     <map_name_en>Dredgehaunt Cliffs</map_name_en>
     <map_name_de>Schauflerschreck-Klippen</map_name_de>
@@ -2274,12 +2274,12 @@
     <name_de>Geißelkiefer-Wachturm</name_de>
     <name_fr>Tour de guet de Mâchefléau</name_fr>
     <name_es>Torre de Vigilancia de Rompemandíbulas</name_es>
-    <waypoint_id>488</waypoint_id>
-    <waypoint_name_en>Sleekfur Encampment Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Glanzfell-Lager</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du camp de Doucepelisse</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Campamento de Pelajeliso</waypoint_name_es>
-    <chat_link>[&amp;BOgBAAA=]</chat_link>
+    <waypoint_id>487</waypoint_id>
+    <waypoint_name_en>Village of Scalecatch Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Dorf Schuppenfang</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Village d'Attrapécaille</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Aldea de Atrapaescamas</waypoint_name_es>
+    <chat_link>[&amp;BOcBAAA=]</chat_link>
     <map_id>25</map_id>
     <map_name_en>Iron Marches</map_name_en>
     <map_name_de>Eisenmark</map_name_de>
@@ -2365,11 +2365,11 @@
     <name_fr>Bord de Valaigu</name_fr>
     <name_es>Borde del hueco tiburón</name_es>
     <waypoint_id>849</waypoint_id>
-    <waypoint_name_en>Splintercrest Fort Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Splitterkamm-Fort</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du Fort de Crête-Fendue</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Fuerte de Crestastilla</waypoint_name_es>
-    <chat_link>[&amp;BFEDAAA=]</chat_link>
+    <waypoint_name_en>Twin Sisters Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Zwillingsschwestern</waypoint_name_de>
+    <waypoint_name_fr>Point de passage des Sœurs Jumelles</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Hermanas Gemelas</waypoint_name_es>
+    <chat_link>[&amp;BPwBAAA=]</chat_link>
     <map_id>20</map_id>
     <map_name_en>Blazeridge Steppes</map_name_en>
     <map_name_de>Flammenkamm-Steppe</map_name_de>
@@ -2473,11 +2473,11 @@
     <name_fr>Antre cachécailleux</name_fr>
     <name_es>Reserva Oculta de los Saurios</name_es>
     <waypoint_id>919</waypoint_id>
-    <waypoint_name_en>Feritas Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Feritas</waypoint_name_de>
-    <waypoint_name_fr>Point de passage de Feritas</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Feritas</waypoint_name_es>
-    <chat_link>[&amp;BJcDAAA=]</chat_link>
+    <waypoint_name_en>Greysteel Armory Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Graustahl-Rüstkammer</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Armurerie de Grisacier</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Armería Acerogrís</waypoint_name_es>
+    <chat_link>[&amp;BIEBAAA=]</chat_link>
     <map_id>19</map_id>
     <map_name_en>Plains of Ashford</map_name_en>
     <map_name_de>Ebenen von Aschfurt</map_name_de>
@@ -2581,11 +2581,11 @@
     <name_fr>Rotonde de Soggorsort</name_fr>
     <name_es>Rotonda de Soggorsort</name_es>
     <waypoint_id>319</waypoint_id>
-    <waypoint_name_en>Hamlet of Annwen Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Annwen-Weiler</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du Hameau d'Annwen</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Poblado de Annwen</waypoint_name_es>
-    <chat_link>[&amp;BD8BAAA=]</chat_link>
+    <waypoint_name_en>Titan's Staircase Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke Titanen-Treppe</waypoint_name_de>
+    <waypoint_name_fr>Point de passage de l'Escalier du titan</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Escalera del Titán</waypoint_name_es>
+    <chat_link>[&amp;BD0BAAA=]</chat_link>
     <map_id>34</map_id>
     <map_name_en>Caledon Forest</map_name_en>
     <map_name_de>Caledon-Wald</map_name_de>
@@ -2995,11 +2995,11 @@
     <name_fr>Réserve du marchand</name_fr>
     <name_es>Alijo del Comerciante</name_es>
     <waypoint_id>902</waypoint_id>
-    <waypoint_name_en>Trade Commons Waypoint</waypoint_name_en>
-    <waypoint_name_de>Wegmarke Handelsdistrikt</waypoint_name_de>
-    <waypoint_name_fr>Point de passage du Forum du commerce</waypoint_name_fr>
-    <waypoint_name_es>Punto de Ruta de Feria de Comercio</waypoint_name_es>
-    <chat_link>[&amp;BIYDAAA=]</chat_link>
+    <waypoint_name_en>Wolf Waypoint</waypoint_name_en>
+    <waypoint_name_de>Wegmarke des Wolfs</waypoint_name_de>
+    <waypoint_name_fr>Point de passage du Loup</waypoint_name_fr>
+    <waypoint_name_es>Punto de Ruta de Lobo</waypoint_name_es>
+    <chat_link>[&amp;BIoDAAA=]</chat_link>
     <map_id>326</map_id>
     <map_name_en>Hoelbrak</map_name_en>
     <map_name_de>Hoelbrak</map_name_de>
