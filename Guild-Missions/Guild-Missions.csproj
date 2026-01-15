@@ -214,13 +214,6 @@
     <Content Include="ref\528697.png" />
     <Content Include="ref\784266.png" />
     <Content Include="ref\close_icon.png" />
-    <Content Include="ref\racemaps\bear_lope.jpg" />
-    <Content Include="ref\racemaps\chicken_run.jpg" />
-    <Content Include="ref\racemaps\crab_scuttle.jpg" />
-    <Content Include="ref\racemaps\devourer_burrow.jpg" />
-    <Content Include="ref\racemaps\ghost_wolf_run.jpg" />
-    <Content Include="ref\racemaps\quaggan_paddle.jpg" />
-    <Content Include="ref\racemaps\spider_scurry.jpg" />
     <Content Include="ref\XML\bounties.xml" />
     <Content Include="ref\XML\challenges.xml" />
     <Content Include="ref\XML\puzzles.xml" />

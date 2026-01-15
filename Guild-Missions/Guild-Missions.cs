@@ -1,4 +1,5 @@
 ﻿using Blish_HUD;
+using Blish_HUD.Content;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules;
 using Blish_HUD.Modules.Managers;
@@ -101,14 +102,6 @@ namespace entrhopi.Guild_Missions
 
             _closeTexture = ContentsManager.GetTexture("close_icon.png");
 
-            _guildRaceMap.Add(1, ContentsManager.GetTexture("racemaps/bear_lope.jpg"));
-            _guildRaceMap.Add(2, ContentsManager.GetTexture("racemaps/chicken_run.jpg"));
-            _guildRaceMap.Add(3, ContentsManager.GetTexture("racemaps/crab_scuttle.jpg"));
-            _guildRaceMap.Add(4, ContentsManager.GetTexture("racemaps/devourer_burrow.jpg"));
-            _guildRaceMap.Add(5, ContentsManager.GetTexture("racemaps/ghost_wolf_run.jpg"));
-            _guildRaceMap.Add(6, ContentsManager.GetTexture("racemaps/quaggan_paddle.jpg"));
-            _guildRaceMap.Add(7, ContentsManager.GetTexture("racemaps/spider_scurry.jpg"));
-
             switch (GameService.Overlay.UserLocale.Value.ToString())
             {
                 case "German":
@@ -164,7 +157,7 @@ namespace entrhopi.Guild_Missions
                 Location = new Point(0, 0),
                 Parent = missionTypePanel,
             };
-            guildTrekPanel.Click += delegate { guildTrekContent(); };
+            guildTrekPanel.Click += delegate { GuildTrekContent(); };
             new Image(_guildTrekIcon)
             {
                 Size = new Point(panelsize, panelsize),
@@ -191,7 +184,7 @@ namespace entrhopi.Guild_Missions
                 Location = new Point(0, panelsize),
                 Parent = missionTypePanel,
             };
-            guildBountyPanel.Click += delegate { guildBountyContent(); };
+            guildBountyPanel.Click += delegate { GuildBountyContent(); };
             new Image(_guildBountyIcon)
             {
                 Size = new Point(panelsize, panelsize),
@@ -218,7 +211,7 @@ namespace entrhopi.Guild_Missions
                 Location = new Point(0, panelsize * 2),
                 Parent = missionTypePanel,
             };
-            guildRacePanel.Click += delegate { guildRaceContent(); };
+            guildRacePanel.Click += delegate { GuildRaceContent(); };
             new Image(_guildRaceIcon)
             {
                 Size = new Point(panelsize, panelsize),
@@ -245,7 +238,7 @@ namespace entrhopi.Guild_Missions
                 Location = new Point(0, panelsize * 3),
                 Parent = missionTypePanel,
             };
-            guildChallengePanel.Click += delegate { guildChallengeContent(); };
+            guildChallengePanel.Click += delegate { GuildChallengeContent(); };
             new Image(_guildChallengeIcon)
             {
                 Size = new Point(panelsize, panelsize),
@@ -272,7 +265,7 @@ namespace entrhopi.Guild_Missions
                 Location = new Point(0, panelsize * 4),
                 Parent = missionTypePanel,
             };
-            guildPuzzlePanel.Click += delegate { guildPuzzleContent(); };
+            guildPuzzlePanel.Click += delegate { GuildPuzzleContent(); };
             new Image(_guildPuzzleIcon)
             {
                 Size = new Point(panelsize, panelsize),
@@ -304,7 +297,7 @@ namespace entrhopi.Guild_Missions
             return parentPanel;
         }
 
-        private void guildTrekContent()
+        private void GuildTrekContent()
         {
             contentPanel.ClearChildren();
 
@@ -396,156 +389,60 @@ namespace entrhopi.Guild_Missions
             UpdateSavedWPList();
         }
 
-        private void guildRaceContent()
+        private void GuildRaceContent()
         {
-            contentPanel.ClearChildren();
-
-            new Image(_guildRaceIcon)
-            {
-                Size = new Point(72, 72),
-                Location = new Point(LEFT_MARGIN, 0),
-                Parent = contentPanel
-            };
-            new Label()
-            {
-                Text = Strings.Common.gmTypeRace,
-                Font = Content.DefaultFont32,
-                Location = new Point(82, 18),
-                TextColor = Color.White,
-                ShadowColor = Color.Black,
-                ShowShadow = true,
-                AutoSizeWidth = true,
-                AutoSizeHeight = true,
-                Parent = contentPanel
-            };
-
-            listPanel = new Panel()
-            {
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelList,
-                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            // Dispose of current search result
-            listPanel.ClearChildren();
-
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\races.xml"));
-
-            int i = 0;
-            foreach (var race in doc.Root.Elements("race"))
-            {
-                ViewInfoPanelWiki(race, listPanel, i);
-                i++;
-            }
+            SimpleGuildMissionPanel(
+                _guildRaceIcon,
+                Strings.Common.gmTypeRace,
+                @"XML\races.xml",
+                "race");
         }
 
-        private void guildBountyContent()
+        private void GuildBountyContent()
         {
-            contentPanel.ClearChildren();
-
-            new Image(_guildBountyIcon)
-            {
-                Size = new Point(72, 72),
-                Location = new Point(LEFT_MARGIN, 0),
-                Parent = contentPanel
-            };
-            new Label()
-            {
-                Text = Strings.Common.gmTypeBounty,
-                Font = Content.DefaultFont32,
-                Location = new Point(82, 18),
-                TextColor = Color.White,
-                ShadowColor = Color.Black,
-                ShowShadow = true,
-                AutoSizeWidth = true,
-                AutoSizeHeight = true,
-                Parent = contentPanel
-            };
-
-            listPanel = new Panel()
-            {
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelList,
-                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            // Dispose of current search result
-            listPanel.ClearChildren();
-
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\bounties.xml"));
-
-            int i = 0;
-            foreach (var bounty in doc.Root.Elements("bounty"))
-            {
-                ViewInfoPanelWiki(bounty, listPanel, i);
-                i++;
-            }
-
-            listPanel.CanScroll = true;
+            SimpleGuildMissionPanel(
+                _guildBountyIcon,
+                Strings.Common.gmTypeBounty,
+                @"XML\bounties.xml",
+                "bounty",
+                enableScrolling: true);
         }
 
-        private void guildChallengeContent()
+        private void GuildChallengeContent()
         {
-            contentPanel.ClearChildren();
-
-            new Image(_guildChallengeIcon)
-            {
-                Size = new Point(72, 72),
-                Location = new Point(LEFT_MARGIN, 0),
-                Parent = contentPanel
-            };
-            new Label()
-            {
-                Text = Strings.Common.gmTypeChallenge,
-                Font = Content.DefaultFont32,
-                Location = new Point(82, 18),
-                TextColor = Color.White,
-                ShadowColor = Color.Black,
-                ShowShadow = true,
-                AutoSizeWidth = true,
-                AutoSizeHeight = true,
-                Parent = contentPanel
-            };
-
-            listPanel = new Panel()
-            {
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelList,
-                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            // Dispose of current search result
-            listPanel.ClearChildren();
-
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\challenges.xml"));
-
-            int i = 0;
-            foreach (var challenge in doc.Root.Elements("challenge"))
-            {
-                ViewInfoPanelWiki(challenge, listPanel, i);
-                i++;
-            }
+            SimpleGuildMissionPanel(
+                _guildChallengeIcon,
+                Strings.Common.gmTypeChallenge,
+                @"XML\challenges.xml",
+                "challenge");
         }
 
-        private void guildPuzzleContent()
+        private void GuildPuzzleContent()
         {
+            SimpleGuildMissionPanel(
+                _guildPuzzleIcon,
+                Strings.Common.gmTypePuzzle,
+                @"XML\puzzles.xml",
+                "puzzle");
+        }
+
+        private void SimpleGuildMissionPanel(AsyncTexture2D icon, string title, string xmlPath, string xmlElement, bool enableScrolling = false)
+        {
+            // Clear existing content
             contentPanel.ClearChildren();
 
-            new Image(_guildPuzzleIcon)
+            // Add icon
+            new Image(icon)
             {
                 Size = new Point(72, 72),
                 Location = new Point(LEFT_MARGIN, 0),
                 Parent = contentPanel
             };
+
+            // Add title label
             new Label()
             {
-                Text = Strings.Common.gmTypePuzzle,
+                Text = title,
                 Font = Content.DefaultFont32,
                 Location = new Point(82, 18),
                 TextColor = Color.White,
@@ -556,6 +453,7 @@ namespace entrhopi.Guild_Missions
                 Parent = contentPanel
             };
 
+            // Create list panel
             listPanel = new Panel()
             {
                 ShowBorder = true,
@@ -563,18 +461,15 @@ namespace entrhopi.Guild_Missions
                 Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
                 Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
                 Parent = contentPanel,
+                CanScroll = enableScrolling
             };
 
-            // Dispose of current search result
-            listPanel.ClearChildren();
-
-            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\puzzles.xml"));
-
-            int i = 0;
-            foreach (var puzzle in doc.Root.Elements("puzzle"))
+            // Load XML, add rows to list panel
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(xmlPath));
+            int index = 0;
+            foreach (var element in doc.Root.Elements(xmlElement))
             {
-                ViewInfoPanelWiki(puzzle, listPanel, i);
-                i++;
+                showInfoPanel(element, listPanel, index++);
             }
         }
 
@@ -830,12 +725,11 @@ namespace entrhopi.Guild_Missions
             }
         }
 
-        private void ViewInfoPanel(XElement element, Panel parent, int position, String type, int offset = 0)
+        private void showInfoPanel(XElement element, Panel parent, int position)
         {
-            Panel trekPanel = new Panel()
+            Panel elementPanel = new Panel()
             {
                 ShowBorder = false,
-                //Title = trek.Element("name").Value + " (" + trek.Element("map_name").Value + ")",
                 Size = new Point(parent.Width, 70),
                 Location = new Point(LEFT_MARGIN, 5 + position * 70),
                 Parent = parent
@@ -844,7 +738,7 @@ namespace entrhopi.Guild_Missions
             {
                 Size = new Point(50, 50),
                 Location = new Point(0, 4),
-                Parent = trekPanel
+                Parent = elementPanel
             };
             trekPanelWPImage.Click += delegate
             {
@@ -870,7 +764,7 @@ namespace entrhopi.Guild_Missions
                 ShowShadow = true,
                 AutoSizeWidth = true,
                 AutoSizeHeight = true,
-                Parent = trekPanel
+                Parent = elementPanel
             };
             new Label()
             {
@@ -882,113 +776,16 @@ namespace entrhopi.Guild_Missions
                 ShowShadow = true,
                 AutoSizeWidth = true,
                 AutoSizeHeight = true,
-                Parent = trekPanel
-            };
-            Image addImage = new Image(_rightArrowIcon)
-            {
-                Size = new Point(70, 70),
-                Location = new Point(parent.Width - 70 - offset, -10),
-                Parent = trekPanel
-            };
-            addImage.Click += delegate { DisplayInfo((int)element.Element("id"), type, element); };
-        }
-
-        private void ViewInfoPanelWiki(XElement element, Panel parent, int position)
-        {
-            Panel trekPanel = new Panel()
-            {
-                ShowBorder = false,
-                Size = new Point(parent.Width, 70),
-                Location = new Point(LEFT_MARGIN, 5 + position * 70),
-                Parent = parent
-            };
-            Image trekPanelWPImage = new Image(_waypointIcon)
-            {
-                Size = new Point(50, 50),
-                Location = new Point(0, 4),
-                Parent = trekPanel
-            };
-            trekPanelWPImage.Click += delegate
-            {
-                ClipboardUtil.WindowsClipboardService.SetTextAsync(element.Element("name_" + ShortUserLocale).Value + " " + element.Element("chat_link").Value).ContinueWith((clipboardResult) =>
-                {
-                    if (clipboardResult.IsFaulted)
-                    {
-                        ScreenNotification.ShowNotification("Failed to copy waypoint to clipboard. Try again.", ScreenNotification.NotificationType.Red, duration: 2);
-                    }
-                    else
-                    {
-                        ScreenNotification.ShowNotification("Copied waypoint to clipboard!", duration: 2);
-                    }
-                });
-            };
-            new Label()
-            {
-                Text = element.Element("name_" + ShortUserLocale).Value + " (" + element.Element("map_name_" + ShortUserLocale).Value + ")",
-                Font = Content.DefaultFont16,
-                Location = new Point(LEFT_MARGIN + 50, 3),
-                TextColor = Color.White,
-                ShadowColor = Color.Black,
-                ShowShadow = true,
-                AutoSizeWidth = true,
-                AutoSizeHeight = true,
-                Parent = trekPanel
-            };
-            new Label()
-            {
-                Text = element.Element("waypoint_name_" + ShortUserLocale).Value,
-                Font = Content.DefaultFont14,
-                Location = new Point(LEFT_MARGIN + 50, 32),
-                TextColor = Color.Silver,
-                ShadowColor = Color.Black,
-                ShowShadow = true,
-                AutoSizeWidth = true,
-                AutoSizeHeight = true,
-                Parent = trekPanel
+                Parent = elementPanel
             };
             var openWikiBttn = new StandardButton()
             {
                 Text = Strings.Common.gmButtonWiki,
                 Size = new Point(110, BUTTON_HEIGHT),
                 Location = new Point(parent.Width - 110 - 50, 10),
-                Parent = trekPanel
+                Parent = elementPanel
             };
             openWikiBttn.Click += delegate { Process.Start(element.Element("wiki_link_" + ShortUserLocale).Value); };
-        }
-
-        private void DisplayInfo(int v, String type, XElement element)
-        {
-            int offset = 0;
-
-            infoPanel.ClearChildren();
-            infoPanel.Title = Strings.Common.gmPanelInfo + ": " + element.Element("name_" + ShortUserLocale).Value;
-
-            if (element.Element("wiki_link_" + ShortUserLocale) != null)
-            {
-                var openWikiBttn = new StandardButton()
-                {
-                    Text = Strings.Common.gmButtonWiki,
-                    Size = new Point(110, 30),
-                    Location = new Point(4, 4),
-                    Parent = infoPanel,
-                };
-                openWikiBttn.Click += delegate { Process.Start(element.Element("wiki_link_" + ShortUserLocale).Value); };
-                offset += 40;
-            }
-
-            switch (type)
-            {
-                case "race":
-                    new Image(_guildRaceMap[v])
-                    {
-                        Size = new Point(310, 500),
-                        Location = new Point(4, 4 + offset),
-                        Parent = infoPanel
-                    };
-                    break;
-                default:
-                    break;
-            }
         }
 
         protected override void Update(GameTime gameTime)
