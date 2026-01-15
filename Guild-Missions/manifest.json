@@ -1,6 +1,6 @@
 {
   "name": "Guild Missions",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "namespace": "entrhopi.Guild_Missions",
   "package": "Guild-Missions.dll",
   "manifest_version": 1,
@@ -13,7 +13,13 @@
   "contributors": [
     {
       "name": "entrhopi",
-      "username": "acplusm.9085"
+      "username": "entrhopi.3067"
+    },
+    {
+      "name": "Lennn"
+    },
+    {
+      "name": "Zabb"
     }
   ]
 }
