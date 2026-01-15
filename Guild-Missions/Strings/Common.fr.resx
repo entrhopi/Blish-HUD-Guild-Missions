@@ -126,9 +126,8 @@
   <data name="gmButtonImport" xml:space="preserve">
     <value>Importer</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gmButtonSendToChat" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="gmButtonSendToChat" xml:space="preserve">
+    <value>Copier tout dans le presse-papiers</value>
   </data>
   <data name="gmButtonWiki" xml:space="preserve">
     <value>Ouvrir wiki</value>

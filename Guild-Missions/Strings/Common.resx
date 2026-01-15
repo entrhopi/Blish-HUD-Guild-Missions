@@ -127,7 +127,7 @@
     <value>Import</value>
   </data>
   <data name="gmButtonSendToChat" xml:space="preserve">
-    <value>Clip All Saved</value>
+    <value>Copy everything to Clipboard</value>
   </data>
   <data name="gmButtonWiki" xml:space="preserve">
     <value>Open Wiki</value>

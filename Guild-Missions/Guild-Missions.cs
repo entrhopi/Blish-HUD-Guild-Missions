@@ -31,6 +31,8 @@ namespace entrhopi.Guild_Missions
         private const int BOTTOM_MARGIN = 10;
         private const int LEFT_MARGIN = 9;
 
+        private const int BUTTON_HEIGHT = 30;
+
         private const int MAX_RESULT_COUNT = 7;
         
         private Panel trekListPanel, savedTrekListPanel, contentPanel, listPanel, infoPanel;
@@ -349,7 +351,7 @@ namespace entrhopi.Guild_Missions
                 CanScroll = true,
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelSavedTreks,
-                Size = new Point(364, contentPanel.Height - searchTextBox.Bottom - BOTTOM_MARGIN),
+                Size = new Point(364, contentPanel.Height - searchTextBox.Bottom - BUTTON_HEIGHT - BOTTOM_MARGIN),
                 Location = new Point(trekListPanel.Right + LEFT_MARGIN, searchTextBox.Bottom + TOP_MARGIN),
                 Parent = contentPanel,
             };
@@ -357,7 +359,7 @@ namespace entrhopi.Guild_Missions
             var clearAllButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonClearAll,
-                Size = new Point(110, 30),
+                Size = new Point(110, BUTTON_HEIGHT),
                 Location = new Point(trekListPanel.Right + 20, searchTextBox.Top - 1),
                 Parent = contentPanel,
             };
@@ -366,7 +368,7 @@ namespace entrhopi.Guild_Missions
             var exportButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonExport,
-                Size = new Point(110, 30),
+                Size = new Point(110, BUTTON_HEIGHT),
                 Location = new Point(trekListPanel.Right + 130 + LEFT_MARGIN, searchTextBox.Top - 1),
                 Parent = contentPanel,
             };
@@ -375,7 +377,7 @@ namespace entrhopi.Guild_Missions
             var importButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonImport,
-                Size = new Point(110, 30),
+                Size = new Point(110, BUTTON_HEIGHT),
                 Location = new Point(trekListPanel.Right + 250 + LEFT_MARGIN, searchTextBox.Top - 1),
                 Parent = contentPanel,
             };
@@ -384,8 +386,8 @@ namespace entrhopi.Guild_Missions
             var sendToChatButton = new StandardButton()
             {
                 Text = Strings.Common.gmButtonSendToChat,
-                Size = new Point(110, 30),
-                Location = new Point(trekListPanel.Right + 20, searchTextBox.Top - 31),
+                Size = new Point(364, BUTTON_HEIGHT),
+                Location = new Point(savedTrekListPanel.Left, savedTrekListPanel.Bottom),
                 Parent = contentPanel,
             };
             sendToChatButton.Click += delegate { sendToChat(); };

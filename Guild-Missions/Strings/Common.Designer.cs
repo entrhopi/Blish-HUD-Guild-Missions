@@ -88,7 +88,7 @@ namespace entrhopi.Guild_Missions.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clip All Saved.
+        ///   Looks up a localized string similar to Copy everything to Clipboard.
         /// </summary>
         internal static string gmButtonSendToChat {
             get {
