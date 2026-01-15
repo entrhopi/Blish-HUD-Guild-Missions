@@ -1,17 +1,18 @@
-﻿using System;
+﻿using Blish_HUD;
+using Blish_HUD.Controls;
+using Blish_HUD.Modules;
+using Blish_HUD.Modules.Managers;
+using Blish_HUD.Pathing.Behaviors;
+using Blish_HUD.Settings;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Blish_HUD;
-using Blish_HUD.Controls;
-using Blish_HUD.Modules;
-using Blish_HUD.Modules.Managers;
-using Blish_HUD.Settings;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using static Blish_HUD.GameService;
 
 namespace entrhopi.Guild_Missions
@@ -422,18 +423,8 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelList,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
+                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
                 Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            infoPanel = new Panel()
-            {
-                CanScroll = true,
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelInfo,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(listPanel.Right + LEFT_MARGIN, 72 + TOP_MARGIN),
                 Parent = contentPanel,
             };
 
@@ -445,7 +436,7 @@ namespace entrhopi.Guild_Missions
             int i = 0;
             foreach (var race in doc.Root.Elements("race"))
             {
-                ViewInfoPanel(race, listPanel, i, "race");
+                ViewInfoPanelWiki(race, listPanel, i);
                 i++;
             }
         }
@@ -477,18 +468,8 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelList,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN - 72),
+                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
                 Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            infoPanel = new Panel()
-            {
-                CanScroll = true,
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelInfo,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(listPanel.Right + LEFT_MARGIN, 72 + TOP_MARGIN),
                 Parent = contentPanel,
             };
 
@@ -500,7 +481,7 @@ namespace entrhopi.Guild_Missions
             int i = 0;
             foreach (var bounty in doc.Root.Elements("bounty"))
             {
-                ViewInfoPanel(bounty, listPanel, i, "bounty", 20);
+                ViewInfoPanelWiki(bounty, listPanel, i);
                 i++;
             }
 
@@ -534,18 +515,8 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelList,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
+                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
                 Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            infoPanel = new Panel()
-            {
-                CanScroll = true,
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelInfo,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(listPanel.Right + LEFT_MARGIN, 72 + TOP_MARGIN),
                 Parent = contentPanel,
             };
 
@@ -557,7 +528,7 @@ namespace entrhopi.Guild_Missions
             int i = 0;
             foreach (var challenge in doc.Root.Elements("challenge"))
             {
-                ViewInfoPanel(challenge, listPanel, i, "challenge");
+                ViewInfoPanelWiki(challenge, listPanel, i);
                 i++;
             }
         }
@@ -589,18 +560,8 @@ namespace entrhopi.Guild_Missions
             {
                 ShowBorder = true,
                 Title = Strings.Common.gmPanelList,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
+                Size = new Point(contentPanel.Width - LEFT_MARGIN, contentPanel.Height - BOTTOM_MARGIN),
                 Location = new Point(LEFT_MARGIN - 3, 72 + TOP_MARGIN),
-                Parent = contentPanel,
-            };
-
-            infoPanel = new Panel()
-            {
-                CanScroll = true,
-                ShowBorder = true,
-                Title = Strings.Common.gmPanelInfo,
-                Size = new Point(364, contentPanel.Height - BOTTOM_MARGIN),
-                Location = new Point(listPanel.Right + LEFT_MARGIN, 72 + TOP_MARGIN),
                 Parent = contentPanel,
             };
 
@@ -612,7 +573,7 @@ namespace entrhopi.Guild_Missions
             int i = 0;
             foreach (var puzzle in doc.Root.Elements("puzzle"))
             {
-                ViewInfoPanel(puzzle, listPanel, i, "puzzle");
+                ViewInfoPanelWiki(puzzle, listPanel, i);
                 i++;
             }
         }
@@ -930,6 +891,69 @@ namespace entrhopi.Guild_Missions
                 Parent = trekPanel
             };
             addImage.Click += delegate { DisplayInfo((int)element.Element("id"), type, element); };
+        }
+
+        private void ViewInfoPanelWiki(XElement element, Panel parent, int position)
+        {
+            Panel trekPanel = new Panel()
+            {
+                ShowBorder = false,
+                Size = new Point(parent.Width, 70),
+                Location = new Point(LEFT_MARGIN, 5 + position * 70),
+                Parent = parent
+            };
+            Image trekPanelWPImage = new Image(_waypointIcon)
+            {
+                Size = new Point(50, 50),
+                Location = new Point(0, 4),
+                Parent = trekPanel
+            };
+            trekPanelWPImage.Click += delegate
+            {
+                ClipboardUtil.WindowsClipboardService.SetTextAsync(element.Element("name_" + ShortUserLocale).Value + " " + element.Element("chat_link").Value).ContinueWith((clipboardResult) =>
+                {
+                    if (clipboardResult.IsFaulted)
+                    {
+                        ScreenNotification.ShowNotification("Failed to copy waypoint to clipboard. Try again.", ScreenNotification.NotificationType.Red, duration: 2);
+                    }
+                    else
+                    {
+                        ScreenNotification.ShowNotification("Copied waypoint to clipboard!", duration: 2);
+                    }
+                });
+            };
+            new Label()
+            {
+                Text = element.Element("name_" + ShortUserLocale).Value + " (" + element.Element("map_name_" + ShortUserLocale).Value + ")",
+                Font = Content.DefaultFont16,
+                Location = new Point(LEFT_MARGIN + 50, 3),
+                TextColor = Color.White,
+                ShadowColor = Color.Black,
+                ShowShadow = true,
+                AutoSizeWidth = true,
+                AutoSizeHeight = true,
+                Parent = trekPanel
+            };
+            new Label()
+            {
+                Text = element.Element("waypoint_name_" + ShortUserLocale).Value,
+                Font = Content.DefaultFont14,
+                Location = new Point(LEFT_MARGIN + 50, 32),
+                TextColor = Color.Silver,
+                ShadowColor = Color.Black,
+                ShowShadow = true,
+                AutoSizeWidth = true,
+                AutoSizeHeight = true,
+                Parent = trekPanel
+            };
+            var openWikiBttn = new StandardButton()
+            {
+                Text = Strings.Common.gmButtonWiki,
+                Size = new Point(110, BUTTON_HEIGHT),
+                Location = new Point(parent.Width - 110 - 50, 10),
+                Parent = trekPanel
+            };
+            openWikiBttn.Click += delegate { Process.Start(element.Element("wiki_link_" + ShortUserLocale).Value); };
         }
 
         private void DisplayInfo(int v, String type, XElement element)
