@@ -314,6 +314,18 @@ namespace entrhopi.Guild_Missions
                 AutoSizeHeight = true,
                 Parent = contentPanel
             };
+            new Label()
+            {
+                Text = "Searchbox mouse click clears current search,\nEnter key adds topmost item to saved list and clears search",
+                Font = Content.DefaultFont16,
+                Location = new Point(220, 18),
+                TextColor = Color.White,
+                ShadowColor = Color.Black,
+                ShowShadow = true,
+                AutoSizeWidth = true,
+                AutoSizeHeight = true,
+                Parent = contentPanel
+            };
 
             searchTextBox = new TextBox()
             {
@@ -325,6 +337,7 @@ namespace entrhopi.Guild_Missions
             };
             searchTextBox.Click += delegate { ClearSearch(); };
             searchTextBox.TextChanged += SearchboxOnTextChanged;
+            searchTextBox.EnterPressed += SearchboxEnterPressed;
 
             trekListPanel = new Panel()
             {
@@ -488,6 +501,29 @@ namespace entrhopi.Guild_Missions
                     if (count >= Layout.MaxResultCount) break;
                 }
             }
+        }
+
+        private void SearchboxEnterPressed(object _, EventArgs __)
+        {
+            // Load user input
+            string text = searchTextBox.Text;
+
+            XDocument doc = XDocument.Load(ContentsManager.GetFileStream(@"XML\treks.xml"));
+            int count = 0;
+            foreach (var trek in doc.Root.Elements("trek"))
+            {
+                if (trek.Element("name_" + ShortUserLocale).Value.ToLower().StartsWith(text.ToLower()))
+                {
+                    ToggleWaypoint((int)trek.Element("id"), (int)trek.Element("map_id"), true);
+                    break;
+                }
+            }
+
+            ClearSearch();
+
+            searchTextBox.Focused = true;
+
+            return;
         }
 
         private void ToggleWaypoint(int trek, int map, bool add)
