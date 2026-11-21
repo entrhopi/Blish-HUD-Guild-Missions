@@ -177,4 +177,10 @@
   <data name="gmTypeTrek" xml:space="preserve">
     <value>Randonnée</value>
   </data>
+  <data name="gmSettingShowCornerIcon" xml:space="preserve">
+    <value>Afficher l'icône d'angle</value>
+  </data>
+  <data name="gmSettingShowCornerIconDescription" xml:space="preserve">
+    <value>Affiche une icône Missions de guilde dans le coin supérieur gauche de l'écran. Cliquez dessus pour ouvrir la vue du module.</value>
+  </data>
 </root>

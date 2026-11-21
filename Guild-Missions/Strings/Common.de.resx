@@ -177,4 +177,10 @@
   <data name="gmTypeTrek" xml:space="preserve">
     <value>Reise</value>
   </data>
+  <data name="gmSettingShowCornerIcon" xml:space="preserve">
+    <value>Ecken-Symbol anzeigen</value>
+  </data>
+  <data name="gmSettingShowCornerIconDescription" xml:space="preserve">
+    <value>Zeigt ein Gilden-Missionen-Symbol in der oberen linken Bildschirmecke. Klicke darauf, um die Modulansicht zu öffnen.</value>
+  </data>
 </root>

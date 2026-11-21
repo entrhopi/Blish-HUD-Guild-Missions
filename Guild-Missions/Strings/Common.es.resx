@@ -177,4 +177,10 @@
   <data name="gmTypeTrek" xml:space="preserve">
     <value>Travesía</value>
   </data>
+  <data name="gmSettingShowCornerIcon" xml:space="preserve">
+    <value>Mostrar icono de esquina</value>
+  </data>
+  <data name="gmSettingShowCornerIconDescription" xml:space="preserve">
+    <value>Muestra un icono de Misiones de Clan en la esquina superior izquierda de la pantalla. Haz clic en él para abrir la vista del módulo.</value>
+  </data>
 </root>

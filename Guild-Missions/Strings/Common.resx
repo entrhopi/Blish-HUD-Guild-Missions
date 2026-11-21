@@ -177,4 +177,10 @@
   <data name="gmTypeTrek" xml:space="preserve">
     <value>Trek</value>
   </data>
+  <data name="gmSettingShowCornerIcon" xml:space="preserve">
+    <value>Show corner icon</value>
+  </data>
+  <data name="gmSettingShowCornerIconDescription" xml:space="preserve">
+    <value>Shows a Guild Missions icon in the top-left corner of the screen. Click it to open the module view.</value>
+  </data>
 </root>

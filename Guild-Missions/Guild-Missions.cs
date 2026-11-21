@@ -1,6 +1,7 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Content;
 using Blish_HUD.Controls;
+using Blish_HUD.Input;
 using Blish_HUD.Modules;
 using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
@@ -58,7 +59,13 @@ namespace entrhopi.Guild_Missions
 
         protected override void DefineSettings(SettingCollection settings)
         {
+            _showCornerIcon = settings.DefineSetting(
+                "ShowCornerIcon",
+                true,
+                Strings.Common.gmSettingShowCornerIcon,
+                Strings.Common.gmSettingShowCornerIconDescription);
 
+            _showCornerIcon.SettingChanged += ShowCornerIconSettingChanged;
         }
 
         private Texture2D _guildMissionIcon;
@@ -80,6 +87,9 @@ namespace entrhopi.Guild_Missions
 
         private WindowTab _moduleTab;
         private TextBox searchTextBox;
+
+        private SettingEntry<bool> _showCornerIcon;
+        private CornerIcon _cornerIcon;
 
         private String ShortUserLocale = "en";
 
@@ -124,8 +134,64 @@ namespace entrhopi.Guild_Missions
 
             _moduleTab = Overlay.BlishHudWindow.AddTab(GuildMissionsTabName, _guildMissionIcon, GuildMissionsView(Overlay.BlishHudWindow));
 
+            UpdateCornerIcon();
+
             // Base handler must be called
             base.OnModuleLoaded(e);
+        }
+
+        private void ShowCornerIconSettingChanged(object sender, ValueChangedEventArgs<bool> e)
+        {
+            UpdateCornerIcon();
+        }
+
+        private void UpdateCornerIcon()
+        {
+            if (_showCornerIcon.Value)
+            {
+                if (_cornerIcon != null) return;
+
+                _cornerIcon = new CornerIcon(_guildMissionIcon, GuildMissionsTabName)
+                {
+                    Priority = 0
+                };
+                _cornerIcon.Click += CornerIconOnClick;
+            }
+            else
+            {
+                if (_cornerIcon == null) return;
+
+                _cornerIcon.Click -= CornerIconOnClick;
+                _cornerIcon.Dispose();
+                _cornerIcon = null;
+            }
+        }
+
+        private void CornerIconOnClick(object sender, MouseEventArgs e)
+        {
+            var blishHudWindow = Overlay.BlishHudWindow;
+
+            blishHudWindow.Show();
+
+            int tabIndex = GetTabIndex(blishHudWindow, _moduleTab);
+
+            if (tabIndex >= 0 && tabIndex != blishHudWindow.SelectedTabIndex)
+            {
+                blishHudWindow.SelectedTabIndex = tabIndex;
+            }
+        }
+
+        private static int GetTabIndex(TabbedWindow window, WindowTab tab)
+        {
+            // TabbedWindow does not publicly expose its tab list, so use the internal list when available.
+            var tabsField = typeof(TabbedWindow).GetField("_tabs", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+
+            if (tabsField?.GetValue(window) is IList<WindowTab> tabs)
+            {
+                return tabs.IndexOf(tab);
+            }
+
+            return window.Panels.Keys.OrderBy(t => t.Priority).ToList().IndexOf(tab);
         }
 
         private Panel GuildMissionsView(WindowBase wndw)
@@ -782,6 +848,18 @@ namespace entrhopi.Guild_Missions
         /// <inheritdoc />
         protected override void Unload()
         {
+            if (_showCornerIcon != null)
+            {
+                _showCornerIcon.SettingChanged -= ShowCornerIconSettingChanged;
+            }
+
+            if (_cornerIcon != null)
+            {
+                _cornerIcon.Click -= CornerIconOnClick;
+                _cornerIcon.Dispose();
+                _cornerIcon = null;
+            }
+
             // Unload here
             Overlay.BlishHudWindow.RemoveTab(_moduleTab);
             // All static members must be manually unset
@@ -792,3 +870,4 @@ namespace entrhopi.Guild_Missions
 
 
 }
+

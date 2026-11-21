@@ -239,5 +239,23 @@ namespace entrhopi.Guild_Missions.Strings {
                 return ResourceManager.GetString("gmTypeTrek", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show corner icon.
+        /// </summary>
+        internal static string gmSettingShowCornerIcon {
+            get {
+                return ResourceManager.GetString("gmSettingShowCornerIcon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows a Guild Missions icon in the top-left corner of the screen. Click it to open the module view..
+        /// </summary>
+        internal static string gmSettingShowCornerIconDescription {
+            get {
+                return ResourceManager.GetString("gmSettingShowCornerIconDescription", resourceCulture);
+            }
+        }
     }
 }
