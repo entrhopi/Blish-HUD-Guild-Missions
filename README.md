@@ -9,6 +9,8 @@ Once installed, the module adds a **Guild Missions** tab to the Blish HUD window
 
 Paste a copied chat link into in-game chat to get a clickable waypoint. The interface is localized in English, German, Spanish, and French.
 
+A **Show corner icon** setting lets you show or hide a Guild Missions icon in the top-left corner of the screen. Clicking the icon opens the Guild Missions tab.
+
 It is recommended to use the Pathing module alongside the marker pack "Lady Elyssa's Guides" or "Tekkit's All-In-One"
 
 
